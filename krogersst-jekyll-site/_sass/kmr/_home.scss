@@ -1,0 +1,124 @@
+/**
+* Home
+*/
+.home-story {
+  width: 100%;
+  margin-top: 10px;
+
+  .home-wrap {
+    width: $wrap-mini;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  #home-right {
+    flex: 1;
+    margin-bottom: 20px;
+    border-left: #A20F00 solid 20px;
+  }
+
+  h1 {
+    font-family: $lobster;
+    line-height: 48px;
+    font-size: 80px;
+    display: inline-block;
+    color: $text-accent;
+    text-align: left;
+    font-weight: normal;
+  }
+  h2 {
+    font-family: $serif-font-family;
+    width: 650px;
+    font-size: 25px;
+    display: block;
+    font-style: italic;
+    color: black;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+
+  .para-main {
+    font-family: $serif-font-family;
+    font-size: 14px;
+  }
+
+  .home-para {
+    width: 700px;
+    -webkit-clip-path: polygon(0 4%, 100% 0, 98% 100%, 0 100%);
+    clip-path: polygon(0 4%, 100% 0, 98% 100%, 0 100%);
+    padding: {
+      top: 30px;
+      bottom: 15px;
+      left: 15px;
+      right: 15px;
+    }
+    background: $homepara-color;
+  }
+
+  .history-para {
+    background: $history-color;
+    width: 650px;
+    padding: {
+      bottom: 20px;
+      left: 15px;
+      right: 15px;
+      top: 15px;
+    }
+    -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 98% 0, 100% 100%, 0 100%);
+  }
+
+  .context-para {
+    background: $context-color;
+    width: 680px;
+    padding: {
+      top: 15px;
+      bottom: 25px;
+      left: 15px;
+      right: 15px;
+    }
+    -webkit-clip-path: polygon(0 0, 100% 0, 98% 95%, 0 92%);
+    clip-path: polygon(0 0, 100% 0, 98% 95%, 0 92%);
+  }
+
+  .home-slider {
+    flex: 1;
+    img {
+      width: 300px;
+    }
+    .slide-pics {
+      padding: 10px;
+      /*display: inline-block;*/
+      float: right;
+    }
+    #slide-top {
+      background-color: $header-color;
+    }
+    #slide-middle {
+      background-color: $context-color;
+    }
+    #slide-bottom {
+      background-color: $history-color;
+    }
+    .slider-frame {
+    background-color: white;
+    max-height: 400px;
+    padding: 20px;
+    .slider-desc {
+      padding: {
+        top: 20px;
+        bottom: 10px;
+      }
+      text-align: center;
+      font-style: italic;
+      a {
+        font-size: 10px;
+        display: block;
+        padding-top: 2px;
+      }
+    }
+  }
+  }
+
+}

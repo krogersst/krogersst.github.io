@@ -1,0 +1,81 @@
+/**
+* Site Header
+*/
+.site-header {
+    width: 100%;
+    background-color: $header-color;
+}
+
+#nav-header {
+    width: $wrap-mini;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: {
+      left: 15px;
+      right: 15px;
+      top: 5px;
+      bottom: 5px;
+    }
+}
+
+.site-title {
+    a {
+        color: black;
+        font-size: 20px;
+        font-family: $serif-font-family;
+        font-weight: bold;
+
+        &:visited {
+            color: black;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.nav-links {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 200px;
+    .main-link {
+        a {
+        color: black;
+        font-family: $serif-font-family;
+        font-size: 16px;
+
+        &:visited {
+        color: black;
+        }
+      }
+    }
+
+    .nav-slash {
+      font-size: 18px;
+      padding {
+        color: black;
+        font-weight: bold;
+      }
+    }
+
+    .dropdown {
+        display: inline-block;
+
+        .drop-content {
+            display: none;
+            width: 100px;
+            position: absolute;
+            background-color: white;
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        &:hover .drop-content {
+            display: none;
+        }
+    }
+}
