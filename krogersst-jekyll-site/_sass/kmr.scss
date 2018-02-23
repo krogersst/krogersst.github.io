@@ -3,39 +3,27 @@
 
 // default colors
 
-$color-main: #E5C1BD;
-$color-dark: darken( $color-main, 15% );
-$stripes-first: #E2DBC9/*#F1CEDA #E5C1BD*/;
-$stripes-second: lighten( $stripes-first, 5% );
-$cream: #E8D5DA;
-$white-trans: rgba( white, .7 );
-$shoes-green: #49834D;
-$shoes-pink: #CD8BA7;
-$shoes-yellow: #B8A636;
-$shoes-blue: #456598;
-$shoes-orange: #DC8B5E;
-
-$background-color: $cream;
-$header-color: #FFC311;
-$text-accent: black;
+$color-main: #97ead2;
+$background-color: white;
+$header-color: #97ead2;
+$text-accent: white;
 $link-color: black;
-$homepara-color: $header-color;
-$history-color: lighten($header-color, 10%);
-$context-color: darken($header-color, 10%);
+
 
 // default fonts
 
 $base-font-family: "Open Sans", sans-serif !default;
 $accent-font-family: "Sarina", cursive;
 $serif-font-family: "Lora", serif;
-$lobster: "Mr Dafoe", cursive;
+$Abel: "Abel", sans-serif;
+$Kavi:'Kavivanar', cursive;
 
 // spacing
 
 $main-margin: 5px;
 $spacing-unit: 20px !default;
 $content-width:    1000px !default;
-$wrap-mini: 85%;
+$wrap-mini: 75%;
 
 // Import partials.
 

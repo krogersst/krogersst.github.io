@@ -21,14 +21,14 @@
         margin-bottom: 20px;
         margin-top: 20px;
         background: url("ghost-nebula-dragon-2.png");
-        background-position: right;
+        background-position: center;
         min-height: 400px;
     }
 
     .home-ribbon {
         display: flex;
         flex-wrap: wrap;
-        max-width: 800px;
+        max-width: 700px;
         align-items: center;
 
         .home-title {
@@ -42,15 +42,12 @@
         }
 
         .home-desc {
-            margin-left: 20px;
+            margin-left: 30px;
             background-color: white;
             padding: 5px;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 20px;
+            font-size: 15px;
             color: black;
             font-family: $base-font-family;
-            font-style: italic;
         }
     }
 
@@ -147,9 +144,8 @@
                 flex: 1;
 
                 .example-pic {
-                    background-image: url("ILN_watercarrier.jpg");
-                    background-size: 300px;
-                    background-position: left;
+                    background-image: url("visab_database.jpg");
+                    background-position: center;
                 }
             }
 
@@ -185,52 +181,12 @@
         border-top: black solid 5px;
     }
 
-    #about-box {
-      margin-bottom: 20px;
-      .about-desc {
-        flex-grow: 1;
-        min-height: 200px;
-        min-width: 300px;
-        background-color: $color-main;
-      }
-      #web {
-        margin-left: 5px;
-        margin-right: 5px;
-      }
-    }
-
     #contact {
-      background-image: url("griffin-asset.png");
-      background-size: 800px;
-      min-height: 350px;
-      background-repeat: no-repeat;
-      background-position: right;
-      .contact-desc {
-        margin-top: 5px;
-        font-size: 20px;
-        font-family: $Abel;
-        font-style: italic;
-        max-width: 510px;
-      }
-    }
-
-    #contactform {
-      margin-bottom: 20px;
-      .formbox {
-        padding: 2px;
-        display: block;
-        min-height: 20px;
-        margin-top: 10px;
-        min-width: 500px;
-      }
-      textarea {
-        padding: 3px;
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        min-width: 500px;
-        min-height: 100px;
-        background-color: white;
-      }
+        margin-bottom: 20px;
+        .blackbox {
+            width: 200px;
+            height: 200px;
+            background: black;
+        }
     }
 }

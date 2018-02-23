@@ -2,80 +2,61 @@
 * Site Header
 */
 .site-header {
+  z-index: 100;
     width: 100%;
-    background-color: $header-color;
+    background-color: black;
 }
 
 #nav-header {
     width: $wrap-mini;
     margin: auto;
-    margin-top: 10px;
+    /*margin-top: 15px;*/
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: {
-      left: 15px;
-      right: 15px;
+      left: 20px;
+      right: 20px;
       top: 5px;
       bottom: 5px;
     }
 }
 
 .site-title {
-    a {
-        color: black;
-        font-size: 20px;
-        font-family: $serif-font-family;
-        font-weight: bold;
-
-        &:visited {
-            color: black;
-        }
-
-        &:hover {
-            text-decoration: underline;
-        }
+  font-family: $Abel;
+  div {
+    display: inline-block;
+    color: white;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+    }
+  a {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    &:visited {
+        color: white;
+      }
+    &:hover {
+      text-decoration: underline;
+      }
     }
 }
 
 .nav-links {
   display: flex;
-  padding-left: 20px;
+  padding-left: 15px;
   justify-content: space-between;
-  width: 200px;
-    .main-link {
-        a {
-        color: black;
-        font-family: $serif-font-family;
-        font-size: 16px;
-
-        &:visited {
-        color: black;
-        }
-      }
-    }
-
-    .nav-slash {
-      font-size: 18px;
-      padding {
-        color: black;
-        font-weight: bold;
-      }
-    }
-
-    .dropdown {
-        display: inline-block;
-
-        .drop-content {
-            display: none;
-            width: 100px;
-            position: absolute;
-            background-color: white;
-            padding: 5px;
-            font-size: 12px;
-        }
-
-        &:hover .drop-content {
-            display: none;
-        }
-    }
+  align-self: flex-end;
+  a {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: $Abel;
+  font-size: 16px;
+  }
+  div {
+    color: white;
+    font-family: $Abel;
+  }
 }

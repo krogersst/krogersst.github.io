@@ -5,13 +5,41 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
+
+<div class="post-body">
+
+  <div class="post-photos">
+    <a href="{{ page.leftsourceone }}">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/{{ page.leftimageone }}');"></div>
+    </a>
+    <a href="{{ page.leftsourcetwo }}">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/{{ page.leftimagetwo }}');"></div>
+    </a>
+    <a href="{{ page.leftsourcethree }}">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/{{ page.leftimagethree }}');"></div>
+    </a>
+    <a href="{{ page.leftsourcefour }}">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/{{ page.leftimagefour }}');"></div>
+    </a>
+    <a href="{{ page.leftsourcefive }}">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/{{ page.leftimagefive }}'); margin-bottom:{{ page.lastimagemargin}};"></div>
+    </a>
+  </div>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+  <div class="right-sidebar">
+    <div class="right-text">
+      <p>
+      {{ page.righttext }}
+      </p>
+    </div>
+  </div>
+
+</div>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

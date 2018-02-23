@@ -2,7 +2,7 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
@@ -15,12 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: $base-font-family;
-  /*background-image: repeating-linear-gradient(90deg, $stripes-first, $stripes-first 35px, $stripes-second 35px, $stripes-second 65px);*/
   background-color: $background-color;
-  /*background-image: url("flower_trans_pink_flip.png");
-  background-position: left;
-  background-size: 25%;
-  background-repeat: no-repeat;*/
 }
 
 /**
@@ -50,6 +45,6 @@ a {
   vertical-align: middle;
 
   path {
-    fill: $color-dark;
+    fill: $color-main;
   }
 }
