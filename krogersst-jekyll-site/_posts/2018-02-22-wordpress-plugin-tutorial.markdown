@@ -5,9 +5,11 @@ date:   2018-02-22 16:21:37 -0500
 categories: tutorial
 ---
 ## How to Create a Database and Visualization Plugin for WordPress
+*under construction*
+
+###STEP ONE - Creating the scaffolding:###
 
 Create a new file yourwidget.php
-
 At the top of this file copy and paste this code.
 
 ```
@@ -17,9 +19,11 @@ At the top of this file copy and paste this code.
 *
 */
 ```
-This information will be displayed by WordPress when you install your plugin and allows for you to keep track of what version your plugin is.
+
+This information will be displayed by WordPress when you install your plugin and allows for you to keep track of which version has been installed.
 
 Now copy and paste this code to initiate your plugin.
+
 ```
 if ( ! defined( 'ABSPATH' ) ) exit;
 
