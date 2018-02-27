@@ -3,6 +3,10 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
 <div class="post-body">
 
   <div class="post-photos">
@@ -24,10 +28,7 @@ layout: default
   </div>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 itemprop="name headline">{{ page.title | escape }}</h2>
-    <h3>{{ page.subtitle | escape}}</h3>
     {{ content }}
-    {% include contact.html %}
   </div>
 
   <div class="right-sidebar">
@@ -37,6 +38,7 @@ layout: default
       </p>
     </div>
   </div>
+
 </div>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}

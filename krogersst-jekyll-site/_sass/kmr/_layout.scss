@@ -8,7 +8,7 @@
 
 .post-list {
   margin-left: 0;
-  list-style: none;
+  list-style: circle;
 
   > li {
     margin-bottom: $spacing-unit;
@@ -25,9 +25,6 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
 
 .post-title {
   display: none;
@@ -38,6 +35,7 @@
 }
 
 .post-body {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -46,7 +44,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 200px;
   .post-image {
+    display: none;
     background-position: center top;
     width: 200px;
     height: 400px;
@@ -63,7 +63,7 @@
 
 .post-content {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   video {
     display: block;
@@ -98,6 +98,8 @@
 
   h3 {
     font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   h4 {

@@ -199,7 +199,53 @@
       }
     }
 
+    #blog {
+      margin-bottom: 10px;
+    }
+
+    .flex-blog {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+
+    .blog-ex {
+      max-width: 400px;
+      max-height: 400px;
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0px;
+      }
+      .blog-img {
+        min-width: 100px;
+        min-height: 100px;
+      }
+      p {
+          overflow: hidden;
+          margin-top: 5px;
+          font-size: 15px;
+      }
+
+      .read-more-blog {
+          margin-top: 5px;
+
+          a {
+              font-size: 16px;
+              background-color: black;
+              color: white;
+              font-style: italic;
+              padding: {
+                  left: 2px;
+                  right: 2px;
+              }
+          }
+      }
+    }
+
     #contact {
+      border-top: black solid 5px;
       background-image: url("griffin-asset.png");
       background-size: 800px;
       min-height: 350px;
@@ -233,4 +279,6 @@
         background-color: white;
       }
     }
+
+
 }
