@@ -27,7 +27,7 @@ github_username:  krogersst
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
