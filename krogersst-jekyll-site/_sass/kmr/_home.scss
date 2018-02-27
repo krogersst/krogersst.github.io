@@ -20,7 +20,7 @@
         align-items: center;
         margin-bottom: 20px;
         margin-top: 20px;
-        background: url("ghost-nebula-dragon-2.png");
+        background: url("assets/images/ghost-nebula-dragon-2.png");
         background-position: right;
         min-height: 400px;
     }
@@ -137,7 +137,7 @@
                 margin-right: 20px;
 
                 .example-pic {
-                    background-image: url("script-image.png");
+                    background-image: url("assets/images/script-image.png");
                     background-position: left;
                     background-size: 600px;
                 }
@@ -147,7 +147,7 @@
                 flex: 1;
 
                 .example-pic {
-                    background-image: url("ILN_watercarrier.jpg");
+                    background-image: url("assets/images/ILN_watercarrier.jpg");
                     background-size: 300px;
                     background-position: left;
                 }
@@ -158,7 +158,7 @@
                 flex: 1;
 
                 .example-pic {
-                    background-image: url("Holiday_Dinner2.jpg");
+                    background-image: url("assets/images/Holiday_Dinner2.jpg");
                     background-position: right;
                 }
             }
@@ -167,7 +167,7 @@
                 flex: 1;
 
                 .example-pic {
-                    background-image: url("devils_tower.jpg");
+                    background-image: url("assets/images/devils_tower.jpg");
                     background-position: top;
                 }
             }
@@ -246,7 +246,7 @@
 
     #contact {
       border-top: black solid 5px;
-      background-image: url("griffin-asset.png");
+      background-image: url("assets/images/griffin-asset.png");
       background-size: 800px;
       min-height: 350px;
       background-repeat: no-repeat;
