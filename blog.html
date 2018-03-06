@@ -1,0 +1,23 @@
+---
+layout: page
+title: Blog
+---
+  <div class="flex-blog">
+    {% for post in site.posts %}
+    <div class="post-blog">
+
+    <div class="blog-postimg" style="background-image:url({{ site.baseurl }}/assets/images/{{ post.postimage }});/"></div>
+
+      <div class="blog-postinfo">
+        <a href="{{ post.url }}">
+          <span class="blog-posttitle">{{ post.title }}</span>
+          <span class="blog-postsubtitle">{{ post.subtitle }}</span>
+        </a>
+        <p class="p-blog">{{ post.excerpt }}</p>
+        <div class="read-more-post"><a href="{{ post.url }}"><span>Read More...</span></a></div>
+      </div>
+
+    </div>
+
+    {% endfor %}
+  </div>
