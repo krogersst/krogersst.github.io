@@ -102,20 +102,32 @@ layout: default
         </div>
 
         <div id="blog" class="section">
-          <h1>blog</h1>
+          <a href="{{ site.baseurl }}/blog"><h1>blog</h1></a>
+
           <div class="flex-blog">
-            {% for post in site.categories.tutorial %}
+            {% assign posts = site.categories.tutorial | sort: 'date' %}
+            {% for post in posts limit: 3 %}
+
             <div class="blog-ex">
-              <div class="blog-img" style="background-image:url({{ site.baseurl }}/assets/images/{{ post.postimage }})";/></div>
-              <div><a href="{{ post.url }}"><span>{{ post.title }}</span>
-              <span>{{ post.subtitle }}</span></a>
-              <p>{{post.excerpt}}</p>
-              <div class="read-more-blog"><a href="{{ post.url }}"><span>Read More...</span></a></div>
+
+            <div class="blog-img" style="background-image:url({{ site.baseurl }}/assets/images/{{ post.postimage }});/"></div>
+
+              <div class="blog-info">
+                <a href="{{ post.url }}">
+                  <span class="blog-title">{{ post.title }}</span>
+                  <span class="blog-subtitle">{{ post.subtitle }}</span>
+                </a>
+                <p>{{post.excerpt}}</p>
+                <div class="read-more-blog"><a href="{{ post.url }}"><span>Read More...</span></a></div>
               </div>
+
             </div>
+
             {% endfor %}
           </div>
+
         </div>
+
 
         <div id="contact">
           <h1>contact</h1>
@@ -130,5 +142,5 @@ layout: default
         </div>
         </div>
 
-
+  </div>
 </div>

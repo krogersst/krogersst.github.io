@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div id="main-container">
+<!--Toolbar-->
+<div class="toolbar">
+  <div class="toolbar-header">
+    <div class="toolbar-title">Toolbar</div>
+  </div>
+  <div class="toolbar-content">
+    <!--Controls-->
+    <div class="tools-title">Controls</div>
+    <div id="controlsholder" class="toolholder">
+      <div class="colmholder">
+        <div id="colmtitle" class="checkbox-search">
+          <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> Show Columns
+        </div>
+          <div class="dropdown-colm">
+          <div class="showcheck">
+            <input type="checkbox" id="show-id">ID<br>
+            <input type="checkbox" id="show-letter">Letter<br>
+            <input type="checkbox" id="show-sender" checked>Sender<br>
+            <input type="checkbox" id="show-rer" checked>Receiver<br>
+            <input type="checkbox" id="show-origin">Origin<br>
+            <input type="checkbox" id="show-imp" checked>Imputed Origin<br>
+            <input type="checkbox" id="show-sent" checked>Date Sent<br>
+            <input type="checkbox" id="show-red">Date Received<br>
+            <input type="checkbox" id="show-sum" checked>Summary<br>
+            <input type="checkbox" id="show-src">Source<br>
+          </div>
+        </div>
+      </div>
+      <div id="sliderholder">
+        <label for="rangeamount">Date range:</label>
+        <div id="input-container">
+          <input type="text" id="sliderOne" value="1816">
+          <div id="between">-</div>
+          <input type="text" id="sliderTwo" value="1900">
+        </div>
+        <div id="slider-range"></div>
+      </div>
+    </div>
+    <!--Results-->
+    <div class="tools-title">Results</div>
+    <div class="toolholder">
+      <div id="resultslive"></div>
+    </div>
+    <!--Current Filters-->
+    <div class="tools-title">Current Filters</div>
+    <div class="toolholder">
+      <div class="filterval" id="sender-val"></div>
+      <div class="filterval" id="receiver-val"></div>
+      <div class="filterval" id="imporigin-val"></div>
+      <div class="filterval" id="summary-val"></div>
+      <div class="filterval" id="id-val" style="display:none;"></div>
+      <div class="filterval" id="letter-val" style="display:none;"></div>
+      <div class="filterval" id="origin-val" style="display:none;"></div>
+      <div class="filterval" id="source-val" style="display:none;"></div>
+      <button id="clearall">Clear Filters</button>
+    </div>
+    <!--Download-->
+    <div class="tools-title">Download</div>
+    <div id="downloadbar" class="toolholder">
+      <div class="tool-labels">
+        <div id="download-csv" class="downloadbtn"><i class="fa fa-download" aria-hidden="true"></i> CSV</div>
+      </div>
+      <div class="tool-labels">
+        <div id="download-json" class="downloadbtn"><i class="fa fa-download" aria-hidden="true"></i> JSON</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Tabs-->
+<div id="tabs">
+  <ul>
+    <li><a href="#data-tab">Database</a></li>
+    <li><a href="#map-tab">Map</a></li>
+    <li><a href="#time-tab">Timeline</a></li>
+  </ul>
+  <!--Database-->
+  <div class="database-container" id="data-tab">
+    <div id="visab-table"></div>
+    <div id="pagination-element"></div>
+  </div>
+  <!--Map-->
+  <div id="map-tab" class="tab-back">
+    <div id="map-container"></div>
+  </div>
+  <!--Timeline-->
+  <div id="time-tab" class="tab-back">
+    <div id="time-container"></div>
+  </div>
+</div>
+</div>
+
+{% include visabfiles.html %}

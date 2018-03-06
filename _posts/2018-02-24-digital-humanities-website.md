@@ -7,11 +7,17 @@ postimage: script-image.png
 date:   2018-02-24 11:18:00 -0500
 categories: tutorial
 ---
+*This tutorial is currently under construction. It will be a part of a digital humanities workshop with Rice University in early April 2018.*
+
 [Part One][part-one] / [Part Two][part-two] / [Part Three][part-three] / [Part Four][part-four]
 
 #### Introduction
 
-Before you even dive into the fun stuff like coding and designing the visuals of a digital humanities website, understanding what you want out of your website comes first. It will help limit the problems that inevitably pop up along the way. Here are important questions that you should answer before attempting a project like this.
+Before you can dive into the fun stuff like coding and designing the visuals of a digital humanities website, understanding what you want out of your website comes first. It will help limit the problems that inevitably pop up along the way and keep everyone involved on track. In this tutorial we will tackle the important questions that should be asked before attempting a project like this.
+
+Each section of the tutorial will go over each step of the planning process with comments as to how these steps were or weren't applied to visualizingabolition.org when I was developing it. This will give insight into the unique issues that face a project of this type, the ways in which planning can circumvent these issues, and how to kick-start your own project.
+
+This tutorial will guide you towards the appropriate platforms, resources, and tutorials for your site. We will identify key aspects of the site such as the audience, the format of the information you want to present, the ability levels of the programmer/team members,  and which platforms are best suited for your site. Then we will outline a link tree, sketch out a landing page design, and create a plan of attack for moving forward. By the end of the tutorial, you will have a solid base to build your website off of and a plethora of resources to keep the momentum going.
 
 #### Primary Questions
 
