@@ -32,7 +32,7 @@
 .highlight .kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
 .highlight .kt { color: #333399; font-weight: bold } /* Keyword.Type */
 .highlight .m { color: #6600EE; font-weight: bold } /* Literal.Number */
-.highlight .s { background-color: #fff0f0 } /* Literal.String */
+.highlight .s { background-color: #f9d7d7 } /* Literal.String */
 .highlight .na { color: #0000CC } /* Name.Attribute */
 .highlight .nb { color: #007020 } /* Name.Builtin */
 .highlight .nc { color: #BB0066; font-weight: bold } /* Name.Class */
@@ -52,16 +52,16 @@
 .highlight .mh { color: #005588; font-weight: bold } /* Literal.Number.Hex */
 .highlight .mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
 .highlight .mo { color: #4400EE; font-weight: bold } /* Literal.Number.Oct */
-.highlight .sa { background-color: #fff0f0 } /* Literal.String.Affix */
-.highlight .sb { background-color: #fff0f0 } /* Literal.String.Backtick */
+.highlight .sa { background-color: #f9d7d7 } /* Literal.String.Affix */
+.highlight .sb { background-color: #f9d7d7 } /* Literal.String.Backtick */
 .highlight .sc { color: #0044DD } /* Literal.String.Char */
-.highlight .dl { background-color: #fff0f0 } /* Literal.String.Delimiter */
+.highlight .dl { background-color: #f9d7d7 } /* Literal.String.Delimiter */
 .highlight .sd { color: #DD4422 } /* Literal.String.Doc */
-.highlight .s2 { background-color: #fff0f0 } /* Literal.String.Double */
-.highlight .se { color: #666666; font-weight: bold; background-color: #fff0f0 } /* Literal.String.Escape */
-.highlight .sh { background-color: #fff0f0 } /* Literal.String.Heredoc */
+.highlight .s2 { background-color: #f9d7d7 } /* Literal.String.Double */
+.highlight .se { color: #666666; font-weight: bold; background-color: #f9d7d7 } /* Literal.String.Escape */
+.highlight .sh { background-color: #f9d7d7 } /* Literal.String.Heredoc */
 .highlight .si { background-color: #eeeeee } /* Literal.String.Interpol */
-.highlight .sx { color: #DD2200; background-color: #fff0f0 } /* Literal.String.Other */
+.highlight .sx { color: #DD2200; background-color: #f9d7d7 } /* Literal.String.Other */
 .highlight .sr { color: #000000; background-color: #fff0ff } /* Literal.String.Regex */
 .highlight .s1 { background-color: #c1e7b6 } /* Literal.String.Single */
 .highlight .ss { color: #AA6600 } /* Literal.String.Symbol */
