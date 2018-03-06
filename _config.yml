@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Kelsey Rogers
 email: krogers.st@gmail.com
-description: >
-    Kelsey Rogers is a designer, writer, and storyteller.
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: krogersst
