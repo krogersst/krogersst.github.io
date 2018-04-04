@@ -6,24 +6,24 @@ layout: default
 <div class="post-body">
 
   <div class="post-photos">
-    <a href="{{ page.leftsourceone }}">
-      <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimageone }}');"></div>
+    <a href="{{ page.leftsourceone }}" target="_blank">
+      <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimageone }}'); background-position: {{ page.position }}"></div>
     </a>
-    <a href="{{ page.leftsourcetwo }}">
+    <a href="{{ page.leftsourcetwo }}" target="_blank">
       <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimagetwo }}');"></div>
     </a>
-    <a href="{{ page.leftsourcethree }}">
+    <a href="{{ page.leftsourcethree }}" target="_blank">
       <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimagethree }}');"></div>
     </a>
-    <a href="{{ page.leftsourcefour }}">
+    <a href="{{ page.leftsourcefour }}" target="_blank">
       <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimagefour }}');"></div>
     </a>
-    <a href="{{ page.leftsourcefive }}">
+    <a href="{{ page.leftsourcefive }}" target="_blank">
       <div class="post-image" style="background-image: url('{{ site.url }}/assets/images/{{ page.leftimagefive }}'); margin-bottom:{{ page.lastimagemargin}};"></div>
     </a>
   </div>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content post-width" itemprop="articleBody">
     <h2 itemprop="name headline">{{ page.title | escape }}</h2>
     <h3>{{ page.subtitle | escape}}</h3>
     {{ content }}

@@ -3,14 +3,20 @@ layout: default
 ---
 <article class="page">
 
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
+<div class="page-flex">
 
-  <div class="page-content">
-    {{ content }}
+  <div class="page-header-pic" style="background-image: url('{{ site.url }}/assets/images/{{ page.header-pic }}')"></div>
+
+  <div class="page-right">
+    <div class="page-header-one">{{ page.title | escape }}</div>
+    <div class="page-content">
+      {{ content }}
+      {% include contact.html %}
+    </div>
   </div>
 
-  {% include contact.html %}
+  <div style="min-width: 205px;"></div>
+
+</div>
 
 </article>

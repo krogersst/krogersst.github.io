@@ -1,7 +1,13 @@
 ---
-layout: page
+layout: default
 title: Blog
+permalink: /blog/
 ---
+
+<article class="page">
+
+<div class="blog-width">
+
   <div class="flex-blog">
     {% for post in site.posts %}
     <div class="post-blog">
@@ -21,3 +27,9 @@ title: Blog
 
     {% endfor %}
   </div>
+
+  {% include contact.html %}
+
+</div>
+
+</article>

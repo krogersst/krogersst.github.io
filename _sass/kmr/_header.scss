@@ -4,18 +4,17 @@
 .site-header {
   z-index: 100;
     width: 100%;
-    background-color: black;
+    background-color: $black;
 }
 
 #nav-header {
     width: $wrap-mini;
     margin: auto;
-    /*margin-top: 15px;*/
     display: flex;
     justify-content: space-between;
     padding: {
-      left: 20px;
-      right: 20px;
+      left: 15px;
+      right: 0px;
       top: 5px;
       bottom: 5px;
     }

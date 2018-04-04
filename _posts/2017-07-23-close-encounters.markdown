@@ -5,7 +5,7 @@ date: 2017-07-23 16:21:37 -0500
 categories: portfolio
 excerpt: Legend tripping and ostensive action are important ways in which people interact and transform legends, especially extraterrestrial experience legends. Stephen Spielberg’s Close Encounters of the Third Kind engages these legends at every level of ostensive action, transforming itself into both the representative, and instigator, of the legend trip. Just as Linda Dégh’s holiday of Halloween “…is based on legends, communicates legends, and creates legends,” so too is Close Encounters of the Third Kind.
 
-postimage: devils_tower.jpg
+postimage: we_are_not_alone.png
 
 leftimageone: devils_tower.jpg
 leftsourceone: https://www.flickr.com/photos/internetarchivebookimages/14780464664/

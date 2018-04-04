@@ -32,7 +32,7 @@
         align-items: center;
 
         .home-title {
-            background-color: black;
+            background-color: $black;
             margin-left: -100px;
             padding: 5px 30px;
             margin-bottom: 10px;
@@ -58,7 +58,7 @@
 
         .link-header {
             span {
-                background-color: black;
+                background-color: $black;
             }
             font-size: 25px;
             font-family: $Abel;
@@ -113,7 +113,7 @@
 
                     a {
                         font-size: 16px;
-                        background-color: black;
+                        background-color: $black;
                         color: white;
                         font-style: italic;
                         padding: {
@@ -137,8 +137,8 @@
                 margin-right: 20px;
 
                 .example-pic {
-                    background-image: url("assets/images/script-image.png");
-                    background-position: left;
+                    background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
+                    background-position: center;
                     background-size: 600px;
                 }
             }
@@ -182,7 +182,7 @@
     }
 
     .section {
-        border-top: black solid 5px;
+        border-top: $black solid 5px;
     }
 
     #about-box {
@@ -214,14 +214,18 @@
 
     .blog-ex {
       max-width: 400px;
-      max-height: 400px;
       margin-left: 10px;
+      p {
+        max-height: 100px;
+      }
       &:first-child {
         margin-left: 0px;
       }
       .blog-img {
         min-width: 100px;
         min-height: 100px;
+        background-position: center;
+        background-size: cover;
       }
       .blog-title {
         font-weight: bold;
@@ -243,7 +247,7 @@
 
           a {
               font-size: 16px;
-              background-color: black;
+              background-color: $black;
               color: white;
               font-style: italic;
               padding: {
@@ -255,7 +259,7 @@
     }
 
     #contact {
-      border-top: black solid 5px;
+      border-top: $black solid 5px;
       background-image: url("assets/images/griffin-asset.png");
       background-size: 800px;
       min-height: 350px;
