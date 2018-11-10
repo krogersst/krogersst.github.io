@@ -15,8 +15,15 @@ leftsourcefour: 'http://'
 leftimagefive: null
 leftsourcefive: 'https://'
 lastimagemargin: null
+title: 'From the Head of Lettice: Kentucky Authors Cook'
+excerpt: >-
+  Historic Kentucky Cookbooks takes a more modern turn as we take a look at the
+  recipes of the region through the eyes of local authors, in Kentucky Authors
+  Cook, by Barbara Popyach.
 ---
 *This blog post was originally published on the [Kenton County Public Library blog](http://kentonlibrary.org) as a part of the Local History and Genealogy Department local cook book series.*
+
+*Kentucky Authors Cook*, by Barbara Popyach, asks Kentucky authors to submit their favorite recipes. While this isn't as historical as the other recipes in this series, it engages with another part of the Local History and Genealogy Department's collection, our local author collection. Each recipe I've chosen is from an author we have in our collection. In fact, the first recipe is one a character cooks up!
 
 ## Juanita's Pinto Beans
 
@@ -44,6 +51,7 @@ Shelia Williams
 *On the Right Side of a Dream*
 K WILLI S
 
+Following Shelia's advice, I cook up some greens and find a bread recipe in *Kentucky Authors Cook* to serve with Juanita's Pinto Beans. This recipe for Southern Spoon Bread was submitted by an author who specializes in Appalachian history and culture. I think I might have to cook something from her cookbook, *More than Moonshine* next.
 
 ## Southern Spoon Bread
 
@@ -63,4 +71,14 @@ K WILLI S
 **Instructions**
 Preheat oven to 400 degrees.
 
-Mix milk, salt, and sugar in pot, heat to "moderate temperature". Remove from heat and add 1¼ cup corn meal. Stir and return to heat until ? Meanwhile, beat together eggs, baking powder, cold water and butter. Then beat the egg mixture into the mush and pour into greased casserole or pan. Bake about 25 to 30 minutes.
+Mix milk, salt, and sugar in pot, heat to "moderate temperature". Remove from heat and add 1¼ cup corn meal. Stir and return to heat until mush. Meanwhile, beat together eggs, baking powder, cold water and butter. Then beat the egg mixture into the mush and pour into greased casserole or pan. Bake about 25 to 30 minutes.
+
+Sidney Saylor Farr
+*Berea, KY*
+
+*My Appalachia: a memoir*
+K B F2398 2007
+*More than moonshine: Appalachian recipes and recollections*
+K 641.5 F239m
+*Appalachian women: an annotated bibliography*
+KR 305.4016 F239a
