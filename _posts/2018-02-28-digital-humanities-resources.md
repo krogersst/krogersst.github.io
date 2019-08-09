@@ -81,6 +81,8 @@ Throughout the process of building Visualizing Abolition I collected a variety o
 * [Pelagios Commons](http://commons.pelagios.org/): Pelagios Commons provides online resources and a community forum for using open data methods to link and explore historical places
 * [Github](https://github.com/): The top site for exploring and collaborating on code.
 
+    * [What is Github](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
+
 #### All Sample Sites
 
 * [Renewing Inequality: Urban Renewal, Family Displacements, and Race 1955-1966](http://dsl.richmond.edu/panorama/renewal/)
