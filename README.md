@@ -10,11 +10,3 @@ Static files can be found in the [krogersst.github.io](https://github.com/kroger
 * [Jekyll](https://jekyllrb.com) - SSG
 * [Sticky Header](http://plugins.imdanishiqbal.com/sticky-header) - jQuery sticky header
 * [Font Awesome](https://fontawesome.com) - icon set
-
-## To Do
-
-- [ ] About
-- [ ] Contact
-- [ ] Footer
-- [ ] DH Tutorial
-- [ ] Mobile
