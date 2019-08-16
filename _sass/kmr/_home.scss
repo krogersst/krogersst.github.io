@@ -12,15 +12,20 @@
 
     h1 {
         font-family: $Abel;
+        //background: $yellow;
+        //color: white;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 5px;
     }
 
     .intro-box {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        background: url("assets/images/akvarell_pattern2.png");
+        margin-bottom: 40px;
+        margin-top: 10px;
+        background: url("assets/images/toadstools.png");
         background-position: center;
         min-height: 400px;
     }
@@ -32,7 +37,7 @@
         align-items: center;
 
         .home-title {
-            background-color: $black;
+            background-color: $yellow;
             margin-left: -100px;
             padding: 5px 30px;
             margin-bottom: 10px;
@@ -57,20 +62,21 @@
     .portfolio-box {
 
         .link-header {
-            span {
-                background-color: $black;
-            }
+            //span {
+            //    background-color: $yellow;
+            //}
             font-size: 25px;
             font-family: $Abel;
-            color: white;
+            //color: white;
 
-            &:visited {
-                color: white;
-            }
+            //&:visited {
+            //    color: white;
+            //}
+            font-weight: bold;
         }
 
         .portfolio {
-            padding-bottom: 20px;
+            padding-bottom: 40px;
 
             .example {
                 display: flex;
@@ -95,8 +101,9 @@
                     margin-top: 5px;
 
                     span {
-                        background-color: $color-main;
-                        font-weight: bold;
+                        //background-color: $color-main;
+                        //font-weight: bold;
+                        font-style:italic;
                         font-family: $Abel;
                         font-size: 20px;
                     }
@@ -181,10 +188,6 @@
         justify-content: space-between;
     }
 
-    .section {
-        border-top: $black solid 5px;
-    }
-
     #about-box {
       margin-bottom: 20px;
       .about-desc {
@@ -201,6 +204,7 @@
 
     #blog {
       margin-bottom: 10px;
+      display: none;
     }
 
     .flex-blog {
