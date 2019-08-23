@@ -22,9 +22,12 @@
     align-items: center;
     margin-bottom: 40px;
     margin-top: 10px;
-    background: url("assets/images/toadstools.png");
-    background-position: center;
-    min-height: 400px;
+    background: url("assets/images/toadstools_2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $cream;
+    min-height: 300px;
 }
 
 .home-ribbon {
@@ -54,38 +57,40 @@
     }
 }
 
+.portfolio-box h1 {
+  font-size: 30px;
+}
+
 .portfolio {
-    padding-bottom: 40px;
-    margin: 0 auto;
-    max-width: $content-width;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .example {
     display: flex;
-    padding-top: 5px;
-    margin-bottom: 20px;
+    flex-flow: column;
 }
 
 .example-pic {
-    width: 200px;
-    height: 400px;
-    border-top-left-radius: 200px;
-    border-bottom-left-radius: 200px;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 125px;
 }
 
 .example-text {
-    margin-left: 20px;
-    max-height: 400px;
-    max-width: 400px;
+    margin-top: 10px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
       .link-sub {
         margin-top: 5px;
         span {
           font-style: italic;
           font-family: $Abel;
-          font-size: 20px;
+          font-size: 18px;
         }
       }
       p {
@@ -94,6 +99,7 @@
         font-size: 15px;
       }
       .read-more {
+        display: none;
         margin-top: 5px;
         a {
           font-size: 16px;
@@ -109,7 +115,7 @@
 }
 
 .link-header {
-   font-size: 25px;
+   font-size: 22px;
    font-family: $Abel;
    font-weight: bold;
 }
@@ -141,41 +147,5 @@
   .example-pic {
     background-image: url("assets/images/devils_tower.jpg");
     background-position: top;
-  }
-}
-
-#contact {
-  border-top: $black solid 5px;
-  background-image: url("assets/images/griffin-asset.png");
-  background-size: 800px;
-  min-height: 350px;
-  background-repeat: no-repeat;
-  background-position: right;
-  .contact-desc {
-    margin-top: 5px;
-    font-size: 20px;
-    font-family: $Abel;
-    font-style: italic;
-    max-width: 510px;
-  }
-}
-
-#contactform {
-  margin-bottom: 20px;
-  .formbox {
-    padding: 2px;
-    display: block;
-    min-height: 20px;
-    margin-top: 10px;
-    min-width: 500px;
-  }
-  textarea {
-    padding: 3px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    min-width: 500px;
-    min-height: 100px;
-    background-color: white;
   }
 }
