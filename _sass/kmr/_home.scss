@@ -25,7 +25,7 @@
     background: url("assets/images/toadstools_2.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1200px;
     background-color: $cream;
     min-height: 300px;
 }
@@ -57,40 +57,45 @@
     }
 }
 
-.portfolio-box h1 {
-  font-size: 30px;
+.portfolio-box {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 .portfolio {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 .example {
     display: flex;
-    flex-flow: column;
-}
+    flex-flow: row;
+    margin-bottom: 20px;
+  }
 
 .example-pic {
-    max-width: 250px;
-    height: 250px;
-    border-radius: 125px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 150px;
 }
 
 .example-text {
-    margin-top: 10px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  padding-left: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
       .link-sub {
         margin-top: 5px;
+        margin-left: -100px;
         span {
           font-style: italic;
           font-family: $Abel;
-          font-size: 18px;
+          font-size: 22px;
+          padding-left: 5px;
+          padding-right: 10px;
+          background-color: $cream;
         }
       }
       p {
@@ -99,7 +104,6 @@
         font-size: 15px;
       }
       .read-more {
-        display: none;
         margin-top: 5px;
         a {
           font-size: 16px;
@@ -113,39 +117,50 @@
         }
       }
 }
-
-.link-header {
-   font-size: 22px;
-   font-family: $Abel;
-   font-weight: bold;
+.page-content .link-header {
+  text-decoration: none;
+  margin-left: -150px;
+  font-size: 25px;
+  font-family: $Abel;
+  font-weight: bold;
+  span {
+   background-color: $yellow;
+   color: white;
+   padding: 5px;
+   &:hover {
+     background-color: darken($yellow, 10);
+   }
+ }
+ margin-bottom: 5px;
 }
 
 #tutorial {
   .example-pic {
-    background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
-    background-position: center;
-    background-size: 600px;
+  background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
+  background-position: right;
+  background-size: 600px;
   }
+  margin-right: 20px;
 }
 
 #visual_ab {
   .example-pic {
-    background-image: url("assets/images/ILN_watercarrier.jpg");
-    background-size: 300px;
-    background-position: left;
+  background-image: url("assets/images/ILN_watercarrier.jpg");
+  background-size: 400px;
   }
 }
 
 #holiday {
   .example-pic {
-    background-image: url("assets/images/Holiday_Dinner2.jpg");
-    background-position: right;
+  background-image: url("assets/images/Holiday_Dinner2.jpg");
+  background-position: center left;
   }
+  margin-right: 20px;
 }
 
 #encounters {
   .example-pic {
-    background-image: url("assets/images/devils_tower.jpg");
-    background-position: top;
+  background-image: url("assets/images/devils_tower.jpg");
+  background-position: center top;
   }
 }
