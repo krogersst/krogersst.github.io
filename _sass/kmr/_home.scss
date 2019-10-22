@@ -134,13 +134,19 @@
  margin-bottom: 5px;
 }
 
+#genealogy {
+  .example-pic {
+    background-image: url("assets/images/kvarnby.png");
+    background-position: center;
+  }
+}
+
 #tutorial {
   .example-pic {
   background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
   background-position: right;
   background-size: 600px;
   }
-  margin-right: 20px;
 }
 
 #visual_ab {
@@ -155,7 +161,6 @@
   background-image: url("assets/images/Holiday_Dinner2.jpg");
   background-position: center left;
   }
-  margin-right: 20px;
 }
 
 #encounters {
