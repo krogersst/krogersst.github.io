@@ -1,3 +1,22 @@
 /**
 * Site Footer
 */
+footer {
+  margin-top: 20px;
+  flex-shrink: 0;
+  border-top: black solid 2px;
+  width: $wrap-mini;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  img {
+    display: inline;
+    max-height: 30px;
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,72 @@
+---
+layout: spadefoot
+title: the library
+permalink: /mlis/spadefoot/thelibrary
+---
+<link rel="stylesheet" type="text/css" href="{{ '/assets/styles/jquery-ui.min.css' | relative_url }}">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#tabs" ).tabs();
+} );
+</script>
+
+<div id="lith-menu">
+  <h2>{{ page.title | escape }}</h2>
+  <div class="lith-menu-desc">
+    <p>Print and online resources about the eastern spadefoot and the lithograph.</p>
+  </div>
+</div>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">North American Herpetology</a></li>
+    <li><a href="#tabs-2">Zoology of New York</a></li>
+    <li><a href="#tabs-3">Erpétologie générale</a></li>
+    <li><a href="#tabs-4">The Illustrated Natural History</a></li>
+    <li><a href="#tabs-5">Handbook of Frogs and Toads</a></li>
+    <li><a href="#tabs-6">Other Sources</a></li>
+  </ul>
+
+  <div id="tabs-1">
+    <iframe class="embed-center spade-library" src="https://archive.org/embed/northamerican01holb?ui=embed#mode/2up/page/n119" width="1000" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <p>Holbrook, John Edwards. 1836. <em>North American herpetology, or, A description of the reptiles inhabiting the United States.</em> Philadelphia, PA: Dobson.</p>
+  </div>
+
+  <div id="tabs-2">
+    <iframe class="embed-center spade-library" src="https://archive.org/embed/zoologyofnewyork03adeka?ui=embed#mode/2up/page/n50" width="1000" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <p>De Kay, James E. 1842. <em>Zoology of New York; or, The New York Fauna.</em> Part 3, Reptiles-Plates. Albany, NY: W. & A. White & J. Visscher: Carroll and Cook.</p>
+  </div>
+
+  <div id="tabs-3">
+    <iframe class="embed-center spade-library" src="https://archive.org/embed/erptologiegn00dum?ui=embed#mode/2up/page/n248" width="1000" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <p>Duméril, C. 1854. <em>Erpétologie générale, ou, Histoire naturelle complète des reptiles.</em> Paris: Roret.</p>
+  </div>
+
+  <div id="tabs-4">
+    <iframe class="embed-center spade-library" src="https://archive.org/embed/b21779405_0003?ui=embed#mode/2up/page/162" width="1000" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <p>Wood, J. G. 1869. <em>The Illustrated Natural History.</em> New York: Routledge.</p>
+  </div>
+
+  <div id="tabs-5">
+    <iframe class="embed-center spade-library" src="https://archive.org/embed/handbookoffrogst00wrig?ui=embed#mode/2up/page/42" width="1000" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    <p>Wright, A. A. & Wright, A. H. 1933. <em>Handbook of Frogs and Toads.</em> Ithaca, N.Y.: Comstock Pub. Co.</p>
+  </div>
+
+  <div id="tabs-6">
+    <h4>Other Sources</h4>
+    <ul>
+        <li><a href="https://www.inaturalist.org/observations/24793788">iNaturalist Example</a></li>
+        <li><a href="http://www.lewis-clark.org/article/2751">Richard Harlan</a></li>
+        <li><a href="https://www.semanticscholar.org/paper/Remarking-on-a-blackened-eye%3A-Persifor-Frazer's-of-Brinkman/9d2745dcd1dbde6e1e681285ea1d5bae45277fa0">Edward Drinker Cope</a></li>
+        <li><a href='http://research.amnh.org/vz/herpetology/amphibia/Amphibia/Anura/Scaphiopodidae/Scaphiopus/Scaphiopus-holbrookii'><em>Scaphipus holbrookii</em></a>. Amphibian Species of the World 6.0, an Online Reference. American Museum of Natural History</li>
+        <li><a href="https://www.inaturalist.org/observations?place_id=any&taxon_id=26695">iNaturalist Distrubtion of Eastern Spadefoots</a></li>
+        <li>Patterson, D., Thompson, R., & Bryson, J. S. (2008). John Edwards Holbrook. In <a href='https://www.worldcat.org/title/early-american-nature-writers-a-biographical-encyclopedia/oclc/1034888234'>Early American nature writers : a biographical encyclopedia</a> (pp. 192-200). Westport, CT: Greenwood Press.</li>
+        <li>The Library Company of Philadelphia. <a href='https://digital.librarycompany.org/islandora/object/digitool%3A79451'>Lehman & Duval</a>. Philadelphia on Stone > Philadelphia on Stone Biographical Dictionary of Lithographers</li>
+        <li> Beane, J. C. et al. (2010) <a href='https://www.worldcat.org/title/amphibians-reptiles-of-the-carolinas-and-virginia/oclc/929634288'>Amphibians and Reptiles of the Carolinas and Virginia</a>, 2nd Ed. Chapel Hill, NC: University of North Carolina Press.</li>
+
+    </ul>
+  </div>
+
+</div>

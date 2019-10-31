@@ -29,6 +29,7 @@
 .page-flex {
   display: flex;
   justify-content: center;
+  min-height: 400px;
 }
 
 .page-right {
@@ -166,8 +167,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
   }
 
   video {
@@ -191,24 +190,20 @@
 
   h2 {
     font-size: 32px;
-    color: white;
-    background: black;
     font-family: $Abel;
-    padding-left: 5px;
   }
 
   h3 {
     font-size: 26px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: $Abel;
+    font-style: italic;
   }
 
   h4 {
-    padding-left: 5px;
     margin-top: 15px;
     font-size: 22px;
-    color: white;
-    background: black;
     font-family: $Abel;
   }
   h5 {

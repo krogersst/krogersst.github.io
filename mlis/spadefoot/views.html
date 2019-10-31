@@ -1,0 +1,113 @@
+---
+layout: lithograph
+title: views
+permalink: /mlis/spadefoot/views
+---
+<link rel="stylesheet" type="text/css" href="{{ '/assets/styles/jquery-ui.min.css' | relative_url }}">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
+<script>
+$( function() {
+  $( "#tabs" ).tabs();
+});
+$(document).ready(function(){
+			$('#smith-01').zoom( { on:'click' });
+      $('#smith-02').zoom( { on:'click' });
+      $('#ernst-01').zoom( { on:'click' });
+      $('#ernst-02').zoom( { on:'click' });
+      $('#digitale-02').zoom( { on:'click' });
+});
+</script>
+
+  <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">First Edition, Smithsonian</a></li>
+    <li><a href="#tabs-2">Second Edition, Smithsonian</a></li>
+    <li><a href="#tabs-3">First Edition, Harvard</a></li>
+    <li><a href="#tabs-4">Second Edition, Harvard</a></li>
+    <li><a href="#tabs-5">Second Edition, MDZ</a></li>
+  </ul>
+
+  <div class="lith-tab" id="tabs-1">
+    <div class="zoom" id="smith-01">
+      <img src="{{ '/mlis/spadefoot/images/holb_smith_01.jpg' | relative_url }}" width="400px" alt="Smithsonian First Edition" />
+    </div>
+    <div class="lith-view">
+      <h3>First Edition, Smithsonian</h3>
+      <p><em>Click Image to Zoom</em></p>
+      <p><strong>Image ID: </strong><a href="https://flic.kr/p/adgCKt">https://flic.kr/p/adgCKt</a></p>
+      <p><strong>View Description:</strong> A scanned copy of the Scaphiopus solitarius lithograph from the first edition of North American Herpetology by John Edwards Holbrook, published in 1836. This particular scan comes from a copy held by the Smithsonian and is presented here through the Biodiversity Heritage Library's <a href="https://flic.kr/p/adgCKt">Flickr</a>.
+      </p>
+      <p><strong>View Type:</strong> front view [AAT: <a href="http://vocab.getty.edu/page/aat/300264744">300264744</a>]</p>
+      <p><strong>View Date:</strong> 08/15/2011</p>
+      <p><strong>Related Work:</strong> Scaphiopus solitarius; J. Sera illustrator; 1836; Philadelphia, Pennsylvania (United States) – <a href="{{ '/mlis/spadefoot/workrecord' | relative_url }}">KSU:012</a></p>
+      <p><strong>Source:</strong> <a href="https://biodiversitylibrary.org/page/35765112">https://biodiversitylibrary.org/page/35765112</a></p>
+    </div>
+  </div>
+
+  <div class="lith-tab" id="tabs-2">
+    <div class="zoom" id="smith-02">
+      <img src="{{ '/mlis/spadefoot/images/holb_smith_02.jpg' | relative_url }}" width="400px" alt="Smithsonian Second Edition" />
+    </div>
+    <div class="lith-view">
+      <h3>Second Edition, Smithsonian</h3>
+      <p><em>Click Image to Zoom</em></p>
+      <p><strong>Image ID:</strong> <a href="https://www.archive.org/download/northamericanher14holb/page/n167_w1233">https://www.archive.org/download/northamericanher14holb/page/n167_w1233</a></p>
+      <p><strong>View Description:</strong> A scanned copy of the Scaphiopus solitarius lithograph from the second edition of North American Herpetology by John Edwards Holbrook, published in 1842. This particular scan comes from a copy held by the Smithsonian. Note that the Scaphiopus solitarius is placed in the fourth volume in the second edition as opposed to the first volume in the first edition.</p>
+      <p><strong>View Type:</strong> front view [AAT: <a href="http://vocab.getty.edu/page/aat/300264744">300264744</a>]</p>
+      <p><strong>View Date:</strong> 07/13/2011</p>
+      <p><strong>Related Work:</strong> Scaphiopus solitarius; J. Sera illustrator; 1836; Philadelphia, Pennsylvania (United States) – <a href="{{ '/mlis/spadefoot/workrecord' | relative_url }}">KSU:012</a></p>
+      <p><strong>Source:</strong> <a href="https://biodiversitylibrary.org/page/13803068">https://biodiversitylibrary.org/page/13803068</a></p>
+    </div>
+  </div>
+
+  <div class="lith-tab" id="tabs-3">
+    <div class="zoom" id="ernst-01">
+      <img src="{{ '/mlis/spadefoot/images/holb_ernst_01.jpg' | relative_url }}" width="400px" alt="Ernst Mayr First Edition"/>
+    </div>
+    <div class="lith-view">
+      <h3>First Edition, Ernst Mayr Library at Harvard</h3>
+      <p><em>Click Image to Zoom</em></p>
+      <p><strong>Image ID:</strong> <a href="https://www.archive.org/download/northamericanher01holb/page/n113_w441">https://www.archive.org/download/northamericanher01holb/page/n113_w441</a></p>
+      <p><strong>View Description:</strong>  A scanned copy of the Scaphiopus solitarius lithograph from the first edition of North American Herpetology by John Edwards Holbrook, published in 1836. This particular scan comes from a copy held by the Ernst Mayr Library in the Museum of Comparative Zoology at Harvard University.</p>
+      <p><strong>View Type:</strong> front view [AAT: <a href="http://vocab.getty.edu/page/aat/300264744">300264744</a>]</p>
+      <p><strong>View Date:</strong> 03/21/2008</p>
+      <p><strong>Related Work:</strong> Scaphiopus solitarius; J. Sera illustrator; 1836; Philadelphia, Pennsylvania (United States) – <a href="{{ '/mlis/spadefoot/workrecord' | relative_url }}">KSU:012</a></p>
+      <p><strong>Source:</strong> <a href="https://biodiversitylibrary.org/page/4075550">https://biodiversitylibrary.org/page/4075550</a></p>
+    </div>
+  </div>
+
+  <div class="lith-tab" id="tabs-4">
+    <div class="zoom" id="ernst-02">
+      <img src="{{ '/mlis/spadefoot/images/holb_ernst_02.jpg' | relative_url }}" width="400px" alt="Ernst Mayr Second Edition">
+    </div>
+    <div class="lith-view">
+      <h3>Second Edition, Ernst Mayr Library at Harvard</h3>
+      <p><em>Click Image to Zoom</em></p>
+      <p><strong>Image ID:</strong> <a href="https://www.archive.org/download/northamericanher184204holb/page/n167_w448">https://www.archive.org/download/northamericanher184204holb/page/n167_w448</a></p>
+      <p><strong>View Description:</strong>  A scanned copy of the Scaphiopus solitarius lithograph from the second edition of North American Herpetology by John Edwards Holbrook, published in 1842. This particular scan comes from a copy held by the Ernst Mayr Library in the Museum of Comparative Zoology at Harvard University. Note that the Scaphiopus solitarius is placed in the fourth volume in the second edition as opposed to the first volume in the first edition.</p>
+      <p><strong>View Type:</strong> front view [AAT: <a href="http://vocab.getty.edu/page/aat/300264744">300264744</a>]</p>
+      <p><strong>View Date:</strong> 03/20/2008</p>
+      <p><strong>Related Work:</strong> Scaphiopus solitarius; J. Sera illustrator; 1836; Philadelphia, Pennsylvania (United States) – <a href="{{ '/mlis/spadefoot/workrecord' | relative_url }}">KSU:012</a></p>
+      <p><strong>Source:</strong> <a href="https://biodiversitylibrary.org/page/3991286">https://biodiversitylibrary.org/page/3991286</a></p>
+    </div>
+  </div>
+
+  <div class="lith-tab" id="tabs-5">
+    <div class="zoom" id="digitale-02">
+      <img src="{{ '/mlis/spadefoot/images/holb_digitale_02.jpg' | relative_url }}" width="400px" alt="Munich Digitization Center Second Edition"/>
+    </div>
+    <div class="lith-view">
+      <h3>Second Edition, Munich Digitization Center (MDZ)</h3>
+      <p><em>Click Image to Zoom</em></p>
+      <p><strong>Image ID:</strong> <a href="https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10231476_00220.html">https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10231476_00220.html</a></p>
+      <p><strong>View Description:</strong>  A scanned copy of the Scaphiopus solitarius lithograph from the second edition of North American Herpetology by John Edwards Holbrook, published in 1842. This particular scan comes from a copy held by the Munich Digitization Center, or Münchener DigitalsierungsZentrum (MDZ). Note that the Scaphiopus solitarius is placed in the fourth volume in the second edition as opposed to the first volume in the first edition.</p>
+      <p><strong>View Type:</strong> front view [AAT: <a href="http://vocab.getty.edu/page/aat/300264744">300264744</a>]</p>
+      <p><strong>View Date:</strong> 08/03/2018</p>
+      <p><strong>Related Work:</strong> Scaphiopus solitarius; J. Sera illustrator; 1836; Philadelphia, Pennsylvania (United States) – <a href="{{ '/mlis/spadefoot/workrecord' | relative_url }}">KSU:012</a></p>
+      <p><strong>Source:</strong> <a href="http://www.worldcat.org/oclc/230186197">http://www.worldcat.org/oclc/230186197</a></p>
+    </div>
+  </div>
+
+  </div>

@@ -13,9 +13,21 @@ dl, dd, figure {
 /**
  * Basic styling
  */
+
+html {
+  height: 100%;
+}
+
 body {
   font-family: $base-font-family;
   background-color: $background-color;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 code {
