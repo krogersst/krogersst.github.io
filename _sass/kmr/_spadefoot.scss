@@ -229,14 +229,25 @@
   }
 }
 
-#spadefoot-thetoad {
+.toad-para {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.spadefoot-iNat {
   display: flex;
-  img {
-    max-width: 400px;
-    margin-bottom: 10px;
-  }
-  .spadefoot-iNat {
-    margin-right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .iNat-col {
+    margin-right: 10px;
+    img {
+      max-height: 250px;
+    }
+    p {
+      font-size: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
   }
 }
 
