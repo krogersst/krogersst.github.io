@@ -8,7 +8,7 @@ footer {
   width: $wrap-mini;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 15px;
   img {
     display: inline;
     max-height: 30px;
@@ -19,4 +19,19 @@ footer {
   p {
     margin-bottom: 30px;
   }
+}
+
+.logos {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#sitecode {
+  font-size: 20px;
+  font-family: $Abel;
+  margin-left: 5px;
 }
