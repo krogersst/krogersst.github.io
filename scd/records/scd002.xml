@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd002</identifier>
+    <description>"Everyone's Choice - Volume IV" is an album by the Mahoning Valley Button Box Club that was produced by Peppermint Records and released in 2006. Both the band and this particular album are National Cleveland Style Polka Hall of Fame inductees.</description>
+    <locationPurchased>Menagerie Thrift &amp; Gift Shoppe, 6037 E Market St., Warren, OH 44484</locationPurchased>
+    <album>
+        <albumTitle>Everyone's Choice - Volume IV</albumTitle>
+        <albumGenre>polka</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>2006</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Peppermint Records</albumProducerName>
+            <albumProducerURL type="original" status="live">http://peppermintrecords.com</albumProducerURL>
+        </albumProducer>
+        <albumLocationRecorded>Peppermint Recording Studios, 803 E. Indianola Ave., Youngstown, OH 44502</albumLocationRecorded>
+        <albumRightsStatement>Sound Recording Copyright 2006 Peppermint Records</albumRightsStatement>
+        <albumTracks>
+            <track order="01">
+                <trackTitle>Euclid Vets Polka</trackTitle>
+                <trackLength>03:00</trackLength>
+                <trackDescription>Euclid Vets Polka was originally performed by Yankovic, Pecon, &amp; Trolli.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Yankovic, Pecon, &amp; Trolli</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="02">
+                <trackTitle>You Are My One True Love Waltz</trackTitle>
+                <trackLength>04:08</trackLength>
+                <trackDescription>You Are My One True Love Waltz was originally performed by Kames and Kaiser.</trackDescription>
+                <trackLanguage>eng</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Kames and Kaiser</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Jim</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Piccirilli, Rocky</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tarasut, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="03">
+                <trackTitle>Rolling Rock Polka</trackTitle>
+                <trackLength>02:32</trackLength>
+                <trackDescription>Rolling Rock Polka was originally performed by Yankovic, Pecon, &amp; Trolli.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Yankovic, Pecon, &amp; Trolli</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="04">
+                <trackTitle>Erica Waltz</trackTitle>
+                <trackLength>03:42</trackLength>
+                <trackDescription>Erica Waltz was originally written and performed by Ray Young, a National Cleveland Style Polka Hall of Fame inductee.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Young, Ray</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Jim</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="05">
+                <trackTitle>Dublevska</trackTitle>
+                <trackLength>03:00</trackLength>
+                <trackDescription>Dublevska is a traditional Czech polka.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="06">
+                <trackTitle>When the Snow Is On the Roses</trackTitle>
+                <trackLength>03:39</trackLength>
+                <trackDescription>The album credits James Last and Larry Kusik as the original songwriters.</trackDescription>                <trackArtist>
+                    <trackArtistName>Last, James</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>music writer</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Kusik, Larry</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Kusik, Larry</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tracey, Art</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tarasut, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="07">
+                <trackTitle>Don't Sweetheart Me Polka</trackTitle>
+                <trackLength>03:18</trackLength>
+                <trackDescription>This polka was originally written by Cliff Friend, Charles Tobias, and performed by the Steve Meisner Band.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Friend, Cliff</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tobias, Charles</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Steve Meisner Band</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>original performance</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="08">
+                <trackTitle>My Green Valley Waltz</trackTitle>
+                <trackLength>04:00</trackLength>
+                <trackDescription>This waltz was originally composed by Roger Bright, with lyrics by Bob Lorenz, and Gene Tebo. The original song was inducted into the National Cleveland-Style Polka Hall of Fame and Museum in 2006. This Mahoning Valley Button Box Club version features Slovenian lyrics by Joe Stradiot.</trackDescription>
+                <trackLanguage>slv</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Bright, Roger</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>composer</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Lorenz, Bob</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tebo, Gene</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Stradiot, Joe</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>slovenian language lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="09">
+                <trackTitle>My Sweetheart Polka</trackTitle>
+                <trackLength>02:55</trackLength>
+                <trackDescription>According to this album, this polka is based on the Slovenian folk song "Moj Lupse Moj"</trackDescription>
+                <trackLanguage></trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="10">
+                <trackTitle>Zora Je &amp; Blejdi Mesec</trackTitle>
+                <trackLength>04:17</trackLength>
+                <trackDescription>This song is a combination of Croatian folk songs, The Dawn is Breaking (Zora Je) and Pale Moon (Blejdi Mesec).</trackDescription>
+                <trackLanguage>hrv</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Jim</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>upright acoustic bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="11">
+                <trackTitle>Hickory Polka</trackTitle>
+                <trackLength>02:59</trackLength>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="12">
+                <trackTitle>Little Fella Waltz</trackTitle>
+                <trackLength>03:40</trackLength>
+                <trackDescription>The original song was written by Vilko Ovesnik and Slavko Avensik, with English lyrics by Johnny Pecon. The Slovenian lyrics were written by Cecilia Dolgan for the Mahoning Valley Button Box Club version.</trackDescription>
+                <trackLanguage></trackLanguage>
+                <trackArtist>
+                  <trackArtistName>Ovsenik, Vilko</trackArtistName>
+                  <trackArtistClass>original artist</trackArtistClass>
+                  <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Avsenik, Slavko</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Pecon, Johnny</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Dolgan, Cecilia</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>Slovenian language lyricist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tracey, Art</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tarasut, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="13">
+                <trackTitle>My Sweet Lorraine</trackTitle>
+                <trackLength>02:06</trackLength>
+                <trackDescription>My Sweet Lorraine is credited to Don Cialkoszewski on the album packaging.</trackDescription>
+                <trackLanguage></trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Cialokoszewski, Don</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>accordionist</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Piccirilli, Rocky</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="14">
+                <trackTitle>La Golandrina Waltz</trackTitle>
+                <trackLength>02:46</trackLength>
+                <trackDescription>La Golandrina means "The Swallow" in English. It was originally written by Narciso Serradell Sevilla.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Sevilla, Narciso Serradell</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Jim</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="15">
+                <trackTitle>Nidelvin Waltz</trackTitle>
+                <trackLength>03:37</trackLength>
+                <trackDescription>The Nidelvin Waltz, or "Here By the River", is based on a traditional Norwegian dance tune.</trackDescription>
+                <trackLanguage></trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tracey, Art</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tarasut, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Piccirilli, Rocky</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="16">
+                <trackTitle>Moj Fantic Je Prijezdil</trackTitle>
+                <trackLength>03:27</trackLength>
+                <trackDescription>Moj Fantic Je Prijezdil, or "My Sweetheart Came Riding", is based on a traditional Slovenian folk song.</trackDescription>
+                <trackLanguage></trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="17">
+                <trackTitle>Doreen's Waltz</trackTitle>
+                <trackLength>03:50</trackLength>
+                <trackDescription>Doreen's Waltz was original composed by Verne Meisner, a National Clevelan Style Polka Hall of Fame Lifetime Achievement Award Recipient.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Meisner, Verne</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>composer</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Jim</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="18">
+                <trackTitle>Down by the Riverside</trackTitle>
+                <trackLength>02:11</trackLength>
+                <trackDescription>"Down by the Riverside" is attributed to "Green &amp; Kerhar" on the album packaging.</trackDescription>
+                <trackLanguage>eng</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Piccirilli, Rocky</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="19">
+                <trackTitle>When We Meet Again Waltz</trackTitle>
+                <trackLength>03:27</trackLength>
+                <trackDescription>"When We Meet Again" or "Kadar Srecem Te" n Slovenian, was originally written and performed by Lojze Slak.</trackDescription>
+                <trackLanguage>slv</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Slak, Lojze</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>yodeling</trackArtistRole>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tracey, Art</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="20">
+                <trackTitle>Not Going Home For A While Waltz</trackTitle>
+                <trackLength>03:23</trackLength>
+                <trackDescription>"Not Going Home For A While" was originally "Mir Gohnd No Lang Nid Hei" as cited on the album packaging.</trackDescription>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="21">
+                <trackTitle>Flying High Polka</trackTitle>
+                <trackLength>02:28</trackLength>
+                <trackDescription>"Flying High Polka" was originally written and performed by Marge Ford and Patti Gersich.</trackDescription>
+                <trackLanguage>eng</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Ford, Marge</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gersich, Patti</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Paulenich, Kathy</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Sefcik, Kay</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Tarasut, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Piccirilli, Rocky</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="22">
+                <trackTitle>How Quickly Time Passes</trackTitle>
+                <trackLength>03:35</trackLength>
+                <trackDescription>"How Quicky Time Passes", or "Jak Szybko Mijaja Chwile" is based on a a Polish folk song.</trackDescription>
+                <trackLanguage>eng</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Gerl, John</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>drums</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Bucar, Denny</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>bass</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Meser, Irene</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Ross, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Kolodziej, Ray</trackArtistName>
+                    <trackArtistClass>guest member</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+        </albumTracks>
+    </album>
+    <musicGroup>
+        <musicGroupName>Mahoning Valley Button Box Club</musicGroupName>
+        <musicGroupURL type="other" status="live">http://www.clevelandstyle.com/mahoning~valley~button~box~club.html</musicGroupURL>
+        <musicGroupLocation>Ohio</musicGroupLocation>
+    </musicGroup>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Sefcik, Kay</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>music director</musicArtistRole>
+            <musicArtistRole>instrumental arrangements</musicArtistRole>
+            <musicArtistEmail>buntnbxtime@zoominternet.net</musicArtistEmail>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Meser, Irene</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>co-music director</musicArtistRole>
+            <musicArtistRole>instrumental arrangements</musicArtistRole>
+            <musicArtistRole>vocal arrangements</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Piccirilli, Rocky</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>co-music director</musicArtistRole>
+            <musicArtistRole>instrumental arrangements</musicArtistRole>
+            <musicArtistRole>vocal arrangements</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Paulenich, Kathy</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>tamburitza prim</musicArtistRole>
+            <musicArtistRole>keyboard</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Tarasut, John</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>whistling</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Susany, Peg</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Gavran, Helen</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Pavlich, Irene</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Pavlich, Marty</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Gladyz, Kathy</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>button box accordion</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Ross, John</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>yodeling</musicArtistRole>
+            <musicArtistRole>drums</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Gerl, John</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>drums</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>yodeling</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Sefcik, Jim</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>bass</musicArtistRole>
+            <musicArtistRole>upright acoustic bass</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Bucar, Denny</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>bass</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>yodeling</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Tracey, Art</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Kolodziej, Ray</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>Polish lyricist</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Kobal, Norm</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>clarinet</musicArtistRole>
+            <musicArtistRole>flute</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Okicki, Frank</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>guitar</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Dolgan, Cecilia</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>Slovenian lyricist</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Stradiot, Joe</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>Slovenian lyricist</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Willmitch, Rik</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>yodeling coach</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Cleveland Connection</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>guest band</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Florida Connection</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>guest band</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <contributors>
+        <contributor>
+            <contributorName>"MAXMILLAN"</contributorName>
+            <contributorRole>cover photo</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Rhamy, Gary</contributorName>
+            <contributorRole>recording engineer</contributorRole>
+            <contributorRole>remix engineer</contributorRole>
+            <contributorURL type="other" status="live">https://tapeop.com/interviews/116/gary-rhamy-bonus/</contributorURL>
+        </contributor>
+        <contributor>
+            <contributorName>Willmitch, Rik</contributorName>
+            <contributorRole>additional engineering</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Sefcik, Kay</contributorName>
+            <contributorRole>bookings</contributorRole>
+            <contributorRole>sales</contributorRole>
+            <musicArtistEmail>buntnbxtime@zoominternet.net</musicArtistEmail>
+        </contributor>
+        <contributor>
+            <contributorName>Meser, Irene</contributorName>
+            <contributorRole>bookings</contributorRole>
+            <contributorRole>sales</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Peppino's Restaurant</contributorName>
+            <contributorRole>practice sessions</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Davidson, Debbie</contributorName>
+            <contributorRole>photography</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Gladyz, Ed</contributorName>
+            <contributorRole>cookies</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Milano, Betty</contributorName>
+            <contributorRole>pizza</contributorRole>
+        </contributor>
+    </contributors>
+    <appearance>
+        <insertMaterial>coated</insertMaterial>
+        <discLabel>direct on disc</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_008.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_008.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features the Mahoning Valley Button Box Club members in red and white shirts sitting with their accordions on a red and white swirl background.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_009.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_009.jpg</imageURL>
+            <imageDescription>The back of the CD packaging lists the tracks in white text and the original artists in black text in front of a red swirl background.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_010.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_010.jpg</imageURL>
+            <imageDescription>The spine of the CD packaging lists the album and band's name in white on a red swirl background.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_011.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_011.jpg</imageURL>
+            <imageDescription>The first page of the insert describes the music artists involved in creating the album in black text over a white and gray swirl background.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_012.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_012.jpg</imageURL>
+            <imageDescription>The second page of the insert describes the contributors of the albums in black text over a white and gray swirl background. It also shows four cut outs of the guest artists' faces (Denny Bucar, John Gerl, Jim Sefcik, and Frank Okicki).</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_013.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_013.jpg</imageURL>
+            <imageDescription>The third page of the insert displays special thanks in black text over a white and gray swirl background and three more cutouts of the guest artists' faces (Art Tracey, John Ross, and Norm Kobal).</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_014.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_014.jpg</imageURL>
+            <imageDescription>The fourth page of the insert features several photos of band members performing. The photos are displayed on a red swirl background.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_015.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_015.jpg</imageURL>
+            <imageDescription>The fifth page of the insert features a description of the album by Gary Rhamy, the producer. It is written in white text over a red swirl background.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_016.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_016.jpg</imageURL>
+            <imageDescription>The disc is a direct on disc print featuring the track listing and information about Peppermint Records, the producer of the album.</imageDescription>
+        </image>
+    </appearance>
+</CD>

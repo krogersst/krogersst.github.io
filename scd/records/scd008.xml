@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd008</identifier>
+    <description>Charley Sandage's Arkansas Stories is an album of bluegrass songs that tell stories set in Arkansas. Each song is introduced by a short narration about the story's origins. The narration and songs were written by Charles Sandage and performed by Harmony.</description>
+    <locationPurchased>Ozark Folk Center State Park, 1032 Park Ave, Mountain View, AR 72560</locationPurchased>
+    <album>
+        <albumTitle>Charley Sandage's Arkansas Stories</albumTitle>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>Unknown</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Arkansas Resource Connection</albumProducerName>
+            <albumProducerURL type="original" status="wayback">https://web.archive.org/web/20000901001501/http://arconnection.com/</albumProducerURL>
+        </albumProducer>
+        <albumLocationRecorded>Blue Mountain Studio, Timbo, AR 73680</albumLocationRecorded>
+        <albumRightsStatement>Undetermined</albumRightsStatement>
+        <albumTracks>
+            <track>
+                <trackTitle>Cahinio</trackTitle>
+                <trackLength>03:25</trackLength>
+                <trackDescription>This song is sung a cappella by Carl King with narration by Charley Sandage.</trackDescription>
+                <trackLanguage>eng</trackLanguage>
+                <trackArtist>
+                    <trackArtistName>Sandage, Charley</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>narration</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>King, Carl</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>vocals</trackArtistRole>
+                </trackArtist>
+            </track>
+        </albumTracks>
+    </album>
+    <musicGroup>
+        <musicGroupName>Harmony</musicGroupName>
+        <musicGroupLocation>Arkansas</musicGroupLocation>
+    </musicGroup>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Gillihan, Mary</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>lead vocals</musicArtistRole>
+            <musicArtistRole>harmony vocals</musicArtistRole>
+            <musicArtistRole>autoharp</musicArtistRole>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Gillihan, Robert</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>lead vocals</musicArtistRole>
+            <musicArtistRole>harmony vocals</musicArtistRole>
+            <musicArtistRole>mandolin</musicArtistRole>
+            <musicArtistRole>guitar</musicArtistRole>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Smith, Dave</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>lead vocals</musicArtistRole>
+            <musicArtistRole>harmony vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Sandage, Charley</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>narration</musicArtistRole>
+            <musicArtistRole>harmony vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>King, Carl</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <contributors>
+        <contributor>
+            <contributorName>Brackin, Dave</contributorName>
+            <contributorRole>recording</contributorRole>
+            <contributorRole>mastering</contributorRole>
+        </contributor>
+        <contributor>
+            <contributonName>Richardson Tapes</contributonName>
+            <contributorRole>manufacturer</contributorRole>
+        </contributor>
+    </contributors>
+    <appearance>
+        <insertMaterial>coated</insertMaterial>
+        <discLabel>direct on disc</discLabel>
+    </appearance>
+</CD>

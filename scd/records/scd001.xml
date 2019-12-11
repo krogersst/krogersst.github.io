@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd001</identifier>
+    <description>"Alligator Necklace" is an album by In Harms Way. The CD was purchased in Warren, Ohio at the Menagerie Thrift &amp; Gift Shopee. It was created through MP3.com's now defunct CD production service in 2000. It is a great example of the early 2000's online music environment.</description>
+    <locationPurchased>Menagerie Thrift &amp; Gift Shoppe, 6037 E Market St., Warren, OH 44484</locationPurchased>
+    <album>
+        <albumTitle>Alligator Necklace</albumTitle>
+        <albumGenre>rock</albumGenre>
+        <albumGenre>blues</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>2000</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>MP3.com</albumProducerName>
+            <albumProducerURL type="original" status="live">https://mp3.com</albumProducerURL>
+            <albumProducerURL type="original" status="wayback">https://web.archive.org/web/20001207125500/http://www.mp3.com/</albumProducerURL>
+        </albumProducer>
+        <albumLocationRecorded>Warren, Ohio</albumLocationRecorded>
+        <albumRightsStatement>Copyright 2000 In Harms Way. All Rights Reserved. Unauthorized copying, reproduction, hiring, lending, public performance and broadcasting prohibited.</albumRightsStatement>
+        <albumTracks>
+            <track order="01">
+                <trackTitle>240 Rue Bourbon</trackTitle>
+                <trackLength>03:54</trackLength>
+                <trackArtist>
+                    <trackArtistName>Stumpf, Bob</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>back-up vocals</trackArtistRole>
+                    <trackArtistRole>claps</trackArtistRole>
+                </trackArtist>
+                <trackArtist>
+                    <trackArtistName>Consbruck, Jeff</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>back-up vocals</trackArtistRole>
+                    <trackArtistRole>claps</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="02">
+              <trackTitle>Lost Without You</trackTitle>
+              <trackLength>02:45</trackLength>
+              <trackArtist>
+                  <trackArtistName>McComb, Ron</trackArtistName>
+                  <trackArtistClass>guest artist</trackArtistClass>
+                  <trackArtistRole>lead vocals</trackArtistRole>
+              </trackArtist>
+            </track>
+            <track order="03">
+              <trackTitle>Beer in the Icebox</trackTitle>
+              <trackLength>02:57</trackLength>
+              <trackArtist>
+                  <trackArtistName>McComb, Ron</trackArtistName>
+                  <trackArtistClass>guest artist</trackArtistClass>
+                  <trackArtistRole>bass</trackArtistRole>
+              </trackArtist>
+            </track>
+            <track order="04">
+              <trackTitle>John</trackTitle>
+              <trackLength>04:08</trackLength>
+            </track>
+            <track order="05">
+              <trackTitle>Gifts of the Day</trackTitle>
+              <trackLength>04:38</trackLength>
+            </track>
+            <track order="06">
+              <trackTitle>Highway Crosses</trackTitle>
+              <trackLength>07:01</trackLength>
+            </track>
+            <track order="06">
+              <trackTitle>It's Too Late</trackTitle>
+              <trackLength>04:33</trackLength>
+            </track>
+            <track order="07">
+              <trackTitle>Horseman's Soul</trackTitle>
+              <trackLength>04:42</trackLength>
+            </track>
+            <track order="08">
+              <trackTitle>10 Acre Paradise</trackTitle>
+              <trackLength>04:52</trackLength>
+            </track>
+            <track order="09">
+              <trackTitle>Day Drinking</trackTitle>
+              <trackLength>04:25</trackLength>
+            </track>
+            <track order="10">
+              <trackTitle>Burnin's</trackTitle>
+              <trackLength>04:43</trackLength>
+            </track>
+            <track order="11">
+              <trackTitle>Maybe You're the One</trackTitle>
+              <trackLength>04:04</trackLength>
+            </track>
+            <track order="12">
+              <trackTitle>Alligator Necklace</trackTitle>
+              <trackLength>04:04</trackLength>
+              <trackDescription>From the band's website: "THE NEW ONE!!!! This song gives a pretty good notion of where we are musically as a band. Pretty much Rock with a bit of New Orleans blues injected for good measure."</trackDescription>
+              <trackArtist>
+                  <trackArtistName>Andrews, Diane</trackArtistName>
+                  <trackArtistClass>guest artist</trackArtistClass>
+                  <trackArtistRole>back-up vocals</trackArtistRole>
+              </trackArtist>
+              <trackAudioURL type="original" status="wayback">https://web.archive.org/web/20001207205000/http://artists.mp3s.com/artist_song/735/735296.html</trackAudioURL>
+            </track>
+        </albumTracks>
+    </album>
+    <musicGroup>
+        <musicGroupName>In Harms Way</musicGroupName>
+        <musicGroupURL type="original" status="broken">http://mp3.com/inHarmsway</musicGroupURL>
+        <musicGroupURL type="original" status="wayback">https://web.archive.org/web/20000831093007/http://artists.mp3s.com/artists/36/in_harms_way.html</musicGroupURL>
+        <musicGroupURL type="original" status="wayback">https://web.archive.org/web/20001011114258/http://members.aol.com/harmiii/ihw.html</musicGroupURL>
+        <musicGroupLocation>Warren, Ohio</musicGroupLocation>
+    </musicGroup>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Altobelli, Joe</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>keyboard</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Harm, Andrews</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>drums</musicArtistRole>
+            <musicArtistRole>percussion</musicArtistRole>
+            <musicArtistRole>keyboard</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Fritz, Andy Joe</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Myers, Dave</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>guitar</musicArtistRole>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>McComb, Ron</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>back-up vocals</musicArtistRole>
+            <musicArtistRole>lead vocals</musicArtistRole>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Andrews, Diane</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>back-up vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Stumpf, Bob</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>back-up vocals</musicArtistRole>
+            <musicArtistRole>claps</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Consbruck, Jeff</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>back-up vocals</musicArtistRole>
+            <musicArtistRole>claps</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <contributors>
+        <contributor>
+            <contributorName>Altobelli, Joe</contributorName>
+            <contributorRole>artwork</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Fritz, Andy Joe</contributorName>
+            <contributorRole>cover photo</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Myers, Dave</contributorName>
+            <contributorRole>inside photo</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Andrews, Harm</contributorName>
+            <contributorRole>engineer</contributorRole>
+            <contributorRole>mastering</contributorRole>
+        </contributor>
+    </contributors>
+    <appearance>
+        <insertMaterial>coated</insertMaterial>
+        <discLabel>direct on disc</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_001.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_001.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features a photo by Andy Joe Fritz of a turquiose alligator necklace laying against a person's chest.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_002.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_002.jpg</imageURL>
+            <imageDescription>The back of the CD packaging appears to be generated by MP3.com and features a list of the tracks on the album.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_003.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_003.jpg</imageURL>
+            <imageDescription>The spine of the CD lists the album and band names along with "mp3.com" in white text on a black background.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_004.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_004.jpg</imageURL>
+            <imageDescription>The first page of the insert features a photo by Dave Myers of a statue of woman wearing the turquoise alligator necklace seen on the front of the CD.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_005.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_005.jpg</imageURL>
+            <imageDescription>The second page of the insert features information about the album including a list of group members, contributors, and copyright information. The background is beige with the band's logo in white.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_006.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_006.jpg</imageURL>
+            <imageDescription>The third page of the insert appears to be generated by MP3.com and features advertising for MP3.com's services.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_007.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_007.jpg</imageURL>
+            <imageDescription>The disc is a direct on disc print generated by MP3.com featuring a track list and MP3.com's logo.</imageDescription>
+        </image>
+    </appearance>
+</CD>

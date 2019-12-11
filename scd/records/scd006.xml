@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd006</identifier>
+    <description>"New York City Boy" is a self-published DJ mixset by "Evel de Musica" in Rome, Italy. The music consists of simple remixes of popular music. It was published in Winter 1999 and features printer paper inserts. How this CD found its way to a Value World outside of Cleveland is a mystery.</description>
+    <locationPurchased>Value World, 11900 Detroit Ave, Lakewood, OH 44107</locationPurchased>
+    <album>
+        <albumTitle>New York City Boy</albumTitle>
+        <albumGenre>pop</albumGenre>
+        <albumProductionType>DJ mixset</albumProductionType>
+        <albumReleaseYear>1999</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Evel de Musica</albumProducerName>
+        </albumProducer>
+        <albumLocationRecorded>Rome, Italy</albumLocationRecorded>
+        <albumRightsStatement>Undetermined</albumRightsStatement>
+        <albumTracks>
+            <track order="001">
+                <trackTitle>Ain't That Alot Of Love</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Simply Red</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="002">
+                <trackTitle>Love Is The Healer</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Donna Summer</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="003">
+                <trackTitle>My First Night With You</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Mýa</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="004">
+                <trackTitle>Bills, Bills, Bills</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Destiny's Child</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="005">
+                <trackTitle>I'm Outta Love</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Anastacia</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="006">
+                <trackTitle>New York City Boy</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Pet Shop Boys</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="007">
+                <trackTitle>Was That All Is Was</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Hannah Jones</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="008">
+                <trackTitle>Above The Clouds</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Amber</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="009">
+                <trackTitle>Waiting For Tonight</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Jennifer Lopez</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="010">
+                <trackTitle>17 Again</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Eurythmics</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+            <track order="011">
+                <trackTitle>My Love Is Your Love</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Whitney Houston</trackArtistName>
+                    <trackArtistClass>original artist</trackArtistClass>
+                </trackArtist>
+            </track>
+        </albumTracks>
+    </album>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Evel de Musica</musicArtistName>
+            <musicArtistClass>solo artist</musicArtistClass>
+        </musicArtist>
+    </musicArtists>
+    <appearance>
+        <insertMaterial>printer paper</insertMaterial>
+        <discLabel>printed adhesive label</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_031.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_031.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features an image of a shirtless man holding onto a rope in front of a white background. The mixset's title is vertically written on the left side.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_032.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_032.jpg</imageURL>
+            <imageDescription>The back of the CD packaging features a track listing with the original artists for each song over a blue gray background in addition to some further information in a gothic-style font.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_033.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_033.jpg</imageURL>
+            <imageDescription>The spine of the CD packaging lists the mixset's name along with "Winter 1999" in black text over a blue gray background.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_034.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_034.jpg</imageURL>
+            <imageDescription>The disc has a printed adhesive label with the same shirtless man from the front of the CD packaging. There is no text.</imageDescription>
+        </image>
+    </appearance>
+</CD>

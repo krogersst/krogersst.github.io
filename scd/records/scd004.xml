@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd004</identifier>
+    <description>"Our Dad the Accordion Man" featuring John Drakes is an album by Lukey's Boat, headed by John Drakes. This album consists mainly of traditional Newfoundland and Irish music with the title song written by John Drakes.</description>
+    <locationPurchased>Value World, 11900 Detroit Ave, Lakewood, OH 44107</locationPurchased>
+    <album>
+        <albumTitle>Our Dad the Accordion Man</albumTitle>
+        <albumGenre>Newfoundland folk</albumGenre>
+        <albumGenre>Irish folk</albumGenre>
+        <albumGenre>jigs</albumGenre>
+        <albumGenre>reels</albumGenre>
+        <albumGenre>country</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>2006</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Drakes, John</albumProducerName>
+            <albumProducerURL type="original" status="wayback">http://web.archive.org/web/20160308212601/http://lukeysboat.com/</albumProducerURL>
+            <albumProducerEmail>jsdrakes@hotmail.com</albumProducerEmail>
+        </albumProducer>
+        <albumLocationRecorded>Nova Scotia</albumLocationRecorded>
+        <albumRightsStatement>Undetermined</albumRightsStatement>
+        <albumTracks>
+            <track order="001">
+                <trackTitle>Stomper Down Jig</trackTitle>
+            </track>
+            <track order="002">
+                <trackTitle>Our Dad the Accordion Man</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Drakes, John</trackArtistName>
+                    <trackArtistClass>group member</trackArtistClass>
+                    <trackArtistRole>songwriter</trackArtistRole>
+                </trackArtist>
+                <trackAudioURL type="streaming" status="live">https://youtu.be/WrcCLgmhEJk</trackAudioURL>
+            </track>
+            <track order="003">
+                <trackTitle>My Lovely Irish Rose</trackTitle>
+                <trackArtist>
+                    <trackArtistName>Drakes, S.</trackArtistName>
+                    <trackArtistClass>guest artist</trackArtistClass>
+                    <trackArtistRole>accordion</trackArtistRole>
+                </trackArtist>
+            </track>
+            <track order="004">
+                <trackTitle>Tipperary Medley</trackTitle>
+            </track>
+            <track order="005">
+                <trackTitle>Old Love Letters</trackTitle>
+            </track>
+            <track order="006">
+                <trackTitle>Mrs. Murphy's Chowder</trackTitle>
+            </track>
+            <track order="007">
+                <trackTitle>Squid Jigging Ground</trackTitle>
+            </track>
+            <track order="008">
+                <trackTitle>The Town I Loved So Well</trackTitle>
+            </track>
+            <track order="009">
+                <trackTitle>Turkey In the Straw</trackTitle>
+            </track>
+            <track order="010">
+                <trackTitle>Rocking Alone</trackTitle>
+            </track>
+            <track order="011">
+                <trackTitle>Sweet Forget-Me-Not</trackTitle>
+            </track>
+            <track order="012">
+                <trackTitle>Devil's Dream</trackTitle>
+            </track>
+            <track order="013">
+                <trackTitle>I Love You Because</trackTitle>
+            </track>
+            <track order="014">
+                <trackTitle>Fisherman's Farewell</trackTitle>
+            </track>
+            <track order="015">
+                <trackTitle>Gus's Jig</trackTitle>
+            </track>
+            <track order="016">
+                <trackTitle>No It's Not Love</trackTitle>
+            </track>
+        </albumTracks>
+    </album>
+    <musicGroup>
+        <musicGroupName>Lukey's Boat</musicGroupName>
+        <musicGroupURL type="original" status="wayback">http://web.archive.org/web/20160308212601/http://lukeysboat.com/</musicGroupURL>
+        <musicGroupLocation>Nova Scotia</musicGroupLocation>
+    </musicGroup>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Drakes, John</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>accordion</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+            <musicArtistRole>rhythym</musicArtistRole>
+            <musicArtistRole>lyricist</musicArtistRole>
+            <musicArtistURL type="social" status="live">http://www.youtube.com/user/johndrakes</musicArtistURL>
+            <musicArtistEmail>jsdrakes@hotmail.com</musicArtistEmail>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Beanland, Kevin</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>lead guitar</musicArtistRole>
+            <musicArtistRole>rhythym</musicArtistRole>
+            <musicArtistRole>mandolin</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Sharpe, Bernard</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>lead guitar</musicArtistRole>
+            <musicArtistRole>rhythym</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Sarty, Jim</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>bass</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Drakes, S.</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>accordion</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <appearance>
+        <insertMaterial>photo paper</insertMaterial>
+        <discLabel>printed adhesive paper</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_021.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_021.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features a photo of Coomb's Cove, Newfoundland. Over the photo is the name of the album and a list of the album's genres. There is also a clip art image of an accordion on top of the photo as well.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_022.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_022.jpg</imageURL>
+            <imageDescription>The back of the CD packaging uses a photo of a boat as the background. Over top of the photo is the name of the album, the track list on a transparent white square, a cut out image of most likely John Drakes playing the accordion, and a black square with white text detailing contact information for John Drakes and the Lukey's Boat band.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_023.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_023.jpg</imageURL>
+            <imageDescription>The spine of the CD packaging features the album title and the main artist, John Drakes, in black font over a blue background.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_024.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_024.jpg</imageURL>
+            <imageDescription>The only insert page has a plain white background with black text that describes the inspiration for the album (John Drakes' father), an image of his father, a list of the band members involved in the production of the album, and what appears to be a photo of John Drakes and his brother.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_025.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_025.jpg</imageURL>
+            <imageDescription>The printed adhesive label on the disc features the photo of Coomb's Cove, Newfoundland from the front of the CD packaging. Over top of the photo is the cutout of John Drakes playing the accordion as seen on the back of the CD packaging. The title of the album and the list of genres the album covers is also on the disc.</imageDescription>
+        </image>
+    </appearance>
+</CD>

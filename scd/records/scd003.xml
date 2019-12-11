@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd003</identifier>
+    <description>"Whips of Karma" is a self-published solo album released in 2008 in Portland, Oregon. It features original lyrics and music by Karlis Kanbergs, primarily in the folk and folk rock genres. The CD was purchased in Warren, Ohio at the Menagerie Thrift Store. It features a printer paper insert and a photo of the artist with his guitars.</description>
+    <locationPurchased>Menagerie Thrift &amp; Gift Shoppe, 6037 E Market St., Warren, OH 44484</locationPurchased>
+    <album>
+        <albumTitle>Whips of Karma</albumTitle>
+        <albumGenre>folk rock</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>2008</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Kanbergs, Karlis</albumProducerName>
+            <albumProducerEmail>pplympton@yahoo.com</albumProducerEmail>
+        </albumProducer>
+        <albumLocationRecorded>Portland, Oregon</albumLocationRecorded>
+        <albumRightsStatement>Copyright 2008 Karlis Kanbergs</albumRightsStatement>
+        <albumTracks>
+            <track order="001">
+                <trackTitle>Santa Cruz</trackTitle>
+                <trackLength>04:08</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="002">
+                <trackTitle>Everything Will Be Ok</trackTitle>
+                <trackLength>04:00</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="003">
+                <trackTitle>Tolerance</trackTitle>
+                <trackLength>04:19</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="004">
+                <trackTitle>Whips of Karma</trackTitle>
+                <trackLength>04:09</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="005">
+                <trackTitle>Angry No More</trackTitle>
+                <trackLength>03:25</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="006">
+                <trackTitle>Buddha on a Bulldozer</trackTitle>
+                <trackLength>04:48</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="007">
+                <trackTitle>Dinosaurs and Trilobites</trackTitle>
+                <trackLength>05:29</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="008">
+                <trackTitle>Garbage Men</trackTitle>
+                <trackLength>05:25</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="009">
+                <trackTitle>Alien Says Crazy</trackTitle>
+                <trackLength>04:55</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+            <track order="010">
+                <trackTitle>Money in the Ground</trackTitle>
+                <trackLength>03:19</trackLength>
+                <trackLanguage>eng</trackLanguage>
+            </track>
+        </albumTracks>
+    </album>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Kanbergs, Karlis</musicArtistName>
+            <musicArtistClass>solo artist</musicArtistClass>
+            <musicArtistEmail>pplympton@yahoo.com</musicArtistEmail>
+        </musicArtist>
+    </musicArtists>
+    <appearance>
+        <insertMaterial>printer paper</insertMaterial>
+        <discLabel>printed adhesive paper</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_017.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_017.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features a greyscale galaxy with the name of the album and the copyright information in red text.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_018.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_018.jpg</imageURL>
+            <imageDescription>The back of the CD packaging features the track listings and information about the album in black text over a photo of the artist and his guitars.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_019.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_019.jpg</imageURL>
+            <imageDescription>The spine of the CD packaging features the name of the album and artist in red text over a black background.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_020.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_020.jpg</imageURL>
+            <imageDescription>The disc features a printed adhesive label with the album title and the artist's name in brown text over a beige galaxy.</imageDescription>
+        </image>
+    </appearance>
+</CD>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd007</identifier>
+    <description>"Takin' A Chance" is an album by the Missouri Bluegrass Band.</description>
+    <locationPurchased>West Plains, Missouri</locationPurchased>
+    <album>
+        <albumTitle>Takin' A Chance</albumTitle>
+        <albumGenre>bluegrass</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>Unknown</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Shropshire, Jerry</albumProducerName>
+        </albumProducer>
+        <albumLocationRecorded>Missouri</albumLocationRecorded>
+        <albumRightsStatement>Undetermined</albumRightsStatement>
+        <albumTracks>
+            <track number="001">
+                <trackTitle>Pick Away</trackTitle>
+            </track>
+            <track number="002">
+                <trackTitle>East Virginia Blues</trackTitle>
+            </track>
+            <track number="003">
+                <trackTitle>Maggie</trackTitle>
+            </track>
+            <track number="004">
+                <trackTitle>Paradise</trackTitle>
+            </track>
+            <track number="005">
+                <trackTitle>The Last Time</trackTitle>
+            </track>
+            <track number="006">
+                <trackTitle>Higher Ground</trackTitle>
+            </track>
+            <track number="007">
+                <trackTitle>Roses In The Snow</trackTitle>
+            </track>
+            <track number="008">
+                <trackTitle>Bootleg John</trackTitle>
+            </track>
+            <track number="009">
+                <trackTitle>Shelley's Winter Love</trackTitle>
+            </track>
+            <track number="010">
+                <trackTitle>Kept And Protected</trackTitle>
+            </track>
+            <track number="011">
+                <trackTitle>Out Among The Stars</trackTitle>
+            </track>
+            <track number="012">
+                <trackTitle>Cripple Creek</trackTitle>
+            </track>
+        </albumTracks>
+    </album>
+    <musicGroup>
+        <musicGroupName>The Missouri Bluegrass Band</musicGroupName>
+        <musicGroupLocation>Missouri</musicGroupLocation>
+    </musicGroup>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>Shropshire, Jerry</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>guitar</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Paynter, Rendee</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>bass</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Osborne, Darren</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>mandolin</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Cowden, Ron</musicArtistName>
+            <musicArtistClass>group member</musicArtistClass>
+            <musicArtistRole>banjo</musicArtistRole>
+            <musicArtistRole>vocals</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <contributors>
+        <contributor>
+            <contributorName>Elfrink, Earl</contributorName>
+            <contributorRole>luthier</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Osborne, Daleah</contributorName>
+            <contributorRole>support</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Raney, Jon</contributorName>
+            <contributorRole>recording</contributorRole>
+        </contributor>
+        <contributor>
+            <contributorName>Raney, Zyndall</contributorName>
+            <contributorRole>owner of truck in cover photo</contributorRole>
+        </contributor>
+    </contributors>
+    <appearance>
+        <insertMaterial>coated</insertMaterial>
+        <discLabel>direct on disc</discLabel>
+        <image type="front">
+            <imageID></imageID>
+            <imageURL></imageURL>
+            <imageDescription></imageDescription>
+        </image>
+        <image type="back">
+            <imageID></imageID>
+            <imageURL></imageURL>
+            <imageDescription></imageDescription>
+        </image>
+        <image type="spine">
+            <imageID></imageID>
+            <imageURL></imageURL>
+            <imageDescription></imageDescription>
+        </image>
+        <image type="insert">
+            <imageID></imageID>
+            <imageURL></imageURL>
+            <imageDescription></imageDescription>
+        </image>
+        <image type="disc">
+            <imageID></imageID>
+            <imageURL></imageURL>
+            <imageDescription></imageDescription>
+        </image>
+    </appearance>
+</CD>

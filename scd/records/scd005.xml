@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <identifier>scd005</identifier>
+    <description>"Ghosts of the Old West" is a solo album by Yancey de Veer. It is signed by the artist in gold ink.</description>
+    <locationPurchased>Value World, 11900 Detroit Ave, Lakewood, OH 44107</locationPurchased>
+    <album>
+        <albumTitle>Ghosts of the Old West</albumTitle>
+        <albumGenre>country</albumGenre>
+        <albumProductionType>studio</albumProductionType>
+        <albumReleaseYear>Unknown</albumReleaseYear>
+        <albumProducer>
+            <albumProducerName>Switchback Records</albumProducerName>
+            <albumProducerEmail>switchback-music@home.com</albumProducerEmail>
+        </albumProducer>
+        <albumLocationRecorded>Nokomis, Florida</albumLocationRecorded>
+        <albumRightsStatement>Undetermined</albumRightsStatement>
+        <albumTracks>
+            <track order="001">
+                <trackTitle>ghost riders in the sky</trackTitle>
+            </track>
+            <track order="002">
+                <trackTitle>south of the border</trackTitle>
+            </track>
+            <track order="003">
+                <trackTitle>chime bell yodel</trackTitle>
+            </track>
+            <track order="004">
+                <trackTitle>whispering pines</trackTitle>
+            </track>
+            <track order="005">
+                <trackTitle>buffalo gal medley</trackTitle>
+            </track>
+            <track order="006">
+                <trackTitle>don't fence me in</trackTitle>
+            </track>
+            <track order="007">
+                <trackTitle>tennessee stud</trackTitle>
+            </track>
+            <track order="008">
+                <trackTitle>the blizzard</trackTitle>
+            </track>
+            <track order="009">
+                <trackTitle>everlasting hills of oklahoma</trackTitle>
+            </track>
+            <track order="010">
+                <trackTitle>old paint</trackTitle>
+            </track>
+            <track order="011">
+                <trackTitle>long tall texan</trackTitle>
+            </track>
+            <track order="012">
+                <trackTitle>ages &amp; ages ago</trackTitle>
+            </track>
+            <track order="013">
+                <trackTitle>git along lil doggie</trackTitle>
+            </track>
+            <track order="014">
+                <trackTitle>red river valley</trackTitle>
+            </track>
+            <track order="015">
+                <trackTitle>wabash cannonball</trackTitle>
+            </track>
+            <track order="016">
+                <trackTitle>waltz across texas</trackTitle>
+            </track>
+            <track order="017">
+                <trackTitle>cheyenne stage</trackTitle>
+            </track>
+            <track order="018">
+                <trackTitle>mockingbird hill</trackTitle>
+            </track>
+            <track order="019">
+                <trackTitle>streets of laredo</trackTitle>
+            </track>
+            <track order="020">
+                <trackTitle>blue shadows on the trail</trackTitle>
+            </track>
+            <track order="021">
+                <trackTitle>i've been everywhere</trackTitle>
+            </track>
+            <track order="022">
+                <trackTitle>the works all done this fall</trackTitle>
+            </track>
+            <track order="023">
+                <trackTitle>happy trails</trackTitle>
+            </track>
+        </albumTracks>
+    </album>
+    <musicArtists>
+        <musicArtist>
+            <musicArtistName>de Veer, Yancey</musicArtistName>
+            <musicArtistClass>solo artist</musicArtistClass>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Bones, T. Buckaroo</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>fiddle</musicArtistRole>
+        </musicArtist>
+        <musicArtist>
+            <musicArtistName>Ms. Peggy</musicArtistName>
+            <musicArtistClass>guest artist</musicArtistClass>
+            <musicArtistRole>fiddle</musicArtistRole>
+        </musicArtist>
+    </musicArtists>
+    <contributors>
+        <contributor>
+            <contributorName>DIANA</contributorName>
+            <contributorRole>cover art</contributorRole>
+            <contributorRole>photography</contributorRole>
+        </contributor>
+    </contributors>
+    <appearance>
+        <signature>Yancey</signature>
+        <insertMaterial>coated</insertMaterial>
+        <discLabel>printed adhesive label</discLabel>
+        <image type="front">
+            <imageID>scd_20191125_026.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_026.jpg</imageURL>
+            <imageDescription>The front of the CD packaging features a photo by "DIANA" of Yancey de Veer with his guitar. Next to the photo is "Yancey de Veer" in yellow flowing text, and the title of the album in black, western-style text. "Yancey" has been signed over the photo in gold ink, and more gold ink splotches can be seen on the front of the CD.</imageDescription>
+        </image>
+        <image type="back">
+            <imageID>scd_20191125_027.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_027.jpg</imageURL>
+            <imageDescription>The back of the CD packaging features a photo by "DIANA" of Yancey de Veer with his guitar taken from behind. Over top of the photo is the track listing in white, western-style text.</imageDescription>
+        </image>
+        <image type="spine">
+            <imageID>scd_20191125_028.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_028.jpg</imageURL>
+            <imageDescription>The spine of the CD packaging features a continuation of the photo on the back of the CD. The name of the artist and the album are in white text over the photo.</imageDescription>
+        </image>
+        <image type="insert">
+            <imageID>scd_20191125_029.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_029.jpg</imageURL>
+            <imageDescription>The single page insert features a grayscale photo by "DIANA" of Yancey de Veer with his guitar. A description of the album by Yancey, bookings and information, and credits are written in black western-style text.</imageDescription>
+        </image>
+        <image type="disc">
+            <imageID>scd_20191125_030.jpg</imageID>
+            <imageURL>https://krogersst.github.io/scd/images/scd_20191125_030.jpg</imageURL>
+            <imageDescription>The disc has a printed adhesive label featuring a color version of the photo of Yancey de Veer from the insert opposite the track listing in white over a blue background.</imageDescription>
+        </image>
+    </appearance>
+</CD>
