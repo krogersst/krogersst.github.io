@@ -14,6 +14,11 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
+Archives Intern [September 2019 - Current]  
+_International Women's Air and Space Museum, Cleveland, OH_  
+- Catalogs and digitizes items in archives including clothing, photographs, and ephemera
+- Assists Collections Manager with reference material inquiries
+
 Library Associate [July 2018 - July 2019]  
 _Local History and Genealogy Department  
 Kenton County Public Library, Covington, KY_
