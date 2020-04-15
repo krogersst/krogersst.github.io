@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="page practicum">
+
+  <div class="page-flex">
+
+    <a class="p-header-link" href="{{ page.header-url }}"><div class="p-header-pic" style="background-image: url('{{ site.url }}/assets/images/{{ page.header-pic }}')"></div></a>
+
+    <div class="page-right">
+
+      <div class="p-mlis-header">
+        <a href="{{ '/mlis/portoflio/home' | relative_url }}">Kent State MLIS Program</a>
+      </div>
+
+      <div class="p-header">
+        <div>
+        <div class="p-header-one"><a href="{{ '/mlis/portfolio/home' | relative_url }}">MLIS Portfolio</a></div>
+        </div>
+        <div class="p-nav spadefoot-links">
+          <a href="{{ "/mlis/portfolio/this-i-believe" | relative_url }}">this i believe</a>
+          <div> / </div>
+          <a href="{{ "/mlis/portfolio/coursework" | relative_url }}">coursework</a>
+          <div> / </div>
+          <a href="{{ "/mlis/portfolio/resume" | relative_url }}">resume</a>
+          <div> / </div>
+          <a href="{{ "/mlis/portfolio/projects" | relative_url }}">projects</a>
+        </div>
+
+      </div>
+
+      <div class="page-content">
+        {{ content }}
+      </div>
+
+    </div>
+
+    <div style="min-width: 205px;"></div>
+
+  </div>
+
+
+</article>

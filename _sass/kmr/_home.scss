@@ -72,6 +72,12 @@
     display: flex;
     flex-flow: row;
     margin-bottom: 60px;
+    .link-sub {
+      margin-left: -100px;
+    }
+    .link-header {
+      margin-left: -150px;
+    }
   }
 
 .example-pic {
@@ -86,18 +92,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: left;
-      .link-sub {
-        margin-top: 5px;
-        margin-left: -100px;
-        span {
-          font-style: italic;
-          font-family: $Abel;
-          font-size: 22px;
-          padding-left: 5px;
-          padding-right: 10px;
-          background-color: $cream;
-        }
-      }
       p {
         overflow: hidden;
         margin-top: 5px;
@@ -117,9 +111,21 @@
         }
       }
 }
+
+.link-sub {
+  margin-top: 5px;
+  span {
+    font-style: italic;
+    font-family: $Abel;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: $cream;
+  }
+}
+
 .page-content .link-header {
   text-decoration: none;
-  margin-left: -150px;
   font-size: 25px;
   font-family: $Abel;
   font-weight: bold;
@@ -175,4 +181,26 @@
   background-image: url("assets/images/devils_tower.jpg");
   background-position: center top;
   }
+}
+
+#mlis-csu {
+  .example-pic {
+  background-image: url("assets/images/guardian.png");
+  background-position: center top;
+  background-size: 200%;
+  }
+}
+
+#mlis-meta {
+  .example-pic {
+  background-image: url("assets/images/alligator.jpg");
+  background-position: center;
+  background-size: 110%;
+  }
+}
+
+#mlis-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }

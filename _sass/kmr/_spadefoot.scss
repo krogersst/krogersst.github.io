@@ -25,6 +25,8 @@
     right: auto;
     bottom: 20px;
   }
+}
+.spadefoot-header, .p-nav {
   a {
     text-decoration: none;
     font-family: $Abel;
@@ -36,6 +38,7 @@
 
 .spadefoot-title {
   font-size: 50px;
+  text-align: center;
 }
 
 .spadefoot-links {
@@ -97,14 +100,17 @@
   border-radius: 5px;
 }
 
-.spadefoot-content {
+.spadefoot-content .ui-tabs .ui-tabs-panel {
+      align-items: center;
+}
+
+.spadefoot-content, .practicum {
   .ui-tabs {
     .ui-tabs-panel {
     border-radius: 5px;
     border: black 2px solid;
     display: flex;
     flex-direction: column;
-    align-items: center;
     }
     .ui-tabs-nav {
       margin-left: 15px;

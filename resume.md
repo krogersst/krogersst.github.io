@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: toadstools_n278_w1150.jpg
 ---
 #### Education
-Masters of Library and Information Science [Fall 2018 - Spring 2020]  
+[Masters of Library and Information Science]({{ site.baseurl }}/mlis/) [Fall 2018 - Spring 2020]  
 _Kent State University, Kent, OH_
 - Emphasis on Digital Cultural Heritage Informatics
 
@@ -14,10 +14,20 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
+[Special Collections Intern]({{ site.baseurl }}/mlis/practicum/about) [January 2020 - Current]  
+_Cleveland State University Special Collections, Cleveland, OH_
+- Processes and creates metadata entries for over 1,000 photos for [Cleveland Memory](https://clevelandmemory.org)
+- Created content for and updated Special Collections' online [local history research guide](https://researchguides.csuohio.edu/localhistory) on the LibGuides platform
+- Contributed entries to [Ohio Outdoor Sculpture's](https://oos.sculpturecenter.org) Omeka Database
+
 Archives Intern [September 2019 - Current]  
 _International Women's Air and Space Museum, Cleveland, OH_  
 - Catalogs and digitizes items in archives including clothing, photographs, and ephemera
 - Assists Collections Manager with reference material inquiries
+
+Guest Engagement Specialist [March 2020 - Current]  
+_Great Lakes Science Center, Cleveland, OH_  
+- Provides Science Center guests with informal learning experiences
 
 Library Associate [July 2018 - July 2019]  
 _Local History and Genealogy Department  
@@ -43,6 +53,9 @@ _Visualizing Abolition, University of Missouri Honors College, Columbia, MO_
 - Programmed the interactive database, map, and timeline visualizations
 
 #### Presentations and Publications
+[S. S. Canadiana](https://clevelandhistorical.org/items/show/905)  
+_Cleveland Historical_, Center for Public History + Digital Humanities at Cleveland State University
+
 [So You Want to Make a Digital Humanities Website]({{ site.baseurl }}{% post_url 2018-02-23-digital-humanities-website %})
 A Rice University Digital Humanities Workshop [April 2018]  
 _Rice University, Houston, TX_

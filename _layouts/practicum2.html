@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="page practicum">
+
+  <div class="page-flex">
+
+    <a href="{{ page.header-url }}"><div class="p-header-pic" style="background-image: url('{{ site.url }}/assets/images/{{ page.header-pic }}')"></div></a>
+
+    <div class="page-right">
+
+      <div class="p-mlis-header">
+        <a href="{{ 'mlis/portfolio/home' | relative_url }}">Kent State MLIS Program</a>
+      </div>
+
+      <div class="p-header">
+        <div class="p-header-one"><span><a href="{{ '/mlis/practicum/home' | relative_url }}">digital special collections practicum</a></span></div>
+        <div class="p-nav spadefoot-links">
+          <a href="{{ '/mlis/practicum/home' | relative_url }}">about</a>
+          <div> / </div>
+          <a href="{{ "/mlis/practicum/portfolio" | relative_url }}">portfolio</a>
+          <div> / </div>
+          <a href="{{ "/mlis/practicum/worklog" | relative_url }}">work log</a>
+          <div> / </div>
+          <a href="{{ "/mlis/practicum/assessment" | relative_url }}">assessment</a>
+        </div>
+
+      </div>
+
+      <div class="page-content">
+        {{ content }}
+      </div>
+
+    </div>
+
+    <div style="min-width: 205px;"></div>
+
+  </div>
+
+
+</article>
