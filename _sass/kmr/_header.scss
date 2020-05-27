@@ -10,11 +10,12 @@
 #nav-header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding: {
       top: 15px;
       bottom: 15px;
     }
-    @media ($phone) {
+    @media (max-width: 820px) {
       flex-direction: column;
       padding: {
         top: 5px;
@@ -49,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   @media ($desktop) {align-self: flex-end; padding-left: 15px;}
-  @media ($phone) {align-self: flex-start; padding-top: 5px;}
+  @media (max-width: 820px) {align-self: flex-start; padding-top: 5px;}
   a {
   color: $black;
   padding-left: 10px;
@@ -57,7 +58,7 @@
   font-family: $Abel;
   font-size: 20px;
   &:first-of-type {
-    @media ($phone) {
+    @media (max-width: 820px) {
     padding-left: 0px;
     }
   }
