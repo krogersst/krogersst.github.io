@@ -17,10 +17,8 @@ $cream: #F0E3D0;
 // default fonts
 
 $base-font-family: "Open Sans", sans-serif !default;
-$accent-font-family: "Sarina", cursive;
-$serif-font-family: "Lora", serif;
 $Abel: "Abel", sans-serif;
-$Kavi:'Kavivanar', cursive;
+
 
 // spacing
 
@@ -28,6 +26,14 @@ $main-margin: 5px;
 $spacing-unit: 20px !default;
 $content-width: 1000px !default;
 $wrap-mini: 80%;
+
+
+// responsive spacing
+
+$desktop: "min-width: 1101px"; // @ screen size above 1101px
+$tablet: "max-width: 1100px"; // @ screen size below 1100px
+$phone: "max-width: 520px"; // @ screen size below 520px
+
 
 // Import partials.
 

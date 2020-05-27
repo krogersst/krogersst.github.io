@@ -12,33 +12,34 @@ dl, dd, figure {
  * Basic styling
  */
 
-/** Forces Footer to Bottom of Screen Part 1 **/
+/** forces footer to bottom of screen (part 2) **/
 html {
   height: 100%;
 }
 
 body {
+  /** base styling **/
   font-family: $base-font-family;
   background-color: $background-color;
-  /** Forces Footer to Bottom of Screen Part 2 **/
-  display: flex;
+
+  /** forces footer to bottom of screen (part 2) **/
   height: 100%;
+  display: flex;
   flex-direction: column;
 }
 
-/** Forces Footer to Bottom of Screen Part 3 **/
+/** forces footer to bottom of screen (part 3) **/
 main {
   flex: 1 0 auto;
 }
 
-/**
- * Wrapper
- */
-
-/** NEEDED???? **/
 .wrapper {
   margin: auto;
+  @media ($desktop) {width: 80%;}
+  @media ($tablet) {width: 90%;}
+  @media ($phone) {width: 95%;}
 }
+
 
 /**
  * Links

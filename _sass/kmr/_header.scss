@@ -8,15 +8,18 @@
 }
 
 #nav-header {
-    width: $wrap-mini;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: {
-      left: 0px;
-      right: 0px;
       top: 15px;
       bottom: 15px;
+    }
+    @media ($phone) {
+      flex-direction: column;
+      padding: {
+        top: 5px;
+        bottom: 5px;
+      }
     }
 }
 
@@ -44,16 +47,21 @@
 
 .nav-links {
   display: flex;
-  padding-left: 15px;
   justify-content: space-between;
-  align-self: flex-end;
+  @media ($desktop) {align-self: flex-end; padding-left: 15px;}
+  @media ($phone) {align-self: flex-start; padding-top: 5px;}
   a {
   color: $black;
   padding-left: 10px;
   padding-right: 10px;
   font-family: $Abel;
   font-size: 20px;
+  &:first-of-type {
+    @media ($phone) {
+    padding-left: 0px;
+    }
   }
+}
   div {
     color: $black;
     font-family: $Abel;

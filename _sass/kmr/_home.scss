@@ -1,19 +1,11 @@
 /**
 * Home
 */
-.home-story {
-    width: 100%;
-    margin-top: 0;
-    .home-wrap {
-        width: $wrap-mini;
-        margin: auto;
-    }
-    h1 {
-      font-family: $Abel;
-      text-align: center;
-      margin-bottom: 40px;
-      padding: 5px;
-    }
+.home-story h1 {
+  font-family: $Abel;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 5px;
 }
 
 .intro-box {
