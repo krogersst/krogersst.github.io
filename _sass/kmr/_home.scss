@@ -1,6 +1,7 @@
 /**
-* Home
+* Home Header
 */
+
 .home-story h1 {
   font-family: $Abel;
   text-align: center;
@@ -12,14 +13,28 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 40px;
-    margin-top: 10px;
     background: url("assets/images/toadstools_2.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 1200px;
     background-color: $cream;
-    min-height: 300px;
+
+    /** responsive positioning **/
+    @media ($desktop) {
+      height: 300px;
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+    @media ($tablet) {
+      height: 200px;
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+    @media ($phone) {
+      height: 150px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
 }
 
 .home-ribbon {
@@ -29,29 +44,75 @@
     align-items: center;
     .home-title {
         background-color: $yellow;
-        margin-left: -100px;
-        padding: 5px 30px;
-        margin-bottom: 10px;
-        font-size: 50px;
         font-family: $Abel;
         color: white;
+
+        /** responsive positioning **/
+        @media ($desktop) {
+          margin-left: -100px;
+          padding: 5px 30px;
+          margin-bottom: 10px;
+          font-size: 50px;
+        }
+        @media ($tablet) {
+          font-size: 40px;
+          margin-left: -20px;
+          margin-bottom: 5px;
+          padding: 5px 15px;
+        }
+        @media (max-width: 560px) {
+          font-size: 30px;
+          margin-left: 0px;
+          margin-bottom: 5px;
+          padding: 5px;
+        }
     }
     .home-desc {
-        margin-left: 20px;
         background-color: white;
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 20px;
         color: black;
         font-family: $base-font-family;
         font-style: italic;
+
+        /** responsive positioning and font-size **/
+        @media ($desktop) {
+          margin-left: 20px;
+          padding: 5px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 20px;
+        }
+        @media ($tablet) {
+          margin-left: 15px;
+          padding: 5px;
+          font-size: 18px;
+        }
+        @media (max-width: 650px) {
+          margin-left: 10px;
+          padding: 5px;
+          font-size: 14px;
+        }
+        @media ($phone) {
+          margin-left: 10px;
+          padding: {
+            top: 2px;
+            bottom: 2px;
+            left: 4px;
+            right: 4px;
+          }
+          font-size: 13px;
+        }
     }
 }
 
+/**
+* Portfolio
+*/
+
 .portfolio-box {
   h1 {
-    font-size: 30px;
+    /** responsive font-size **/
+    @media ($desktop) {font-size: 30px;}
+    @media ($tablet) {font-size: 25px;}
   }
 }
 
@@ -62,20 +123,48 @@
 
 .example {
     display: flex;
-    flex-flow: row;
-    margin-bottom: 60px;
+    /** responsive positioning **/
+    @media (min-width: 1231px) {flex-flow: row; margin-bottom: 60px;}
+    @media (max-width: 1230px) {flex-flow: row; margin-bottom: 60px;}
+    @media (max-width: 950px) {flex-flow: column; margin-bottom: 40px;}
     .link-sub {
-      margin-left: -100px;
+      @media (min-width: 1231px) {margin-left: -100px;}
+      @media (max-width: 1230px) {margin-left: -100px;}
+      @media (max-width: 950px) {margin-left: 0px;}
     }
     .link-header {
-      margin-left: -150px;
+      @media (min-width: 1231px) {margin-left: -150px;}
+      @media (max-width: 1230px) {margin-left: -150px;}
+      @media (max-width: 950px) {margin-left: 0px;}
     }
   }
 
 .example-pic {
-    min-width: 300px;
-    min-height: 300px;
-    border-radius: 150px;
+    /** responsive circle size **/
+    @media (min-width: 1231px) {
+      min-height: 300px;
+      max-height: 300px;
+      min-width: 300px;
+      border-radius: 150px;
+    }
+    @media (max-width: 1230px) {
+      min-height: 250px;
+      max-height: 250px;
+      min-width: 250px;
+      border-radius: 125px;
+    }
+    @media (max-width: 950px) {
+      max-height: 125px;
+      min-height: 125px;
+      max-width: 250px;
+      min-width: 250px;
+      border-top-left-radius: 250px;
+      border-top-right-radius: 250px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      margin-bottom: 10px;
+      margin-left: 5px;
+    }
 }
 
 .example-text {
@@ -85,42 +174,22 @@
   justify-content: center;
   text-align: left;
       p {
-        overflow: hidden;
         margin-top: 5px;
-        font-size: 15px;
+        /** responsive font-size **/
+        @media (min-width: 1231px) {font-size: 15px;}
+        @media (max-width: 1230px) {font-size: 15px;}
+        @media (max-width: 950px) {font-size: 14px;}
       }
-      .read-more {
-        margin-top: 5px;
-        a {
-          font-size: 16px;
-          background-color: $black;
-          color: white;
-          font-style: italic;
-          padding: {
-            left: 2px;
-            right: 2px;
-          }
-        }
-      }
-}
-
-.link-sub {
-  margin-top: 5px;
-  span {
-    font-style: italic;
-    font-family: $Abel;
-    font-size: 22px;
-    padding-left: 5px;
-    padding-right: 10px;
-    background-color: $cream;
-  }
 }
 
 .portfolio .link-header {
   text-decoration: none;
-  font-size: 25px;
   font-family: $Abel;
   font-weight: bold;
+  /** responsive font-size **/
+  @media (min-width: 1231px) {font-size: 25px;}
+  @media (max-width: 1230px) {font-size: 22px;}
+  @media (max-width: 950px) {font-size: 20px; line-height: 30px;}
   span {
    background-color: $yellow;
    color: white;
@@ -132,6 +201,25 @@
  }
  margin-bottom: 5px;
 }
+
+.link-sub {
+  margin-top: 5px;
+  span {
+    font-style: italic;
+    font-family: $Abel;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: $cream;
+    /** responsive font-size **/
+    @media (min-width: 1231px) {font-size: 22px;}
+    @media (max-width: 1230px) {font-size: 20px;}
+    @media (max-width: 950px) {font-size: 18px;}
+  }
+}
+
+/**
+* Photo Styling
+*/
 
 #mlis {
   .example-pic {
@@ -157,15 +245,24 @@
 
 #visual_ab {
   .example-pic {
-  background-image: url("assets/images/ILN_watercarrier.jpg");
-  background-size: 400px;
+    /** responsive photo size and position **/
+    @media (min-width: 951px) {
+      background-image: url("assets/images/ILN_watercarrier.jpg");
+      background-size: 400px;
+    }
+    @media (max-width: 950px) {
+      background-image: url("assets/images/ILN_watercarrier_small.png");
+      background-size: 100%;
+    }
   }
 }
 
 #holiday {
   .example-pic {
   background-image: url("assets/images/Holiday_Dinner2.jpg");
-  background-position: center left;
+  /** responsive positioning **/
+  @media (min-width: 951px) {background-position: center left;}
+  @media (max-width: 950px) {background-position: center right;}
   }
 }
 
