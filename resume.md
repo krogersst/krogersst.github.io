@@ -2,7 +2,8 @@
 layout: page
 title: Resume
 permalink: /resume/
-header-pic: toadstools_n278_w1150.jpg
+header-pic: valstarnes_header.png
+header-pic-alt: valstarnes_header_alt.png
 ---
 Full PDF [here]({{ site.baseurl }}/assets/Resume_KRogers2020.pdf).
 
