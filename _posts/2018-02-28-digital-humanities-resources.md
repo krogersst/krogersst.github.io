@@ -13,10 +13,6 @@ categories: tutorial
 
 Throughout the process of building Visualizing Abolition I collected a variety of resources and tutorials that helped me in making a website of this type with all of its associated components, i.e. the plugin that produces the database and visualizations. To make your journey a bit easier, I've put them all in one place. But this doesn't mean you should stop here. The biggest skill I learned during the production of this site was googling my heart out. So explore the almost limitless resources and help people are glad to share with you freely.
 
-*This page is being updated constantly. Come back often to see new resources*
-
-<!--TODO: expand-->
-
 #### Programs
 
 * [Atom](https://atom.io): Free, open-source, text editor that is scalable and intuitive. I cannot recommend Atom enough.

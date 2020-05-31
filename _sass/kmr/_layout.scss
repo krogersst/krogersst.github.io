@@ -1,5 +1,5 @@
 /**
- * Page content
+ * Page
  */
 
 .page {
@@ -7,26 +7,6 @@
   @media (max-width: 1050px) {margin-top: 0px;}
  }
 
-.page-heading {
-  font-size: 20px;
-}
-
-.post-list {
-  margin-left: 0;
-  list-style: circle;
-
-  > li {
-    margin-bottom: $spacing-unit;
-  }
-}
-
-.post-link {
-  display: block;
-  font-size: 24px;
-}
-/**
-* Pages
-*/
 .page-flex {
   display: flex;
   @media (min-width: 1056px) {flex-direction: row;}
@@ -35,14 +15,14 @@
   min-height: 400px;
 }
 
-.page-right {
+.page-right, .post-width {
   @media (min-width: 1301px) {width: 800px;}
   @media (max-width: 1300px) {width: 700px;}
   @media (max-width: 750px) {width: 90%;}
   @media ($phone) {width: 95%;}
 }
 
-.page-header-pic {
+.page-header-pic, .post-image {
   @media (min-width: 1301px) {
   max-width: 200px;
   max-height: 400px;
@@ -61,6 +41,8 @@
     flex: 1 0 auto;
     margin-right: 5px;
   }
+}
+.page-header-pic {
   @media (max-width: 1056px) {display: none;}
 }
 
@@ -134,18 +116,6 @@
  * Posts
  */
 
-.post-quote {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-weight: bold;
-  color: #4e4e4e;
-  padding: 20px;
-  background-color: lightgray;
-  a {
-    font-weight: normal;
-  }
-}
-
 .post-title {
   display: none;
   margin-top: 20px;
@@ -160,11 +130,13 @@
   justify-content: center;
 }
 .post-photos {
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 200px;
+  @media (min-width: 1301px) {min-width: 200px; margin-right: 20px;}
+  @media (max-width: 1300px) {min-width: 150px; margin-right: 15px;}
+  @media (max-width: 1055px) {margin-right: 10px;}
+  @media (max-width: 900px) {display: none;}
   .post-image {
     background-position: center top;
     background-size: cover;
@@ -173,17 +145,31 @@
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
     margin-bottom: 20px;
+    @media (max-width: 1055px) {border-radius: 0px;}
   }
 }
 
-.right-sidebar {
-  margin-left: 10px;
-  min-width: 210px;
+.post-list {
+  margin-left: 0;
+  list-style: circle;
+  > li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
-.post-width {
-  width: 50%;
-  margin-bottom: 0px;
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+.post-quote {
+ font-weight: bold;
+ color: #4e4e4e;
+ padding: 20px;
+ background-color: lightgray;
+ a {
+   font-weight: normal;
+ }
 }
 
 .post-content {
@@ -221,7 +207,7 @@
 .post-content, .page-content {
 
   img {
-    max-width: 800px;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -274,11 +260,27 @@
       padding-right: 2px;
     }
   }
-  .footnotes {
-    padding-left: 15px;
+  ol, ul {
+    @media ($phone) {padding-left: 25px;}
+  }
+
+  .footnotes ol {
+    margin-left: 0px;
   }
 
   blockquote {
+    @media (min-width: 901px) {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    @media (max-width: 900px) {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    @media ($phone) {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
     background-color: lighten($color-main, 20%);
     border-left: 4px solid $color-main;
     padding: 5px;

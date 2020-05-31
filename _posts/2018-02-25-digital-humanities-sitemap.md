@@ -33,13 +33,13 @@ A streamlined site is a wonderful thing, but don't leave out important pages jus
 
 Many common elements can be made as separate pages, nested under other pages, or included on one single page. How you decide to set your site up depends on the importance of each element, the pathways you would like the user to take, and simple logic. For example, **About, Contact Us,** and **Copyright** can all be structured differently in relation to each other depending on a variety of situations:
 
-![About Page Setup One]({{ "/assets/images/tutorial/aboutpage1.png" | absolute_url }})
+[![About Page Setup One]({{ "/assets/images/tutorial/aboutpage1.png" | absolute_url }})]({{ "/assets/images/tutorial/aboutpage1.png" | absolute_url }})
 **Contact Us** and **Copyright** are separate pages that the user navigates to through the **About** parent page, or through a drop-down menu. This creates a storybook route for the user where About _leads_ to the next page. Once the user reads about the project they may want to understand how they can use the project in their own work, or how to contact the authors.
 
-![About Page Setup Two]({{ "/assets/images/tutorial/aboutpage2.png" | absolute_url }})
+[![About Page Setup Two]({{ "/assets/images/tutorial/aboutpage2.png" | absolute_url }})]({{ "/assets/images/tutorial/aboutpage2.png" | absolute_url }})
 **Contact Us** and **Copyright** are their own pages nested right at the base of the site. The user navigates to these pages directly from the top layer of the menu, or from a link on the home page. This set-up is used when these elements are considered vital to the website's message. Top-layer pages are the next stop for the user after landing on the home page. Perhaps the user has enough information from the home page that they are eager to contact the authors or look into how to use the website in their own project.
 
-![About Page Setup Three]({{ "/assets/images/tutorial/aboutpage4.png" | absolute_url }})
+[![About Page Setup Three]({{ "/assets/images/tutorial/aboutpage4.png" | absolute_url }})]({{ "/assets/images/tutorial/aboutpage4.png" | absolute_url }})
 **Contact Us** and **Copyright** are subsections of the **About** page and are not linked to by any part of the website, but are merely a part of a larger page. This is good for when an element does not take up a lot of space both physically and productively. The website may not have require a lengthy contact form and merely a link to Facebook or an email. Similarly, a single, fair-use copyright may cover the entirety of the project and requires little explanation.
 
 #### Building Your Own Sitemap

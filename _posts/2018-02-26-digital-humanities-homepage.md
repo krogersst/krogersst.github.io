@@ -27,7 +27,7 @@ Describe your project as simply and concisely as possible so the user knows exac
 
 Most pages have the same basic structure: header --> body or content --> footer. This helps a user who is unfamiliar with the site navigate easily even on their first visit.
 
-![Visualizing Abolition Wireframe]({{ "assets/images/tutorial/wireframe_visab2.png" | absolute_url }})
+[![Visualizing Abolition Wireframe]({{ "assets/images/tutorial/wireframe_visab2.png" | absolute_url }})]({{ "assets/images/tutorial/wireframe_visab2.png" | absolute_url }})
 
 As the eye moves down the page, information becomes more and more specialized and directs the user to their next step. You can play around with how the body of your homepage is structured but for most sites, especially academic oriented sites, the header and footer must stay simple and straight forward. Don't make the user hunt down the navigation bar or the title of the site. The body is reserved for a short description, representative images, and emphasizing top-level pages. You can have more stylistic freedom here as this is where the spirit of the site is first expressed. Finally, the footer usually holds abridged copyright, sponsor, and contact information.
 
@@ -55,19 +55,19 @@ Take a look at each of these DH homepages and analyze what works and what doesn'
 
 ##### [To be continued . . . The Australian Newspaper Fiction Database](http://cdhrdatasys.anu.edu.au/tobecontinued/)
 
-![To Be Continued Hompage]({{ "/assets/images/tutorial/tbc_homepage.png" | absolute_url }})
+[![To Be Continued Hompage]({{ "/assets/images/tutorial/tbc_homepage.png" | absolute_url }})]({{ "/assets/images/tutorial/tbc_homepage.png" | absolute_url }})
 
 The title of this site gives us a good idea of what's in store, combined with a slideshow of large illustrations from the database, gives us a feel for the tone of the site. It's a light-hearted project, focusing on popular fiction of the past. I would prefer there be a short blurb expanding on the project's goal or purpose or what the user can do on the site. The **database** and **getting involved** are the top-level pages that are emphasized through separate orange buttons.
 
 ##### [What America Ate: Preserving America's Culinary History from the Great Depression](http://whatamericaate.org/index.php)
 
-![What America Ate Homepage]({{ "assets/images/tutorial/whatamericaate_homepage.png" | absolute_url }})
+[![What America Ate Homepage]({{ "assets/images/tutorial/whatamericaate_homepage.png" | absolute_url }})]({{ "assets/images/tutorial/whatamericaate_homepage.png" | absolute_url }})
 
 I adore this homepage. It is bright, engaging, and simple. It sets the tone nicely, utilizing a similar approach to the previous homepage. We have a large illustration from the source material that emphasizes the aesthetics of the time period and the subject matter: food. This page also gives us a blurb that expands on what the project is all about before giving us an expanded description that encourages us to scroll further. The homepage is set up similarly to a one page website, as we scroll, new sections are emphasized. In this way, top-level pages are showcased on the homepage. What America Ate encourages the user to take their next step towards **Recipe Transcription**, the **Map**, and **Browse** which itself emphasizes certain categories.
 
 ##### [Visualizing Abolition][visual]
 
-![Visualizing Abolition Homepage]({{ "assets/images/homepage_vis.png" | absolute_url }})
+[![Visualizing Abolition Homepage]({{ "assets/images/homepage_vis.png" | absolute_url }})]({{ "assets/images/homepage_vis.png" | absolute_url }})
 
 <!--TODO: new screenshot-->
 

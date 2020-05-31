@@ -29,15 +29,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="right-sidebar">
-    <div class="right-text">
-      <p>
-      {{ page.righttext }}
-      </p>
-    </div>
+  <div class="page-padding">
   </div>
 </div>
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
 </article>
