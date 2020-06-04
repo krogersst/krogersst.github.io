@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="mlis page">
+
+<div class="page-flex">
+
+  <div class="page-header-pic" style="background-image: url('{{ site.url }}/assets/images/{{ page.header-pic }}')"></div>
+  <div class="page-header-pic-alt" style="background-image: url('{{ site.url }}/assets/images/{{ page.header-pic-alt }}')"></div>
+
+  <div class="page-right">
+
+    <div class="mlis-nav-header">
+      <div class="mlis-page-header">{{ page.title | escape }}</div>
+      <div class="mlis-links">
+        <a href="{{ '/mlis' | relative_url }}">home</a>
+        <div> / </div>
+        <a href="{{ '/mlis/projects' | relative_url }}">projects</a>
+        <div> / </div>
+        <a href="{{ '/mlis/practicum' | relative_url }}">practicum</a>
+        <div> / </div>
+        <a href="{{ '/mlis/coursework' | relative_url }}">coursework</a>
+      </div>
+    </div>
+
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+  </div>
+
+  <div class="page-padding"></div>
+
+</div>
+
+</article>

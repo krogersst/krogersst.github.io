@@ -74,6 +74,9 @@
   font-family: $Abel;
   text-transform: lowercase;
   font-weight: bold;
+}
+
+.page-header-one, .mlis-nav-header {
   @media ($desktop) {border-top: black solid 2px; margin-left: 10px;}
   @media ($tablet) {border-top: black solid 2px; margin-left: 10px;}
   @media (max-width: 750px) {margin-left: 0px;}
@@ -88,7 +91,7 @@
   margin-top: 10px;
 }
 
-.page-content {
+.page-content, .mlis-header {
   @media ($desktop) {margin-left: 10px;}
   @media ($tablet) {margin-left: 10px;}
   @media (max-width: 750px) {margin-left: 0px;}
