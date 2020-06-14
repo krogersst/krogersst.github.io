@@ -56,6 +56,11 @@
 .p-nav {
   min-width: 450px;
   margin-top: -5px;
+  a {
+    text-decoration: none;
+    font-family: $Abel;
+    &:hover {text-decoration: underline;}
+  }
 }
 
 .p-header-two, .p-header-three {
@@ -68,14 +73,12 @@
 .p-header-three {
   margin-bottom: 10px;
   a {
-  text-decoration: none;
-  color: white;
-  background-color: $yellow;
-  padding: 5px;
-  &:hover {
-    background-color: darken($yellow, 10);
+    text-decoration: none;
+    color: white;
+    background-color: $yellow;
+    padding: 5px;
+    &:hover {background-color: darken($yellow, 10);}
   }
-}
 }
 
 .p-info {
@@ -88,9 +91,8 @@
   background-color: #ededed;
   padding: 10px;
 }
-.p-about {
-  margin-right: 10px;
-}
+
+.p-about {margin-right: 10px;}
 
 .p-wrap {
   display: flex;
@@ -102,8 +104,8 @@
 .p-portfolio {
   max-width: 425px;
   p {
-  margin-top: 0px;
-  margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
 }
 
@@ -133,9 +135,7 @@
   background-position: center;
 }
 
-.practicum #tabs {
-  margin-top: 20px;
-}
+.practicum #tabs {margin-top: 20px;}
 
 .p-scroll {
   margin-top: 10px;
@@ -148,9 +148,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  iframe {
-    margin-right: 15px;
-  }
+  iframe {margin-right: 15px;}
 }
 
 .project-wrap {

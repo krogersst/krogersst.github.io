@@ -19,7 +19,7 @@ permalink: /mlis/spadefoot/workrecord
   - **Role:** lithographers [AAT ID: [300025175](http://www.getty.edu/vow/AATFullDisplay?find=lithograph&logic=AND&note=&english=N&prev_page=1&subjectid=300025175)] ● Lehman & Duval Lithrs. [VIAF ID: [137645556](http://viaf.org/viaf/137645556)]
 
 **Creation Date Display:** 1831-1836
-	- **Earliest:** 1831 ● **Latest:** 1836
+  - **Earliest:** 1831 ● **Latest:** 1836
 
 **Subject:** amphibians [LCSH ID: [85004598](https://lccn.loc.gov/sh85004598)] ● herpetology [LCSH ID: [85060464](https://lccn.loc.gov/sh85060464)] ● natural history [LCSH ID: [85090222](https://lccn.loc.gov/sh85090222)]
 
