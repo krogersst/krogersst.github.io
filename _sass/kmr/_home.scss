@@ -202,7 +202,7 @@
  margin-bottom: 5px;
 }
 
-.link-sub {
+.link-sub, .sub-project-header {
   margin-top: 5px;
   span {
     font-style: italic;
@@ -293,4 +293,40 @@
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+/**
+* Portfolio Page
+**/
+
+#feat {
+  margin-top: 5px;
+  font-weight: bold;
+  font-family: $Abel;
+  /** responsive font-size **/
+  @media (min-width: 1231px) {font-size: 22px;}
+  @media (max-width: 1230px) {font-size: 20px;}
+  @media (max-width: 950px) {font-size: 18px;}
+}
+
+.example-sub-projects {
+  max-width: 500px;
+  .mlis-project {
+    margin-top: 10px;
+  }
+  .mlis-project-img {
+    @media (min-width: 1301px) {
+      min-width: 150px;
+      background-size: 300px;
+    }
+    @media (max-width: 1300px) {
+      min-width: 125px;
+      background-size: 250px;
+    }
+    @media (max-width: 1055px) {
+      min-width: 100px;
+      background-size: 200px;
+    }
+    @media (max-width: 750px) {display: none;}
+  }
 }

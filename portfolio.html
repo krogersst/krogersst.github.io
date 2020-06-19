@@ -1,15 +1,44 @@
-<div class="portfolio">
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+<div class="home-story wrapper">
+<div class="portfolio-box">
+
+  <h1>portfolio</h1>
+
+  <div class="portfolio">
 
     <div id="mlis" class="example">
-      <div class="example-pic"></div>
-        <div class="example-text">
-          <a class="link-header" href="{{ site.baseurl }}/mlis/portfolio/home">
-            <span>MLIS Coursework and Projects</span>
-          </a>
-        <div class="link-sub"><span>Relevant Coursework and Culminating Projects</span></div>
-        <p>A variety of in-depth digital LAM (Libraries, Archives, and Museums) projects have been undertaken during coursework for my Masters in Library and Information Science at Kent State. This includes creating and implementing a metadata schema as well as a cultural heritage informatics website.</p>
-      </div>
+        <div class="example-pic"></div>
+          <div class="example-text">
+            <a class="link-header" href="{{ site.baseurl }}/mlis">
+              <span>MLIS Coursework and Projects</span>
+            </a>
+            <div class="link-sub"><span>Relevant Coursework and Culminating Projects</span></div>
+            <p>A variety of in-depth digital LAM (Libraries, Archives, and Museums) projects have been undertaken during coursework for my Masters in Library and Information Science at Kent State. This includes creating and implementing a metadata schema as well as a cultural heritage informatics website.</p>
+            <div id="feat"><span>Featured Projects</span></div>
+
+            <div class="example-sub-projects">
+                <div id="chi-project" class="mlis-project">
+                  <div class="sub-project-header"><span><a href="{{ 'mlis/spadefoot/home' | relative_url }}">Cultural Heritage Informatics Website</a></span></div>
+                  <p><strong>Class: </strong>LIS 60635: Cultural Heritage Informatics (Fall 2019)</p>
+                  <p>A website showcasing a naturalistic study of an eastern spadefoot that was published as a hand-colored lithograph in <em>North American herpetology</em> by John Edwards Holbrook (1836).</p>
+                  <p><strong><a href="{{ 'mlis/projects' | relative_url }}">Click here to read more about this project.</a></strong></p>
+                </div>
+
+                <div id="meta-project" class="mlis-project">
+                  <div class="sub-project-header"><span><a href="{{ 'mlis/metadata/home' | relative_url }}">Metadata Schema and Records</a></span></div>
+                  <p><strong>Class: </strong>LIS 60637: Metadata Architecture and Implementation (Fall 2019)</p>
+                  <p>An original metadata schema created to describe a collection of amateur and self-published thrifted CDs.</p>
+                  <p><strong><a href="{{ 'mlis/projects#meta-project' | relative_url }}">Click here to read more about this project.</a></strong></p>
+                </div>
+            </div>
+          </div>
     </div>
+
 
     <div id="genealogy" class="example">
       <div class="example-pic"></div>
@@ -62,4 +91,7 @@
         </div>
     </div>
 
+  </div>
+
+</div>
 </div>
