@@ -1,0 +1,28 @@
+---
+layout: scd
+title: 1.6.1.4 musicArtistURL
+permalink: /scd/musicartisturl
+scd-label: Music Artist URL
+scd-def: The URL associated with the music artist.
+scd-imp: Optional, Repeatable
+---
+<tr>
+  <td>Comment</td>
+  <td>Record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs associated with the music artist such as official websites not associated with the original URL, musicbrainz.org entries, Wikipedia entries, etc. to provide current or further information. Indicate whether the URL is the original URL, a new official URL, a social media URL, or a different type of source with the “type” XML attribute.</td>
+</tr>
+<tr>
+  <td>Value Control</td>
+  <td>Full URL address</td>
+</tr>
+<tr>
+  <td>XML Attribute</td>
+  <td>
+    <p><strong>type</strong> = original; official; social; other</p>
+    <p><strong>status</strong> = wayback; live; broken</p>
+    <p>(Refer to <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a> for attribute value information.)</p>
+  </td>
+</tr>
+<tr>
+  <td>Example</td>
+  <td>{% highlight xml %}<musicArtistURL status=”wayback” type=”original”>https://web.archive.org/web/20080404105040/members.aol.com/harmiii/ihw.html</musicArtistURL>{% endhighlight %}</td>
+</tr>

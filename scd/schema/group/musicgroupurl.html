@@ -10,7 +10,7 @@ scd-imp: Optional, Repeatable
   <td>Comment</td>
   <td>
     <p>Record only the URL associated with the music group, not the lead artist.</p>
-    <p>Record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see Appendix C) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs associated with the music group such as official websites not associated with the original URL, musicbrainz.org entries, Wikipedia entries, etc. to provide current or further information. Indicate whether the URL is the original URL, a new official URL, a social media URL, or a different type of source with the “type” XML attribute.</p>
+    <p>Record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs associated with the music group such as official websites not associated with the original URL, musicbrainz.org entries, Wikipedia entries, etc. to provide current or further information. Indicate whether the URL is the original URL, a new official URL, a social media URL, or a different type of source with the “type” XML attribute.</p>
   </td>
 </tr>
 <tr>
@@ -22,11 +22,10 @@ scd-imp: Optional, Repeatable
   <td>
     <p><strong>type</strong> = original; official; social; other</p>
     <p><strong>status</strong> = wayback; live; broken</p>
-    <p>(Refer to <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>for attribute value information.)</p>
+    <p>(Refer to <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a> for attribute value information.)</p>
   </td>
 </tr>
 <tr>
   <td>Example</td>
-  <td>{% highlight xml %}<musicGroupURL status=”wayback” type=”original”>
-http://web.archive.org/web/20160308212601/http://lukeysboat.com/</musicGroupURL>{% endhighlight %}</td>
+  <td>{% highlight xml %}<musicGroupURL status=”wayback” type=”original”>http://web.archive.org/web/20160308212601/http://lukeysboat.com/</musicGroupURL>{% endhighlight %}</td>
 </tr>
