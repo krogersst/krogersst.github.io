@@ -67,7 +67,7 @@ The metadata schema focuses on these unique aspects of these types of albums. Ma
 - 1.5.4 [musicGroupLocation](/scd/musicgrouplocation) [O]
 
 1.6 [musicArtists](/scd/musicartists) [M]
-- 1.6.1 [musicArtist](/scd/musicartist) [M,R]
+- 1.6.1 [musicArtist](/scd/musicartist) [M, R]
   - 1.6.1.1 [musicArtistName](/scd/musicartistname) [M]
   - 1.6.1.2 [musicArtistClass](/scd/musicartistclass) [M]
   - 1.6.1.3 [musicArtistRole](/scd/musicartistrole) [O, R]
@@ -169,12 +169,12 @@ The Wayback Machine is a service that archives websites so that the website’s 
 **1.** Visit [https://web.archive.org](https://web.archive.org) and type in the original URL as listed on the CD.
 For example, entering lukeysboat.com displays this page on the Wayback Machine:
 
-![Lukeys Boat Wayback Machine Calendar](/mlis/metadata/Wayback_001.png)
+[![Lukeys Boat Wayback Machine Calendar](/mlis/metadata/Wayback_001.png)](/mlis/metadata/Wayback_001.png)
 
 **2.** Hovering over the highlighted date shows the captures for the day. Click on the bulleted capture to see the capture.
 
-![Lukeys Boat Wayback Machine Capture](/mlis/metadata/Wayback_002.png)
+[![Lukeys Boat Wayback Machine Capture](/mlis/metadata/Wayback_002.png)](/mlis/metadata/Wayback_002.png)
 
 **3.** The address in the address bar of the capture page is the URL you will use for the value.
 
-![Lukeys Boat Wayback Machine Homepage](/mlis/metadata/Wayback_003.png)
+[![Lukeys Boat Wayback Machine Homepage](/mlis/metadata/Wayback_003.png)](/mlis/metadata/Wayback_003.png)

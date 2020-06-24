@@ -8,11 +8,11 @@ scd-imp: Optional, Repeatable
 ---
 <tr>
   <td>Comment</td>
-  <td>If the producer can be inferred or is stated to be the same as the solo artist or music group (i.e. self-published), use the URL associated with the group/solo artist. Record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs associated with the producer such as official websites not associated with the original URL, musicbrainz.org entries, Wikipedia entries, etc. to provide current or futher information. Indicate whether the URL is the original URL, a new official URL, a social media URL, or a different type of source with the “type” XML attribute.</td>
+  <td>If the producer can be inferred or is stated to be the same as the solo artist or music group (i.e. self-published), use the URL associated with the group/solo artist. Record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs associated with the producer such as official websites not associated with the original URL, musicbrainz.org entries, Wikipedia entries, etc. to provide current or further information. Indicate whether the URL is the original URL, a new official URL, a social media URL, or a different type of source with the “type” XML attribute.</td>
 </tr>
 <tr>
   <td>Value Control</td>
-  <td>Full URL address.</td>
+  <td>Full URL address</td>
 </tr>
 <tr>
   <td>XML Attribute</td>
@@ -25,7 +25,13 @@ scd-imp: Optional, Repeatable
 <tr>
   <td>Example</td>
   <td>
-{% highlight xml %}<albumProducerURL type=”original” status=”wayback”>http://web.archive.org/web/20160308212601/http://lukeysboat.com/</albumProducerURL>
-<albumProducerURL type=”original” status=”live”>http://peppermintrecords.com</albumProducerURL>{% endhighlight %}
+{% highlight xml %}
+<albumProducerURL type=”original” status=”wayback”>
+  http://web.archive.org/web/20160308212601/http://lukeysboat.com/
+</albumProducerURL>
+<albumProducerURL type=”original” status=”live”>
+  http://peppermintrecords.com
+</albumProducerURL>
+{% endhighlight %}
   </td>
 </tr>
