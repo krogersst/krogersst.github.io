@@ -6,24 +6,22 @@ permalink: /mlis/metadata/records
 <link rel="stylesheet" type="text/css" href="{{ '/assets/styles/jquery-ui.min.css' | relative_url }}">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-$( function() {
-  $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-  $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-} );
-</script>
 
-<div id="tabs">
-  <ul>
-    <li><a href="#tabs-1">scd001: Alligator Necklace</a></li>
-    <li><a href="#tabs-2">scd002: Everyone's Choice IV</a></li>
-    <li><a href="#tabs-3">scd003: Whips of Karma</a></li>
-    <li><a href="#tabs-4">scd004: Our Dad the Accordion Man</a></li>
-    <li><a href="#tabs-5">scd005: Ghosts of the Old West</a></li>
-    <li><a href="#tabs-6">scd006: New York City Boy</a></li>
-  </ul>
+<div class="records-accordion">
 
-  <div id="tabs-1">
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion({
+        collapsible: true,
+        heightStyle: "content",
+        active: 0
+      });
+    } );
+  </script>
+
+  <div id="accordion">
+
+    <h3><strong>scd001: </strong>Alligator Necklace</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_001.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -32,9 +30,8 @@ $( function() {
         <p><a href="{{ '/scd/records/scd001.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
-  </div>
 
-  <div id="tabs-2">
+    <h3><strong>scd002: </strong>Everyone's Choice IV</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_008.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -43,9 +40,8 @@ $( function() {
         <p><a href="{{ '/scd/records/scd002.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
-  </div>
 
-  <div id="tabs-3">
+    <h3><strong>scd003: </strong>Whips of Karma</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_017.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -54,9 +50,8 @@ $( function() {
         <p><a href="{{ '/scd/records/scd003.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
-  </div>
 
-  <div id="tabs-4">
+    <h3><strong>scd004: </strong>Our Dad the Accordion Man</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_021.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -65,9 +60,8 @@ $( function() {
         <p><a href="{{ '/scd/records/scd004.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
-  </div>
 
-  <div id="tabs-5">
+    <h3><strong>scd005: </strong>Ghosts of the Old West</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_026.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -76,9 +70,8 @@ $( function() {
         <p><a href="{{ '/scd/records/scd005.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
-  </div>
 
-  <div id="tabs-6">
+    <h3><strong>scd006: </strong>New York City Boy</h3>
     <div class="scd-tab">
       <img src="{{ '/scd/images/scd_20191125_031.jpg' | relative_url }}"/>
       <div class="scd-desc">
@@ -87,6 +80,7 @@ $( function() {
         <p><a href="{{ '/scd/records/scd006.xml' | relative_url }}">Full XML Record</a></p>
       </div>
     </div>
+
   </div>
 
 </div>

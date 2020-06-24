@@ -1,0 +1,30 @@
+---
+layout: metadata
+---
+
+<table id="scd-specs">
+  <tr><th>{{ page.title | escape }}</th></tr>
+  <tr>
+    <td>Label</td>
+    <td>{{ page.scd-label | escape }}</td>
+  </tr>
+  <tr>
+    <td>Identifier</td>
+    <td>
+      <a href="{{ page.permalink | escape }}">
+        {{ '' | absolute_url }}{{ page.permalink | remove_first: "/" }}
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Definition</td>
+    <td>{{ page.scd-def | escape }}</td>
+  </tr>
+  <tr>
+    <td>Implementation</td>
+    <td>{{ page.scd-imp | escape }}</td>
+  </tr>
+  {{ content }}
+</table>
+
+<p>Back to <a href="{{ '/mlis/metadata/schema#elements' | relative_url }}" >Specifications</a></p>

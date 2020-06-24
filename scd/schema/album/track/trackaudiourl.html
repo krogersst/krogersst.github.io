@@ -1,0 +1,28 @@
+---
+layout: scd
+title: 1.4.8.1.6 trackAudioURL
+permalink: /scd/trackaudiourl
+scd-label: Track Audio URL
+scd-def: The URL pointing to the track’s audio online.
+scd-imp: Optional, Repeatable
+---
+<tr>
+  <td>Comment</td>
+  <td>If it exists, record the original URL as listed on the CD packaging (or its Wayback Machine equivalent – see <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a>) and indicate its availability with the “status” XML attribute. If applicable, record any current URLs for the track’s audio such as official websites not associated with the original URL, a Youtube video of the track audio, or a Bandcamp entry. Indicate whether the URL is the original URL, a new official URL, a streaming URL, or a different type of source with the “type” XML attribute.</td>
+</tr>
+<tr>
+  <td>Value Control</td>
+  <td>Full URL address</td>
+</tr>
+<tr>
+  <td>XML Attribute</td>
+  <td>
+    <p><strong>type</strong> = original; official; streaming; other</p>
+    <p><strong>status</strong> = wayback; live; broken</p>
+    <p>(Refer to <a href="{{ '/mlis/metadata/schema#appendix-c' | relative_url }}">Appendix C</a> for attribute value information.)</p>
+  </td>
+</tr>
+<tr>
+  <td>Example</td>
+  <td>{% highlight xml %}<trackAudioURL type=”streaming” status=”live”>https://youtu.be/WrcCLgmhEJk</trackAudioURL>{% endhighlight %}</td>
+</tr>

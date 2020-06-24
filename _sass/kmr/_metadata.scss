@@ -1,90 +1,103 @@
 /**
-* Metadata
+* Home
 **/
 
 #scd-home {
   display: flex;
-  img {
-    max-width: 500px;
-    margin-right: 10px;
+  @media (min-width: 651px) {
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: row;
+    img {
+      max-width: 500px;
+      margin-right: 10px;
+    }
+    div p {margin-top: 0px;}
+  }
+  @media (max-width: 650px) {
+    width: 100%;
+    flex-direction: column;
+    img {max-width: 400px;}
   }
 }
 
-#scd-pics {
-  display: flex;
+/**
+* Schema
+**/
+
+#scd-schema {
   margin-top: 20px;
-  #scd-graphics {
-    height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1301px) {width: 900px;}
+  @media (max-width: 1300px) {width: 800px;}
+  @media (max-width: 750px) {width: 90%;}
+  @media ($phone) {width: 95%;}
+}
+
+#scd-schema {
+  h1 {
+    border-bottom: black 2px solid;
+    font-size: 28px;
+    font-family: $Abel;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    font-family: $Abel;
+    a {text-decoration: none;}
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px black solid;
   }
 }
 
-#elements-img {
-  max-width: 500px;
+/**
+* Records
+**/
+
+.records-accordion {
+  @media (min-width: 1301px) {width: 1000px; margin: auto;}
+  @media (max-width: 1300px) {width: 100%;}
 }
 
-.metadata-content {
-
-  .ui-widget.ui-widget-content {
-  border: none;
-  }
-  .ui-widget-header {
-    background: none;
-    border: none;
-  }
-
-  .ui-tabs-vertical {
-    display: flex;
-    margin-left: 0px;
-  }
-  .ui-tabs-vertical .ui-tabs-nav {
-    max-width: 320px;
-  }
-  .ui-tabs-vertical .ui-tabs-nav li {
-    width: 320px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-
-  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
-    padding: 0px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-
-  .ui-tabs-vertical .ui-tabs-nav li a {
-    display: block;
-  }
-
-  .ui-tabs-vertical .ui-tabs-panel {
-    width: 800px;
-    border-radius: 5px;
-    border: black 2px solid;
-    .scd-tab {
-    display: flex;
-      img {
-        max-width: 400px;
-      }
-      .scd-desc {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-      }
+.scd-tab {
+  display: flex;
+  @media (min-width: 651px) {
+    flex-direction: row;
+    img {max-width: 400px;}
+    .scd-desc {
+      margin-left: 10px;
+      p:first-of-type {margin-top: 0px;}
     }
   }
-
-.ui-tabs {
-  .ui-state-default {
-    border: #c5c5c5 2px solid;
-    border-right-width: 0;
-  }
-  .ui-state-active {
-    border: 2px solid black;
-    background: white;
-    border-right-width: 0;
-    a:link {
-      color: black;
-    }
+  @media (max-width: 650px) {
+    flex-direction: column;
+    img {width: 100%;}
+    .scd-desc {margin-left: 0px;}
   }
 }
 
+/**
+* Specifications
+**/
+
+#scd-specs .highlight {
+  margin: 0px;
+  padding: 5px;
+}
+
+#scd-specs td {
+  margin-top: 10px;
+  font-size: 15px;
 }
