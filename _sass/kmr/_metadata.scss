@@ -3,21 +3,14 @@
 **/
 
 #scd-home {
-  display: flex;
-  @media (min-width: 651px) {
-    max-width: 1000px;
+  img, div p {
     margin: auto;
-    flex-direction: row;
-    img {
-      max-width: 500px;
-      margin-right: 10px;
-    }
-    div p {margin-top: 0px;}
+    @media (min-width: 951px) {max-width: 700px;}
+    @media (max-width: 950px) {width: 100%;}
   }
-  @media (max-width: 650px) {
-    width: 100%;
-    flex-direction: column;
-    img {max-width: 400px;}
+  div {
+    margin-top: 10px;
+    text-align: justify;
   }
 }
 
