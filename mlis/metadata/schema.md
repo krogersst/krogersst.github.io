@@ -9,7 +9,7 @@ permalink: /mlis/metadata/schema
 
 **Author:** Kelsey Rogers
 
-**Download:** [Specifications PDF]({{ '/mlis/metadata/SecondhandCDs.pdf' | relative_URL }})
+**Download:** [Specifications PDF]({{ '/mlis/metadata/SecondhandCDs_KRogers.pdf' | relative_URL }})
 
 **Table of Contents:**
 - [Description of Schema](#description)
@@ -28,6 +28,8 @@ The metadata schema focuses on these unique aspects of these types of albums. Ma
 ---
 
 ## [Elements](#elements)
+
+*Each element may be mandatory [M], optional [O], repeatable [R], or have a variable [V] status where it is only mandatory when an optional parent element is used.*
 
 1\. [CD](/scd/cd) [M]
 
@@ -55,8 +57,8 @@ The metadata schema focuses on these unique aspects of these types of albums. Ma
   - 1.4.8.1.3 [trackDescription](/scd/trackdescription) [O]
   - 1.4.8.1.4 [trackLanguage](/scd/tracklanguage) [M, R]
   - 1.4.8.1.5 [trackArtist](/scd/trackartist) [O, R]
-    - 1.4.8.1.5.1 [trackArtistName](/scd/trackartistname)
-    - 1.4.8.1.5.2 [trackArtistClass](/scd/trackartistclass)
+    - 1.4.8.1.5.1 [trackArtistName](/scd/trackartistname) [V]
+    - 1.4.8.1.5.2 [trackArtistClass](/scd/trackartistclass) [V]
     - 1.4.8.1.5.3 [trackArtistRole](/scd/trackartistrole) [O, R]
   - 1.4.8.1.6 [trackAudioURL](/scd/trackaudiourl) [O]
 
@@ -75,18 +77,18 @@ The metadata schema focuses on these unique aspects of these types of albums. Ma
   - 1.6.1.5 [musicArtistEmail](/scd/musicartistemail) [O]
 
 1.7 [contributors](/scd/contributors) [O]
-- 1.7.1 [contributor](/scd/contributor) [R]
-  - 1.7.1.1 [contributorName](/scd/contributorname)
-  - 1.7.1.2 [contributorRole](/scd/contributorrole) [R]
-  - 1.7.1.3 [contributorURL](/scd/contributorurl) [R]
-  - 1.7.1.4 [contributorEmail](/scd/contributoremail)
+- 1.7.1 [contributor](/scd/contributor) [V, R]
+  - 1.7.1.1 [contributorName](/scd/contributorname) [V]
+  - 1.7.1.2 [contributorRole](/scd/contributorrole) [V, R]
+  - 1.7.1.3 [contributorURL](/scd/contributorurl) [O, R]
+  - 1.7.1.4 [contributorEmail](/scd/contributoremail) [O]
 
 1.8 [appearance](/scd/appearance) [M]
 - 1.8.1 [signature](/scd/signature) [O, R]
 - 1.8.2 [insertMaterial](/scd/insertmaterial) [M]
 - 1.8.3 [discLabel](/scd/disclabel) [M]
 - 1.8.4 [image](/scd/image) [O, R]
-  - 1.8.4.1 [imageID](/scd/imageidentifier)
+  - 1.8.4.1 [imageID](/scd/imageidentifier) [V]
   - 1.8.4.2 [imageURL](/scd/imageurl) [O]
   - 1.8.4.3 [imageDescription](/scd/imagedescription) [O]
 
