@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: valstarnes_header.png
 header-pic-alt: valstarnes_header_alt.png
 ---
-Full PDF [here]({{ site.baseurl }}/assets/Resume_KRogers2020.pdf).
+Full PDF [here]({{ site.baseurl }}/assets/Resume_KRogers_June2020.pdf).
 
 #### Education
 **[Master of Library and Information Science]({{ site.baseurl }}/mlis/)** [May 2020]  
@@ -22,14 +22,14 @@ _International Women's Air and Space Museum, Cleveland, OH_
 - Catalogs and digitizes items in archives including clothing, photographs, and ephemera to facilitate large-scale collection assessment project
 - Assists Collections Manager with reference material inquiries
 
+**Guest Engagement Specialist** [March 2020 - Present]  
+_Great Lakes Science Center, Cleveland, OH_  
+- Provides Science Center guests with informal learning experiences
+
 **[Digital Special Collections Intern]({{ site.baseurl }}/mlis/practicum/about)** [January 2020 - May 2020]  
 _Cleveland State University, Cleveland, OH_
 - Created and delivered complete metadata for captured image file packets for over 1,000 photos for Cleveland Memory’s ContentDM database ([clevelandmemory.org](clevelandmemory.org))
 - Created entries for Ohio Outdoor Sculpture's Omeka database ([oos.sculpturecenter.org](oos.sculpturecenter.org)) following Dublin Core and local metadata specifications
-
-**Guest Engagement Specialist** [March 2020 - Present]  
-_Great Lakes Science Center, Cleveland, OH_  
-- Provides Science Center guests with informal learning experiences
 
 **Library Associate** [July 2018 - July 2019]  
 _Local History and Genealogy Department  
