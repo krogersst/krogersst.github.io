@@ -40,14 +40,20 @@
 }
 
 .spadefoot-title {
-  font-size: 50px;
-  text-align: center;
+  @media ($galaxy-above) {
+    font-size: 50px;
+    text-align: center;
+  }
+  @media ($galaxy) {
+    font-size: 40px;
+  }
 }
 
 .spadefoot-links {
-  font-size: 20px;
   display: flex;
   justify-content: space-around;
+  @media ($galaxy-above) {font-size: 20px;}
+  @media ($galaxy) {font-size: 18px;}
 }
 
 /**
@@ -113,6 +119,7 @@ img.chi-home-square {
   }
   @media (max-width: 620px) {font-size: 25px;}
   @media (max-width: 500px) {font-size: 22px;}
+  @media ($galaxy) {font-size: 18px;}
 }
 
 #chi-home-top {
@@ -172,6 +179,10 @@ img.chi-home-square {
     @media (max-width: 800px) {
       font-size: 14px;
       width: 375px;
+    }
+    @media ($galaxy) {
+      font-size: 13px;
+      width: 320px;
     }
   }
 }

@@ -33,6 +33,7 @@
       @media ($desktop) {font-size: 25px;}
       @media ($tablet) {font-size: 20px;}
       @media ($phone) {font-size: 20px;}
+      @media (max-width: 435px) {font-size: 18px;}
       font-weight: bold;
     &:visited {
         color: $black;
@@ -52,13 +53,16 @@
   @media ($desktop) {font-size: 20px;}
   @media ($tablet) {font-size: 18px; line-height: 20px;}
   @media ($phone) {font-size: 18px; line-height: 20px;}
+  @media ($phone) {font-size: 18px; line-height: 20px;}
+  @media ($galaxy) {font-size: 16px; line-height: 18px;}
  a {
-   padding-left: 10px;
-   padding-right: 10px;
+   @media ($galaxy-above) {
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+   @media ($galaxy) {
+     padding-left: 5px;
+     padding-right: 5px;
+   }
   }
-/*  div {
-    color: $black;
-    font-family: $Abel;
-    font-size: 20px;
-  }*/
 }
