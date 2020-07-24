@@ -8,7 +8,7 @@ header-pic-alt: valstarnes_header_alt.png
 Full PDF [here]({{ site.baseurl }}/assets/Resume_KRogers_June2020.pdf).
 
 #### Education
-**[Master of Library and Information Science]({{ site.baseurl }}/mlis/)** [May 2020]  
+**[Master of Library and Information Science]({{ site.baseurl }}/mlis)** [May 2020]  
 _Kent State University, Kent, OH_
 - Emphasis on Digital Cultural Heritage Informatics
 
