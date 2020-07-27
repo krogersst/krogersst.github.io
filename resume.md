@@ -20,11 +20,12 @@ _University of Missouri, Columbia, MO_
 **Museum Collections Intern** [September 2019 - Present]  
 _International Women's Air and Space Museum, Cleveland, OH_  
 - Catalogs and digitizes items in archives including clothing, photographs, and ephemera to facilitate large-scale collection assessment project
-- Assists Collections Manager with reference material inquiries
+- Assists Collections Manager with reference material inquiries and museum loans
 
 **Guest Engagement Specialist** [March 2020 - Present]  
 _Great Lakes Science Center, Cleveland, OH_  
-- Provides Science Center guests with informal learning experiences
+- Provides Science Center guests with informal learning experiences on a variety of topics from space exploration to physics concepts
+- Assists in creating a safe educational environment amid the COVID-19 pandemic
 
 **[Digital Special Collections Intern]({{ site.baseurl }}/mlis/practicum/about)** [January 2020 - May 2020]  
 _Cleveland State University, Cleveland, OH_
