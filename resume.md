@@ -47,6 +47,7 @@ _Columbus Zoo and Aquarium, Columbus, OH_
 **Naturalist Intern** [August 2017 - December 2017]  
 _Aullwood Audubon Nature Center and Farm, Dayton, OH_  
 - Developed and led a STEM program for local schools
+  - _[Google Drive Folder of Lesson Plans and Worksheets](https://drive.google.com/drive/folders/0ByAKnFlSibVYQjNKMTlqdVBqLWM?usp=sharing)_
 - Taught both children and adults about native wildlife and local history
 - Led hands-on, interactive programs, including nature hikes, interpretative performances, and one-one-one educational activities
 
