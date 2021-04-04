@@ -1,0 +1,94 @@
+I"�<p><em>This section is under construction.</em></p>
+
+<p><a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> / <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two</a> / <a href="/tutorial/2018/02/25/digital-humanities-sitemap.html">Part Three</a> / <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four</a> / <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a> / <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a></p>
+
+<p>While WordPress gives you a beautiful and responsive website right out of the gate, playing around with Github Pages shows you how websites function at the base level. For the last part of our tutorial we’re going to set up a github repository and create a live website.</p>
+
+<h4 id="what-is-github">What is Github?</h4>
+
+<ul>
+  <li>
+    <p>Git is a version control system.</p>
+
+    <ul>
+      <li>Keep track of revisions and modifications</li>
+      <li>Allow for fall-backs should a revision fail</li>
+      <li>Facilitate collaboration → download current version, modify, submit new revision</li>
+    </ul>
+  </li>
+  <li>
+    <p>Github takes Git online</p>
+
+    <ul>
+      <li>Collaborate with others</li>
+      <li>View and “fork” other projects</li>
+      <li>Display the code behind your projects</li>
+    </ul>
+  </li>
+  <li>
+    <p>Github Pages</p>
+
+    <p>Github Pages allows you to create your own website through a repository. Simply create a new repository labeled “yourusername.github.io” and github will automatically build a website based on the files you ‘push’ to your repository. Github Pages is also built on Jekyll natively.</p>
+  </li>
+</ul>
+
+<h4 id="making-edits-on-github">Making Edits on Github</h4>
+<ol>
+  <li>Navigate to your file</li>
+  <li>Click the pen icon to edit</li>
+  <li>Make your edits</li>
+  <li>Scroll down to commit changes</li>
+  <li>Type a brief description of changes</li>
+  <li>Commit!</li>
+</ol>
+
+<h4 id="getting-started-with-github-pages-and-jekyll">Getting Started With Github Pages and Jekyll</h4>
+
+<ol>
+  <li>Create a <a href="https://github.com">github.com</a> account.</li>
+  <li>Navigate to <a href="https://github.com/barryclark/jekyll-now">Jekyll-Now</a></li>
+  <li>Fork Jekyll-Now to your User Repository</li>
+  <li>Go To Settings → Rename Repo to “username.github.io”</li>
+  <li>Visit https://username.github.io to see your empty site</li>
+</ol>
+
+<h5 id="basic-elements">Basic Elements</h5>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_config.yml</code> takes care of basic site build information</li>
+  <li><code class="language-plaintext highlighter-rouge">index.html</code> is where your homepage lives</li>
+  <li><code class="language-plaintext highlighter-rouge">about.md</code> is where you about page lives and is written in Markdown</li>
+</ul>
+
+<h5 id="building-blocks">Building Blocks</h5>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/</code> houses page templates</li>
+  <li><code class="language-plaintext highlighter-rouge">_includes/</code> houses files that Liquid can hook into such as</li>
+  <li><code class="language-plaintext highlighter-rouge">_posts/</code> houses your blog - style pages</li>
+  <li><code class="language-plaintext highlighter-rouge">_sass/</code> houses stylesheets written in SASS or SCSS</li>
+</ul>
+
+<h4 id="writing-a-post">Writing a Post</h4>
+
+<ul>
+  <li>Naming a Post</li>
+  <li>Front Matter
+    <ul>
+      <li>Layout:</li>
+      <li>Title:</li>
+      <li>Date:</li>
+    </ul>
+  </li>
+  <li>Markdown
+    <ul>
+      <li>Displayed through html</li>
+      <li>Written and read intuitively</li>
+      <li><a href="https://prose.io">prose.io</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="on-to-part-six-resources">On to Part Six: Resources</h4>
+<p>Now that you have an idea of where you want to take your site, have a look at a collection of resources to help you on your way in <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a>.</p>
+
+:ET

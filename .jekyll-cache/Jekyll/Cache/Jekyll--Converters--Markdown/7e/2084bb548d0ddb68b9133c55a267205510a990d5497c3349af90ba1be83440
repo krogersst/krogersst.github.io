@@ -1,0 +1,210 @@
+I"�.<h1 id="secondhand-cds-metadata-schema">Secondhand CDs Metadata Schema</h1>
+
+<p><strong>Published:</strong> December 2019</p>
+
+<p><strong>Author:</strong> Kelsey Rogers</p>
+
+<p><strong>Download:</strong> <a href="/mlis/metadata/SecondhandCDs_KRogers.pdf">Specifications PDF</a></p>
+
+<p><strong>Table of Contents:</strong></p>
+<ul>
+  <li><a href="#description">Description of Schema</a></li>
+  <li><a href="#elements">Elements and Specifications</a></li>
+  <li><a href="#appendix-a">Appendix A: Album Production Type Value Control</a></li>
+  <li><a href="#appendix-b">Appendix B: Artist Class Value Control</a></li>
+  <li><a href="#appendix-c">Appendix C: URL Attribute Control</a></li>
+</ul>
+
+<hr />
+
+<h2 id="description"><a href="#description">Description</a></h2>
+<p>Secondhand CDs (abbreviated scd), is a metadata schema for describing a personal collection of CDs purchased from secondhand and thrift stores from across the country, primarily in Ohio. These CDs primarily consist of self-published and small studio albums. Many have been published in the region, such as the Mahoning Valley Button Box Club’s “Everyone’s Choice IV,” and thus provide insight into places I’ve visited or moved to. Others have come from around the world, bringing to mind questions that can’t be answered but are nonetheless intriguing, such as “Who originally bought these?” and “How did they end up here?”</p>
+
+<p>The metadata schema focuses on these unique aspects of these types of albums. Many of the artists do not have information online, or if they do, this information can only be found in archived form. Thus, providing artist information is important. However, these artists rarely have much information associated with them on the album so creating an authority file for each has its limitations, especially when the collection does not contain multiple appearances of the same artist. The appearance of the albums are also of interest, as many have signatures, printer-paper inserts, and homemade printed adhesive disc labels.</p>
+
+<hr />
+
+<h2 id="elements"><a href="#elements">Elements</a></h2>
+
+<p><em>Each element may be mandatory [M], optional [O], repeatable [R], or have a variable [V] status where it is only mandatory when an optional parent element is used.</em></p>
+
+<p>1. <a href="/scd/cd">CD</a> [M]</p>
+
+<p>1.1 <a href="/scd/identifier">identifier</a> [M]</p>
+
+<p>1.2 <a href="/scd/description">description</a> [O]</p>
+
+<p>1.3 <a href="/scd/locationpurchased">locationPurchased</a> [M]</p>
+
+<p>1.4 <a href="/scd/album">album</a> [M]</p>
+<ul>
+  <li>1.4.1 <a href="/scd/albumtitle">albumTitle</a> [M]</li>
+  <li>1.4.2 <a href="/scd/albumgenre">albumGenre</a> [O, R]</li>
+  <li>1.4.3 <a href="/scd/albumproductiontype">albumProductionType</a> [M]</li>
+  <li>1.4.4 <a href="/scd/albumreleaseyear">albumReleaseYear</a> [M]</li>
+  <li>1.4.5 <a href="/scd/albumproducer">albumProducer</a> [M]
+    <ul>
+      <li>1.4.5.1 <a href="/scd/albumproducername">albumProducerName</a> [M]</li>
+      <li>1.4.5.2 <a href="/scd/albumproducerurl">albumProducerURL</a> [O, R]</li>
+      <li>1.4.5.3 <a href="/scd/albumproduceremail">albumProducerEmail</a> [O]</li>
+    </ul>
+  </li>
+  <li>1.4.6 <a href="/scd/albumlocationrecorded">albumLocationRecorded</a> [O]</li>
+  <li>1.4.7 <a href="/scd/albumrights">albumRightsStatement</a> [M]</li>
+  <li>1.4.8 <a href="/scd/albumtracks">albumTracks</a> [M]</li>
+  <li>1.4.8.1 <a href="/scd/track">track</a> [M, R]
+    <ul>
+      <li>1.4.8.1.1 <a href="/scd/tracktitle">trackTitle</a> [M]</li>
+      <li>1.4.8.1.2 <a href="/scd/tracklength">trackLength</a> [O]</li>
+      <li>1.4.8.1.3 <a href="/scd/trackdescription">trackDescription</a> [O]</li>
+      <li>1.4.8.1.4 <a href="/scd/tracklanguage">trackLanguage</a> [M, R]</li>
+      <li>1.4.8.1.5 <a href="/scd/trackartist">trackArtist</a> [O, R]
+        <ul>
+          <li>1.4.8.1.5.1 <a href="/scd/trackartistname">trackArtistName</a> [V]</li>
+          <li>1.4.8.1.5.2 <a href="/scd/trackartistclass">trackArtistClass</a> [V]</li>
+          <li>1.4.8.1.5.3 <a href="/scd/trackartistrole">trackArtistRole</a> [O, R]</li>
+        </ul>
+      </li>
+      <li>1.4.8.1.6 <a href="/scd/trackaudiourl">trackAudioURL</a> [O]</li>
+    </ul>
+  </li>
+</ul>
+
+<p>1.5 <a href="/scd/musicgroup">musicGroup</a> [O]</p>
+<ul>
+  <li>1.5.1 <a href="/scd/musicgroupname">musicGroupName</a></li>
+  <li>1.5.2 <a href="/scd/musicgroupurl">musicGroupURL</a> [O, R]</li>
+  <li>1.5.3 <a href="/scd/musicgroupemail">musicGroupEmail</a> [O]</li>
+  <li>1.5.4 <a href="/scd/musicgrouplocation">musicGroupLocation</a> [O]</li>
+</ul>
+
+<p>1.6 <a href="/scd/musicartists">musicArtists</a> [M]</p>
+<ul>
+  <li>1.6.1 <a href="/scd/musicartist">musicArtist</a> [M, R]
+    <ul>
+      <li>1.6.1.1 <a href="/scd/musicartistname">musicArtistName</a> [M]</li>
+      <li>1.6.1.2 <a href="/scd/musicartistclass">musicArtistClass</a> [M]</li>
+      <li>1.6.1.3 <a href="/scd/musicartistrole">musicArtistRole</a> [O, R]</li>
+      <li>1.6.1.4 <a href="/scd/musicartisturl">musicArtistURL</a> [O, R]</li>
+      <li>1.6.1.5 <a href="/scd/musicartistemail">musicArtistEmail</a> [O]</li>
+    </ul>
+  </li>
+</ul>
+
+<p>1.7 <a href="/scd/contributors">contributors</a> [O]</p>
+<ul>
+  <li>1.7.1 <a href="/scd/contributor">contributor</a> [V, R]
+    <ul>
+      <li>1.7.1.1 <a href="/scd/contributorname">contributorName</a> [V]</li>
+      <li>1.7.1.2 <a href="/scd/contributorrole">contributorRole</a> [V, R]</li>
+      <li>1.7.1.3 <a href="/scd/contributorurl">contributorURL</a> [O, R]</li>
+      <li>1.7.1.4 <a href="/scd/contributoremail">contributorEmail</a> [O]</li>
+    </ul>
+  </li>
+</ul>
+
+<p>1.8 <a href="/scd/appearance">appearance</a> [M]</p>
+<ul>
+  <li>1.8.1 <a href="/scd/signature">signature</a> [O, R]</li>
+  <li>1.8.2 <a href="/scd/insertmaterial">insertMaterial</a> [M]</li>
+  <li>1.8.3 <a href="/scd/disclabel">discLabel</a> [M]</li>
+  <li>1.8.4 <a href="/scd/image">image</a> [O, R]
+    <ul>
+      <li>1.8.4.1 <a href="/scd/imageidentifier">imageID</a> [V]</li>
+      <li>1.8.4.2 <a href="/scd/imageurl">imageURL</a> [O]</li>
+      <li>1.8.4.3 <a href="/scd/imagedescription">imageDescription</a> [O]</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="appendix-a"><a href="#appendix-a">Appendix A</a></h2>
+
+<h3 id="album-production-type-value-control">Album Production Type Value Control</h3>
+
+<p><strong>studio:</strong> the tracks were originally recorded with the intent of releasing them in a cohesive album to the general public. Self-published albums can still be studio albums.</p>
+
+<p><strong>compilation:</strong> the tracks were NOT ORIGINALLY recorded with the intent of releasing them in a cohesive album to the general public, however they are released officially in compilation form as opposed to a mixtape. “Greatest Hits” style albums are an example of compilations.</p>
+
+<p><strong>demo:</strong> the album was intended for limited release and circulation for reference purposes</p>
+
+<p><strong>mixtape:</strong> a homemade compilation-style album consisting of tracks from different sources UNOFFICIALLY compiled into an album for person-to-person sharing.</p>
+
+<p><strong>DJ mixset:</strong> a compilation of tracks similar to a mixtape but the tracks are remixed with the intent to be performed live in front of an audience.</p>
+
+<p><strong>soundtrack:</strong> an album consisting of music directly recorded for a film or tv show.</p>
+
+<p><strong>spoken word:</strong> an album consisting of non-musical tracks but instead tracks that feature poetry, stories, monologues, or comedy.</p>
+
+<hr />
+
+<h2 id="appendix-b"><a href="#appendix-b">Appendix B</a></h2>
+
+<h3 id="artist-class-value-control">Artist Class Value Control</h3>
+
+<p><strong>guest artist:</strong> a music artist that is either listed as a guest or contributing artist, or was not listed as part of the band or group</p>
+
+<p><strong>group member:</strong> a music artist that is listed as an official member of the band or group</p>
+
+<p><strong>original artist:</strong> the artist who originally created the song that is now being recorded/remixed by a different artist for this album. This is especially useful in the case of remixed tracks or covers to allow for designation of the original recording artist. (<a href="/scd/trackartistclass">1.4.8.1.5.2 trackArtistClass</a> ONLY)</p>
+
+<p><strong>solo artist:</strong> this value is used for an artist who created a self-published solo project to differentiate them from a “group member” (<a href="/scd/musicartistclass">1.6.1.2 musicArtistClass</a> ONLY)</p>
+
+<hr />
+
+<h2 id="appendix-c"><a href="#appendix-c">Appendix C</a></h2>
+
+<h3 id="url-attribute-value-control">URL Attribute Value Control</h3>
+
+<p>This guide applies to the elements:</p>
+<ul>
+  <li><a href="/scd/albumproducerurl">1.4.5.2 albumProducerURL</a></li>
+  <li><a href="/scd/trackAudioURL">1.4.8.1.6 trackAudioURL</a></li>
+  <li><a href="/scd/musicgroupurl">1.5.2 musicGroupURL</a></li>
+  <li><a href="/scd/musicartisturl">1.6.1.4 musicArtistURL</a></li>
+  <li><a href="/scd/contributorurl">1.7.1.3 contributorURL</a></li>
+</ul>
+
+<p><em>Note: Do not use for <a href="/scd/imageURL">1.8.4.2 imageURL</a></em></p>
+
+<h4 id="c1-url-type">C.1 URL Type</h4>
+
+<p><strong>original:</strong> the original URL as listed on the CD packaging or its Wayback Machine equivalent</p>
+
+<p><strong>official:</strong> the current, usually live, URL for the official website of the producer, artist, contributor, music group, etc.</p>
+
+<p><strong>social:</strong> the URL pointing to the social media profile for the producer, artist, contributor, music group, etc.
+streaming: the URL pointing to the audio track on a streaming service such as Spotify, YouTube, or Apple Music.</p>
+
+<p><strong>other:</strong> the URL pointing to an informational website such as a Wikipedia entry, a MusicBrainz entry, blog post, news article, or other source or information about a producer, artist, contributor, music group, etc.</p>
+
+<h4 id="c2-url-status">C.2 URL Status</h4>
+
+<p><strong>wayback:</strong> the URL is a Wayback Machine capture of a website (see C.3 Wayback Machine)</p>
+
+<p><strong>live:</strong> the URL is still functional and can be accessed without a Wayback capture</p>
+
+<p><strong>broken:</strong> this URL is the original URL as listed on the CD packaging however it is no longer working and an applicable Wayback capture cannot be found</p>
+
+<h4 id="c3-wayback-machine">C.3 Wayback Machine</h4>
+
+<p>The Wayback Machine is a service that archives websites so that the website’s appearance at a given date can be captured and accessed despite any updates to the website after the given date or in case the website is no longer live. This is useful for Secondhand CDs as many websites listed on the CDs are no longer live.</p>
+
+<p><strong>For More Information:</strong> <a href="https://help.archive.org/hc/en-us/articles/360004716091-Wayback-Machine-General-Information">Wayback Machine General Information</a></p>
+
+<p><strong>Linking to a Wayback Capture:</strong></p>
+
+<p><strong>1.</strong> Visit <a href="https://web.archive.org">https://web.archive.org</a> and type in the original URL as listed on the CD.
+For example, entering lukeysboat.com displays this page on the Wayback Machine:</p>
+
+<p><a href="/mlis/metadata/Wayback_001.png"><img src="/mlis/metadata/Wayback_001.png" alt="Lukeys Boat Wayback Machine Calendar" /></a></p>
+
+<p><strong>2.</strong> Hovering over the highlighted date shows the captures for the day. Click on the bulleted capture to see the capture.</p>
+
+<p><a href="/mlis/metadata/Wayback_002.png"><img src="/mlis/metadata/Wayback_002.png" alt="Lukeys Boat Wayback Machine Capture" /></a></p>
+
+<p><strong>3.</strong> The address in the address bar of the capture page is the URL you will use for the value.</p>
+
+<p><a href="/mlis/metadata/Wayback_003.png"><img src="/mlis/metadata/Wayback_003.png" alt="Lukeys Boat Wayback Machine Homepage" /></a></p>
+:ET

@@ -1,0 +1,171 @@
+I"l%<!--TODO: proofread -->
+
+<p><a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> / <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two</a> / <a href="/tutorial/2018/02/25/digital-humanities-sitemap.html">Part Three</a> / <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four</a> / <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a> / <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a></p>
+
+<p>This tutorial will guide you towards the appropriate platforms, resources, and tutorials for your site. We will identify key aspects of the site such as the audience, the format of the information you want to present, the ability levels of the programmer/team members, and which platforms are best suited for your site. Then we will outline a link tree, sketch out a landing page design, and create a plan of attack for moving forward. By the end of the tutorial, you will have a solid base to build your website off of and a plethora of resources to keep the momentum going.</p>
+
+<blockquote>
+  <p>Along the way, look for these info boxes for ways in which these steps were utilized in developing Visualizing Abolition as well as krogersst.github.com.</p>
+</blockquote>
+
+<h4 id="part-one-q-and-a">Part One: Q and A</h4>
+
+<p>Before you get to dive into the fun stuff like coding and designing the visuals of a digital humanities website, understanding what you want out of your website comes first. Brainstorming helps limit the problems that inevitably pop up along the way. Here are important questions that you should answer before attempting a project like this. This will give insight into the unique issues that face a project of this type, the ways in which planning can circumvent these issues, and how to kick-start your own project.</p>
+
+<p>You can fill out this <a href="https://docs.google.com/document/d/1ZZNR-xy3G0h3cEl5fK6oO65McOVV8bFUIIobztxDE-8/edit?usp=sharing">worksheet</a> as you follow along with the tutorial.</p>
+
+<h4 id="primary-questions">Primary Questions</h4>
+
+<p>The answers to these questions influence every level of the process. They will no doubt fluctuate and grow with your project, but even a rough idea that changes is better than going in blindly.</p>
+
+<ol>
+  <li>
+    <p>What is the goal of your website?</p>
+
+    <ul>
+      <li>Sharing essays and interpretive resources</li>
+      <li>Presenting a collaborative project</li>
+      <li>Providing a searchable database</li>
+      <li>Creating a dialogue through forums and comments</li>
+      <li>Providing visualizations</li>
+      <li>Facilitating the growth of and wider collaboration on a larger project</li>
+    </ul>
+
+    <blockquote>
+      <p>Visualizing Abolition’s main goal is to provide an integrated database and visualization system as well as essays and images to provide context and interpretation of the data.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Who is your audience? This influences both visual design, wording, and the basic layout of the site.</p>
+
+    <ul>
+      <li>What is the tone of your content? Visualizing Abolition presents data on the African slave trade. This will require a different feel and tone than a site focused on the history of comfort food in the American South.</li>
+      <li>Will your audience be primarily professional academia? Will it be public history oriented? Or would you like your site to have resources for high school and middle school teachers interested in working with primary sources?</li>
+    </ul>
+
+    <blockquote>
+      <p>Visualizing Abolition’s audience is mainly researchers interested in primary sources.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>What is the format of the information you are presenting?</p>
+
+    <ul>
+      <li>Video</li>
+      <li>Audio</li>
+      <li>Maps</li>
+      <li>Database</li>
+      <li>Visualizations</li>
+      <li>Photos/Images</li>
+      <li>Essays/text-based</li>
+    </ul>
+
+    <blockquote>
+      <p>Visualizing Abolition’s primary format, when initially planned, was a database with visualizations. However, with the addition of other team members we were able to expand our formats to video, images, and essays. This expansion relied on the capabilities of our platform and our programming team.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>What is the future of your site?</p>
+
+    <ul>
+      <li>Will this be a static site presenting a project at a moment in time?</li>
+      <li>Will you be constantly adding new content to the site?</li>
+      <li>Will this site house one project or many related projects?</li>
+      <li>Will you be handing this site off to others, or keeping it under your care?</li>
+    </ul>
+
+    <blockquote>
+      <p>Visualizing Abolition’s has gone through many changes, but throughout it’s growth, it has remained a site presenting a single, mostly static project. It has changed hands this winter from the University of Missouri to Rice University, requiring it to be rather limber in where it can be housed.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h4 id="technical-questions">Technical Questions</h4>
+
+<p>There are <strong>three levels of user interface</strong> that you can utilize: the programmer, the admin/contributor, and the end-user/audience/consumer. Different platforms lend themselves to different abilities and needs in each of these levels. Identifying key abilities and requirements for each level will inform which platform you choose and how you will structure your site on that platform.</p>
+
+<ol>
+  <li>
+    <p>Who is the programmer/designer and what are their abilities? If you’re in charge of the design/programming, are you able to achieve the goals of your site with your skill level or will you need to add a designated programmer to your team?</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Goal</th>
+          <th>Skills or Platform Requirements</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sharing essays and interpretive resources</td>
+          <td>built-in widgets or basic html and css</td>
+        </tr>
+        <tr>
+          <td>Providing image slideshows, and basic keyword search for images</td>
+          <td>built-in widgets or basic custom jQuery and javascript</td>
+        </tr>
+        <tr>
+          <td>Providing a searchable, multi-keyword database</td>
+          <td>intermediate to advanced custom jQuery and javascript</td>
+        </tr>
+        <tr>
+          <td>Interactive visualizations</td>
+          <td>intermediate to advanced custom jQuery and javascript</td>
+        </tr>
+        <tr>
+          <td>Creating a dialogue through forums and comments</td>
+          <td>CMS based platform</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Who, if any, are your collaborators?</p>
+
+    <ul>
+      <li>What are their ability levels? Are they comfortable with coding such as basic html?</li>
+      <li>Will they contribute independently in adding site content or will they go through you in order to add information to the site?</li>
+      <li>Will you need a platform for individual access to the site? <a href="https://wordpress.org/">WordPress</a>, <a href="https://squarespace.com">Squarespace</a>, and other platforms of their ilk have built-in, fairly intuitive contributor platforms.</li>
+    </ul>
+
+    <blockquote>
+      <p>Visualizing Abolition utilizes WordPress’ contributor access and blogging features to allow team members to post images and essays as they see fit with intuitive fields for adding images, tags, and other features without needing to know advanced coding. The system also keeps track of each contributor’s level of access and privileges to the site, allowing for oversight.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>How much interaction do you require from your audience?</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Interaction</th>
+          <th>Platform</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic contact form, a designated email, or linking to social media such as Facebook</td>
+          <td>a static site generator such as <a href="https://jekyllrb.com/">Jekyll</a></td>
+        </tr>
+        <tr>
+          <td>Comments, forums, multiple contact forms</td>
+          <td>CMS based site with a back-end database such as WordPress</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Will you be working with an IT team to help host your website? Your website will need to live on a server. This is sometimes the most difficult part of the process.</p>
+
+    <ul>
+      <li><a href="https://wordpress.org/">WordPress.org</a> and <a href="https://jekyllrb.com/">Jekyll</a> can be hosted and moved across webhosting services as well as offline on a local machine. But they also are the most difficult to juggle because of this flexibility.</li>
+      <li>Platforms such as <a href="https://squarespace.com">Squarespace</a> and <a href="https://wordpress.com">WordPress.com</a> are online only website platforms that leave you less flexibility on who owns and maintains the site but does not require you to mess around with hosting.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="on-to-part-two-choosing-a-platform">On To Part Two: Choosing a Platform</h4>
+
+<p>Now that we have a rough idea of what our requirements are for the site and the resources needed, let’s take a look at what each platform can do for us in <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two: Choosing a Platform</a>.</p>
+
+:ET

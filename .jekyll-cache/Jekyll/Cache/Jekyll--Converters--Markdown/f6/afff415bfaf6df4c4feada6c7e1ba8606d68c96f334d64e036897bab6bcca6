@@ -1,0 +1,118 @@
+I"<p><a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> / <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two</a> / <a href="/tutorial/2018/02/25/digital-humanities-sitemap.html">Part Three</a> / <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four</a> / <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a> / <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a></p>
+
+<p>Throughout the process of building Visualizing Abolition I collected a variety of resources and tutorials that helped me in making a website of this type with all of its associated components, i.e. the plugin that produces the database and visualizations. To make your journey a bit easier, I’ve put them all in one place. But this doesn’t mean you should stop here. The biggest skill I learned during the production of this site was googling my heart out. So explore the almost limitless resources and help people are glad to share with you freely.</p>
+
+<h4 id="programs">Programs</h4>
+
+<ul>
+  <li><a href="https://atom.io">Atom</a>: Free, open-source, text editor that is scalable and intuitive. I cannot recommend Atom enough.</li>
+  <li><a href="https://instantwp.com">InstantWordpress</a>: An all-in-one free program for testing your Wordpress.org project offline.</li>
+</ul>
+
+<h4 id="tutorials">Tutorials</h4>
+
+<p><strong>Writing and Publishing</strong></p>
+
+<ul>
+  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">A Markdown Cheatsheet</a></li>
+  <li><a href="https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship</a>: An introduction to Pandoc, Markdown, and plain text publication. This provides a more scholarly perspective to work with Markdown.</li>
+  <li><a href="https://stackedit.io/">Stackedit</a>: An online markdown editor.
+*</li>
+</ul>
+
+<p><strong>HTML/CSS</strong></p>
+
+<ul>
+  <li><a href="https://programminghistorian.org/lessons/viewing-html-files">HTML</a></li>
+</ul>
+
+<p><strong>Wordpress</strong></p>
+
+<ul>
+  <li><a href="https://codex.wordpress.org">WordPress Codex</a></li>
+  <li><a href="https://www.wpbeginner.com">WPBeginner</a></li>
+  <li><a href="https://docs.layerswp.com">LayersWP Docs</a></li>
+</ul>
+
+<p><strong>Other Tutorials</strong></p>
+
+<ul>
+  <li><a href="https://programminghistorian.org/lessons/intro-to-powershell">Intro to the Command Line</a>: This is particularly important if you want to run Jekyll locally, but also a great thing to know in general when embarking as a programmer of any level.</li>
+</ul>
+
+<h4 id="themes">Themes</h4>
+
+<ul>
+  <li><a href="https://layerswp.com">Layers</a> is the WordPress theme Visualizing Abolition was built on. It has amazing associated documentation that makes expanding and manipulating the look and feel of the site that much easier.</li>
+</ul>
+
+<h4 id="plugins">Plugins</h4>
+
+<p><strong>Writing</strong></p>
+
+<ul>
+  <li><a href="http://scripto.org/">Scripto</a> was mentioned earlier when discussing Omeka. However, it can be also be used through WordPress and Drupal.</li>
+</ul>
+
+<p><strong>Maps</strong></p>
+
+<ul>
+  <li><a href="https://www.mapbox.com/">Mapbox</a>: a mapping plugin made especially for use with SSGs</li>
+  <li><a href="https://storymap.knightlab.com/">StoryMap</a></li>
+</ul>
+
+<p><strong>Timelines</strong></p>
+
+<ul>
+  <li><a href="https://timeline.knightlab.com/">Timeline JS</a></li>
+  <li><a href="http://timemapper.okfnlabs.org/">TimeMapper</a></li>
+</ul>
+
+<p><strong>Other</strong></p>
+
+<ul>
+  <li><a href="link">Revalanssi</a></li>
+  <li><a href="link">Content Views</a></li>
+</ul>
+
+<h4 id="ssg-resources">SSG Resources</h4>
+
+<ul>
+  <li><a href="https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/">Contentful</a>: a step above SSGs, combines the simplicity and speed of a static site generator with the collaborative dashboard of a CMS based builder like WordPress.</li>
+  <li><a href="https://ghost.org/features/">Ghost</a> and <a href="https://getcockpit.com/">Cockpit</a>: open source platforms that bridge the gap between CMS and SSGs.</li>
+  <li><a href="https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/">Building CMS Free Websites</a> and <a href="https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned/">Using a SSG at Scale</a>: great articles on the ins and outs of building CMS free, especially at larger scales.</li>
+</ul>
+
+<h4 id="extend-and-collaborate">Extend and Collaborate</h4>
+
+<ul>
+  <li><a href="http://commons.pelagios.org/">Pelagios Commons</a>: Pelagios Commons provides online resources and a community forum for using open data methods to link and explore historical places</li>
+  <li>
+    <p><a href="https://github.com/">Github</a>: The top site for exploring and collaborating on code.</p>
+
+    <ul>
+      <li><a href="https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/">What is Github</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="all-sample-sites">All Sample Sites</h4>
+
+<ul>
+  <li><a href="http://dsl.richmond.edu/panorama/renewal/">Renewing Inequality: Urban Renewal, Family Displacements, and Race 1955-1966</a></li>
+  <li><a href="http://livingstoneonline.org/">Illuminating Livingstone</a></li>
+  <li><a href="https://www.libcrowds.com/collection/playbills">In the Spotlight</a></li>
+  <li><a href="http://whatamericaate.org/index.php">What America Ate: Preserving America’s Culinary History from the Great Depression</a></li>
+  <li><a href="http://cdhrdatasys.anu.edu.au/tobecontinued/">To be continued . . . The Australian Newspaper Fiction Database</a></li>
+  <li><a href="https://updigitalhumanities.wixsite.com/quiapography">Quiapography</a></li>
+  <li><a href="http://chirila.yale.edu/">Chirila</a></li>
+</ul>
+
+<h4 id="further-reading">Further Reading</h4>
+
+<ul>
+  <li><a href="https://cdh.unc.edu/resources/tools/">Carolina Digital Humanities’ Resource List</a></li>
+  <li><a href="http://humanidadesdigitales.net/evaluacion/eng/">Digital Humanities Project Checklist</a></li>
+</ul>
+
+:ET

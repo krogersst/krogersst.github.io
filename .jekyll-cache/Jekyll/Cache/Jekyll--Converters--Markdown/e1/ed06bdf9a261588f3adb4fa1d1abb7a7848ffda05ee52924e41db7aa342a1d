@@ -1,0 +1,75 @@
+I"w<p><a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> / <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two</a> / <a href="/tutorial/2018/02/25/digital-humanities-sitemap.html">Part Three</a> / <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four</a> / <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a> / <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a></p>
+
+<p>Now we get to the fun stuff! This is the step where we get to put pen to paper and draft our sitemap! Sitemaps help give us an idea of the structure of our site. Every site starts with a homepage. From there your site grows much like a tree or a flow chart. Understanding what pages you need to make and how they connect to other pages helps keep your website on track.</p>
+
+<h4 id="what-is-a-sitemap">What is a Sitemap?</h4>
+
+<p>A sitemap shows the basic structure of the pages of your website. All sites start with a homepage: yoursite.com. From there the structures can vary dramatically. Smaller sites have a single page requiring the user to simply scroll down to discover more content. For larger sites, especially those featuring DH projects, multiple pages are required to hold a variety of media and interactive modules. Keeping track of what pages you want to create and how they will link to each other is important for both user design and site maintenance.</p>
+
+<p>Here are a few sample sitemaps to give you inspiration and to better understand how actual digital humanities sites are structured.</p>
+
+<ul>
+  <li><a href="https://www.gloomaps.com/4MggK6Tt6E">Sitemap</a> of <a href="http://letters1916.maynoothuniversity.ie/">Letters of 1916</a></li>
+  <li><a href="https://www.gloomaps.com/eQDYZwXn4j">Sitemap</a> of <a href="http://cdhrdatasys.anu.edu.au/tobecontinued/">To be continued . . . The Australian Newspaper Fiction Database</a></li>
+  <li><a href="https://www.gloomaps.com/p2CAQA4iv3">Sitemap</a> of <a href="http://whatamericaate.org/index.php">What America Ate: Preserving America’s Culinary History from the Great Depression</a></li>
+  <li><a href="https://www.gloomaps.com/oQhZofcMKj">Sitemap</a> of <a href="https://visualizingabolition.org/">Visualizing Abolition</a></li>
+</ul>
+
+<h5 id="user-design">User Design</h5>
+
+<p>A streamlined site is a wonderful thing, but don’t leave out important pages just for the sake of minimalism. An important element, especially for larger, data-heavy projects common in digital humanities is the <strong>How To Page</strong>. Some projects throw the user into the thick of things with twenty different controls without so much as a starting point to refer to. This may be okay if this site is directed towards a narrow audience that shares your knowledge and expertise. However, it completely alienates anyone else who may want to gain that knowledge. Each site above has a variety of how-to resources to guide a new user, or a returner who needs a refresher, through interacting and even contributing to the site and project. <strong>Do not forget this page!</strong></p>
+
+<h5 id="structuring-a-sitemap">Structuring a Sitemap</h5>
+
+<p>Many common elements can be made as separate pages, nested under other pages, or included on one single page. How you decide to set your site up depends on the importance of each element, the pathways you would like the user to take, and simple logic. For example, <strong>About, Contact Us,</strong> and <strong>Copyright</strong> can all be structured differently in relation to each other depending on a variety of situations:</p>
+
+<p><a href="/assets/images/tutorial/aboutpage1.png"><img src="/assets/images/tutorial/aboutpage1.png" alt="About Page Setup One" /></a>
+<strong>Contact Us</strong> and <strong>Copyright</strong> are separate pages that the user navigates to through the <strong>About</strong> parent page, or through a drop-down menu. This creates a storybook route for the user where About <em>leads</em> to the next page. Once the user reads about the project they may want to understand how they can use the project in their own work, or how to contact the authors.</p>
+
+<p><a href="/assets/images/tutorial/aboutpage2.png"><img src="/assets/images/tutorial/aboutpage2.png" alt="About Page Setup Two" /></a>
+<strong>Contact Us</strong> and <strong>Copyright</strong> are their own pages nested right at the base of the site. The user navigates to these pages directly from the top layer of the menu, or from a link on the home page. This set-up is used when these elements are considered vital to the website’s message. Top-layer pages are the next stop for the user after landing on the home page. Perhaps the user has enough information from the home page that they are eager to contact the authors or look into how to use the website in their own project.</p>
+
+<p><a href="/assets/images/tutorial/aboutpage4.png"><img src="/assets/images/tutorial/aboutpage4.png" alt="About Page Setup Three" /></a>
+<strong>Contact Us</strong> and <strong>Copyright</strong> are subsections of the <strong>About</strong> page and are not linked to by any part of the website, but are merely a part of a larger page. This is good for when an element does not take up a lot of space both physically and productively. The website may not have require a lengthy contact form and merely a link to Facebook or an email. Similarly, a single, fair-use copyright may cover the entirety of the project and requires little explanation.</p>
+
+<h4 id="building-your-own-sitemap">Building Your Own Sitemap</h4>
+
+<ol>
+  <li>
+    <p><strong>Brainstorm.</strong> Create a list of pages you want to include. Don’t worry about order or structure yet. Just write. Common elements include:</p>
+
+    <ul>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Copyright</li>
+      <li>Outreach</li>
+      <li>Search</li>
+      <li>Examples</li>
+      <li>Contribute</li>
+      <li>How To Use</li>
+      <li>How To Cite</li>
+      <li>Sponsors</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Rank</strong> the importance of each page</p>
+
+    <ul>
+      <li>What is the role of each page in your project?</li>
+      <li>Which pages are more vital for the user to see first?</li>
+      <li>Are some pages necessary to be expressed as stand-alone pages?</li>
+      <li>Could some information be expressed in conjunction with other sections?</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Draft!</strong></p>
+
+    <p>Now that you have an idea of the basics of how sites are structured and the pages your site requires, grab some scrap paper or fire up <a href="https://www.gloomaps.com/">GlooMaps</a> to draft a sitemap.</p>
+  </li>
+</ol>
+
+<h4 id="on-to-part-four-sketching-a-homepage">On to Part Four: Sketching a Homepage</h4>
+
+<p>Now that you have a rough idea of how your site will be structured, let’s tackle the page that all others flow from in <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four: Sketching a Homepage</a>.</p>
+
+:ET

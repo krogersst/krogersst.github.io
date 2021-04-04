@@ -1,0 +1,96 @@
+I"<!<p><a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> / <a href="/tutorial/2018/02/24/digital-humanities-platforms.html">Part Two</a> / <a href="/tutorial/2018/02/25/digital-humanities-sitemap.html">Part Three</a> / <a href="/tutorial/2018/02/26/digital-humanities-homepage.html">Part Four</a> / <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a> / <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a></p>
+
+<p>Now that we have an idea of what the structure of the site will look like, let’s work on the first thing your audience will ever see of your project: the homepage. The homepage is a vital part of engaging with your audience and sets the tone of the rest of their experience. Starting your design process here also allows <em>you</em> to define the tone and style of the rest of the website for yourself.</p>
+
+<h4 id="the-goals-of-a-homepage">The Goals of a Homepage</h4>
+
+<p>There are a few things you should keep in mind when designing a homepage. Look back at your answers in <a href="/tutorial/2018/02/23/digital-humanities-website.html">Part One</a> to get an idea of where to start.</p>
+
+<h5 id="the-number-one-goal-tell-the-user-what-this-site-is-all-about">The Number One Goal: Tell the user what this site is all about!</h5>
+
+<p class="post-quote">"If the site does not do a good job of answering [this question] within a few seconds, the user will feel dumb, leave, and never come back." - <a href="https://alistapart.com/article/homepagegoals">A List Apart</a></p>
+
+<p>Describe your project as simply and concisely as possible so the user knows exactly what they’re in for as soon as they’ve landed on your homepage. Many times I find myself clicking the About link just to figure out what exactly the project is about in the first place. Try to avoid this! You want the user to click About because they want to know <em>more</em> not because they want to know <em>something</em>.</p>
+
+<h5 id="structure-form-follows-function">Structure: Form Follows Function</h5>
+
+<p>Most pages have the same basic structure: header –&gt; body or content –&gt; footer. This helps a user who is unfamiliar with the site navigate easily even on their first visit.</p>
+
+<p><a href="/assets/images/tutorial/wireframe_visab2.png"><img src="/assets/images/tutorial/wireframe_visab2.png" alt="Visualizing Abolition Wireframe" /></a></p>
+
+<p>As the eye moves down the page, information becomes more and more specialized and directs the user to their next step. You can play around with how the body of your homepage is structured but for most sites, especially academic oriented sites, the header and footer must stay simple and straight forward. Don’t make the user hunt down the navigation bar or the title of the site. The body is reserved for a short description, representative images, and emphasizing top-level pages. You can have more stylistic freedom here as this is where the spirit of the site is first expressed. Finally, the footer usually holds abridged copyright, sponsor, and contact information.</p>
+
+<p>Here are a few prompts to get you started thinking about the structure and content of your homepage:</p>
+
+<ul>
+  <li>What is the first thing you want the user to know about your site?</li>
+  <li>Where should the user go next, ideally? Are there top-level pages you want to single out even more?</li>
+  <li>Are there quotes, images, or videos that summarize the project that you would like to showcase on the homepage?</li>
+</ul>
+
+<h5 id="style-the-artistic-eye">Style: The Artistic Eye</h5>
+
+<p>How will you express the tone of your site visually?</p>
+
+<ul>
+  <li>
+    <p>Color</p>
+
+    <p><a href="https://www.creativebloq.com/features/8-free-apps-for-picking-a-colour-scheme">Color Scheme Sites</a></p>
+  </li>
+  <li>
+    <p>Fonts</p>
+  </li>
+</ul>
+
+<h4 id="some-examples">Some Examples</h4>
+
+<p>Take a look at each of these DH homepages and analyze what works and what doesn’t. Look at other sites, both DH projects and otherwise to find inspiration. Take note of how images, fonts, and colors are used, how simple or complex the page looks, and what top-level pages are emphasized and how they are emphasized. You don’t have to reinvent the wheel. Common elements such a typeface, color, and layout are common because they work!</p>
+
+<h5 id="to-be-continued----the-australian-newspaper-fiction-database"><a href="http://cdhrdatasys.anu.edu.au/tobecontinued/">To be continued . . . The Australian Newspaper Fiction Database</a></h5>
+
+<p><a href="/assets/images/tutorial/tbc_homepage.png"><img src="/assets/images/tutorial/tbc_homepage.png" alt="To Be Continued Hompage" /></a></p>
+
+<p>The title of this site gives us a good idea of what’s in store, combined with a slideshow of large illustrations from the database, gives us a feel for the tone of the site. It’s a light-hearted project, focusing on popular fiction of the past. I would prefer there be a short blurb expanding on the project’s goal or purpose or what the user can do on the site. The <strong>database</strong> and <strong>getting involved</strong> are the top-level pages that are emphasized through separate orange buttons.</p>
+
+<h5 id="what-america-ate-preserving-americas-culinary-history-from-the-great-depression"><a href="http://whatamericaate.org/index.php">What America Ate: Preserving America’s Culinary History from the Great Depression</a></h5>
+
+<p><a href="/assets/images/tutorial/whatamericaate_homepage.png"><img src="/assets/images/tutorial/whatamericaate_homepage.png" alt="What America Ate Homepage" /></a></p>
+
+<p>I adore this homepage. It is bright, engaging, and simple. It sets the tone nicely, utilizing a similar approach to the previous homepage. We have a large illustration from the source material that emphasizes the aesthetics of the time period and the subject matter: food. This page also gives us a blurb that expands on what the project is all about before giving us an expanded description that encourages us to scroll further. The homepage is set up similarly to a one page website, as we scroll, new sections are emphasized. In this way, top-level pages are showcased on the homepage. What America Ate encourages the user to take their next step towards <strong>Recipe Transcription</strong>, the <strong>Map</strong>, and <strong>Browse</strong> which itself emphasizes certain categories.</p>
+
+<h5 id="visualizing-abolition"><a href="https://visualizingabolition.org/">Visualizing Abolition</a></h5>
+
+<p><a href="/assets/images/homepage_vis.png"><img src="/assets/images/homepage_vis.png" alt="Visualizing Abolition Homepage" /></a></p>
+
+<!--TODO: new screenshot-->
+
+<p>When going into designing Visualizing Abolition’s homepage, I wanted to create an understated aesthetic in keeping with the tone of the content being presented. Our project is also made up of three important components which needed to be highlighted on the homepage that would allow the user to choose their next step depending on how they learn and make sense of information.</p>
+
+<h4 id="how-to-design-your-own">How to Design Your Own</h4>
+
+<!--TODO: how to design and provide a website to design with -->
+<p><a href="https://invisionapp.com">invisionapp</a></p>
+
+<ol>
+  <li>Make a free account</li>
+  <li>New freehand</li>
+</ol>
+
+<p><a href="https://www.wix.com/blog/2014/01/build-a-killer-homepage-10-dos-donts/">Wix’s Guide for Killer Homepage Design</a></p>
+
+<h5 id="more-inspiration">More Inspiration</h5>
+
+<ul>
+  <li><a href="http://chirila.yale.edu/">Chirila</a>: A database of the languages of Australia</li>
+  <li><a href="https://updigitalhumanities.wixsite.com/quiapography">Quiapography</a></li>
+  <li><a href="http://dsl.richmond.edu/panorama/renewal/">Renewing Inequality: Urban Renewal, Family Displacements, and Race 1955-1966</a></li>
+  <li><a href="http://livingstoneonline.org/">Illuminating Livingstone</a></li>
+  <li><a href="https://www.libcrowds.com/collection/playbills">In the Spotlight</a></li>
+</ul>
+
+<h4 id="on-to-part-five-building-your-first-github-site">On to Part Five: Building Your First Github Site</h4>
+<!--TODO: intro part five-->
+<p>The next two sections are currently under construction. For a brief overview of creating your first github site go to <a href="/tutorial/2018/02/27/digital-humanities-github.html">Part Five</a>, for a frequently updated list of resources head over to <a href="/tutorial/2018/02/28/digital-humanities-resources.html">Part Six</a>.</p>
+
+:ET
