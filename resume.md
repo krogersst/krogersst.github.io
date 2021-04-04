@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: valstarnes_header.png
 header-pic-alt: valstarnes_header_alt.png
 ---
-Full PDF [here]({{ site.baseurl }}/assets/Resume_KRogers_June2020.pdf).
+Full PDF [here]({{ site.baseurl }}/assets/KRogers_Resume_April2021.pdf).
 
 #### Education
 **[Master of Library and Information Science]({{ site.baseurl }}/mlis)** [May 2020]  
@@ -17,15 +17,22 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
-**Museum Collections Intern** [September 2019 - Present]  
-_International Women's Air and Space Museum, Cleveland, OH_  
-- Catalogs and digitizes items in archives including clothing, photographs, and ephemera to facilitate large-scale collection assessment project
-- Assists Collections Manager with reference material inquiries and museum loans
+**Curator** [December 2020 - Present]
+_Bay Village Historical Society, Bay Village, OH_
+- Manages first inventory in two decades of entire Rose Hill Museum collection and catalogs each object in the museum's new collection database with all necessary metadata, images, and documentation
+- Created a digitization and cataloging plan and workflow for the Rose Hill photograph collection and manages its implementation
+- Redesigns and installs Rose Hill exhibits following renovation efforts with an emphasis on refreshing decades old interpretative messaging and integrating new digital experiences
+- Writes grant proposals to support on-going and new museum initiatives
 
-**Guest Engagement Specialist** [March 2020 - Present]  
+**Guest Engagement Specialist** [March 2020 - Present]
 _Great Lakes Science Center, Cleveland, OH_  
 - Provides Science Center guests with informal learning experiences on a variety of topics from space exploration to physics concepts
 - Assists in creating a safe educational environment amid the COVID-19 pandemic
+
+**Museum Collections Intern** [September 2019 - November 2020]  
+_International Women's Air and Space Museum, Cleveland, OH_  
+- Cataloged and digitized items in archives including clothing, photographs, and ephemera to facilitate large-scale collection assessment project
+- Assisted Collections Manager with reference material inquiries and museum loans
 
 **[Digital Special Collections Intern]({{ site.baseurl }}/mlis/practicum/about)** [January 2020 - May 2020]  
 _Cleveland State University, Cleveland, OH_
