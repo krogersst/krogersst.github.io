@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: valstarnes_header.png
 header-pic-alt: valstarnes_header_alt.png
 ---
-Full PDF [here]({{ site.baseurl }}/assets/KRogers_Resume_April2021.pdf).
+Full PDF [here]({{ site.baseurl }}/assets/KMRogers_Resume_Sept2021.pdf).
 
 #### Education
 **[Master of Library and Information Science]({{ site.baseurl }}/mlis)** [May 2020]  
@@ -17,12 +17,18 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
-**Curator** [December 2020 - Present]
+**Naturalist** [August 2021 - Present]
+_Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
+- Develops and leads educational hikes and hands-on programs for a wide range of audiences focusing on native Ohio wildlife and local natural and cultural history
+- Designs and produces graphics and passive interpretive content
+
+**Curator** [December 2020 - August 2021]
 _Bay Village Historical Society, Bay Village, OH_
-- Manages first inventory in two decades of entire Rose Hill Museum collection and catalogs each object in the museum's new collection database with all necessary metadata, images, and documentation
-- Created a digitization and cataloging plan and workflow for the Rose Hill photograph collection and manages its implementation
-- Redesigns and installs Rose Hill exhibits following renovation efforts with an emphasis on refreshing decades old interpretative messaging and integrating new digital experiences
-- Writes grant proposals to support on-going and new museum initiatives
+- Managed first inventory in two decades of entire Rose Hill Museum collection and cataloged each object in the museum's new collection database with all necessary metadata, images, and documentation
+- Created a digitization and cataloging plan and workflow for the Rose Hill photograph collection and managed its implementation
+- Redesigned and installed Rose Hill exhibits following renovation efforts with an emphasis on refreshing decades old interpretative messaging and integrating new digital experiences
+- Developed, researched, and wrote historical interpretive digital tour guide for [bayhistorical.com](bayhistorical.com)
+- Wrote grant proposals to support on-going and new museum initiatives
 
 **Guest Engagement Specialist** [March 2020 - Present]
 _Great Lakes Science Center, Cleveland, OH_  
