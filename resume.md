@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: valstarnes_header.png
 header-pic-alt: valstarnes_header_alt.png
 ---
-Full PDF [here]({{ site.baseurl }}/assets/KMRogers_Resume_Sept2021.pdf).
+Full PDF [here]({{ site.baseurl }}/assets/KelseyMarieRogers_Resume.pdf).
 
 #### Education
 **[Master of Library and Information Science]({{ site.baseurl }}/mlis)** [May 2020]  
@@ -19,8 +19,15 @@ _University of Missouri, Columbia, MO_
 #### Experience
 **Naturalist** [August 2021 - Present]
 _Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
-- Develops and leads educational hikes and hands-on programs for a wide range of audiences focusing on native Ohio wildlife and local natural and cultural history
+- Plans and presents educational hikes and hands-on programs for school aged children to senior citizens focusing on local and natural history
+- Conudcts outreach STEM programs for schools and community events on topics ranging from watershed conservation to backyard biodiversity
+- Answers reference and information questions both on the trail and at the front desk
 - Designs and produces graphics and passive interpretive content
+
+**Guest Engagement Specialist** [March 2020 - Present]
+_Great Lakes Science Center, Cleveland, OH_  
+- Provides Science Center guests with informal learning experiences on a variety of STEM topics from space exploration to engineering history on the Great Lakes
+- Assists in creating a safe educational environment amid the COVID-19 pandemic
 
 **Curator** [December 2020 - August 2021]
 _Bay Village Historical Society, Bay Village, OH_
@@ -29,11 +36,6 @@ _Bay Village Historical Society, Bay Village, OH_
 - Redesigned and installed Rose Hill exhibits following renovation efforts with an emphasis on refreshing decades old interpretative messaging and integrating new digital experiences
 - Developed, researched, and wrote historical interpretive digital tour guide for [bayhistorical.com](bayhistorical.com)
 - Wrote grant proposals to support on-going and new museum initiatives
-
-**Guest Engagement Specialist** [March 2020 - Present]
-_Great Lakes Science Center, Cleveland, OH_  
-- Provides Science Center guests with informal learning experiences on a variety of topics from space exploration to physics concepts
-- Assists in creating a safe educational environment amid the COVID-19 pandemic
 
 **Museum Collections Intern** [September 2019 - November 2020]  
 _International Women's Air and Space Museum, Cleveland, OH_  
