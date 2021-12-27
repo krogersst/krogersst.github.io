@@ -20,7 +20,7 @@ _University of Missouri, Columbia, MO_
 **Naturalist** [August 2021 - Present]
 _Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
 - Plans and presents educational hikes and hands-on programs for school aged children to senior citizens focusing on local and natural history
-- Conudcts outreach STEM programs for schools and community events on topics ranging from watershed conservation to backyard biodiversity
+- Presents outreach STEM programs for schools and community events on topics ranging from watershed conservation to backyard biodiversity
 - Answers reference and information questions both on the trail and at the front desk
 - Designs and produces graphics and passive interpretive content
 
@@ -64,7 +64,7 @@ _Aullwood Audubon Nature Center and Farm, Dayton, OH_
 - Developed and led a STEM program for local schools
   - _[Google Drive Folder of Lesson Plans and Worksheets](https://drive.google.com/drive/folders/0ByAKnFlSibVYQjNKMTlqdVBqLWM?usp=sharing)_
 - Taught both children and adults about native wildlife and local history
-- Led hands-on, interactive programs, including nature hikes, interpretative performances, and one-one-one educational activities
+- Led hands-on, interactive programs, including nature hikes, interpretative performances, and one-on-one educational activities
 
 **Lead Programmer and Designer** [August 2016 - May 2017]
 _Visualizing Abolition, University of Missouri Honors College, Columbia, MO_  
