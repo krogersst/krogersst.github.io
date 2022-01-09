@@ -1,11 +1,16 @@
 ---
 layout: default
 ---
+
+<link rel="stylesheet" type="text/css" href="{{ '/assets/styles/jquery-ui.min.css' | relative_url }}">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <div class="home-story wrapper">
         <div class="intro-box">
             <div class="home-ribbon">
                 <div class="home-title">
-                    naturalist. librarian. designer.
+                    <a href="#nature-cat">naturalist.</a> <a href="#library-cat">librarian.</a> <a href="#web-cat">designer.</a>
                 </div>
                 <div class="home-desc">
                   I'm Kelsey Marie Rogers. I believe every object has a story to tell, every creature has a history. Let me help you bring those stories to life.
@@ -13,74 +18,198 @@ layout: default
             </div>
         </div>
 
-        <div class="portfolio-box">
+        <div id="home-cats">
 
-          <h1>portfolio</h1>
-
-          <div class="portfolio">
-
-              <div id="mlis" class="example">
-                <div class="example-pic"></div>
-                  <div class="example-text">
-                    <a class="link-header" href="{{ site.baseurl }}/mlis">
-                      <span>MLIS Coursework and Projects</span>
-                    </a>
-                  <div class="link-sub"><span>Relevant Coursework and Culminating Projects</span></div>
-                  <p>A variety of in-depth digital LAM (Libraries, Archives, and Museums) projects have been undertaken during coursework for my Masters in Library and Information Science at Kent State. This includes creating and implementing a metadata schema as well as a cultural heritage informatics website.</p>
-                </div>
+          <div id="nature-cat" class="cat">
+            <div class="cat-pic"></div>
+            <div class="cat-text">
+              <h1>naturalist</h1>
+              <div class="cat-desc">
+                <p>I'm a STEAM-focused naturalist with experience at multiple institutions across the state of Ohio.</p>
               </div>
 
-              <!--<div id="genealogy" class="example">
-                <div class="example-pic"></div>
-                  <div class="example-text">
-                    <a class="link-header" href="https://krogersst.github.io/landgren-collins">
-                      <span>A Family History of the Landgren and Collins Families</span>
-                    </a>
-                    <div class="link-sub"><span>A project charting the genealogy of the Landgren and Collins families.</span></div>
-                  <p>This ongoing personal project was born out of my work with the Kenton County Public Library's Local History and Genealogy Department. It features an interactive family tree and numerous resources I've collected about my maternal grandmother's family.</p>
-                  </div>
-              </div>-->
+              <div class="cat-examples">
 
-              <div id="tutorial" class="example">
-                    <div class="example-pic"></div>
-                    <div class="example-text">
-                      <a class="link-header" href="{{ site.baseurl }}{% post_url 2018-02-23-digital-humanities-website %}">
-                        <span>So You Want to Make a Digital Humanities Website</span>
-                      </a>
-                      <div class="link-sub"><span>A Tutorial Series For Planning and Designing a DH Website </span></div>
-                    <p>This is the online companion tutorial for a digital humanities workshop I lead at Rice University in early April 2018. The tutorial focuses on developing a plan for building a digital humanities website that fits you and your team's unique skills and goals while utilizing open source content and platforms. </p>
+                <div class="row-mini-flex">
+                  <div id="cat-stem" class="cat-ex">
+                  <div class="desc-text">
+                  <h2>STEAM-Focused Programming</h2>
+                  <h3> STEAM (<strong>S</strong>cience <strong>T</strong>echnology <strong>E</strong>ngineering <strong>A</strong>rt and <strong>M</strong>ath) programming and environmental education belong together. From preschoolers experimenting with simple tools to explore bird beak or turtle feet adaptations to engineering winter homes for native Ohio animals, STEAM and nature go hand in hand.</h3>
+
+                  <script>
+                    $( function() {
+                      $( "#stem-accordion" ).accordion({
+                        collapsible: true,
+                        heightStyle: "content",
+                        active: false
+                      });
+                    } );
+                  </script>
+
+
+                  <div id="stem-accordion">
+                    <h3>Check It Out</h3>
+                    <div id="hibernaculum">
+                      <div id="hib-desc-1" class="hib-desc">
+                        <h2>Build a Winter Home Engineering Drop-By Activity</h2>
+                        <p>Using natural materials such as moss, leaves, sticks, grasses and more, participants build winter homes or hibernacula for critters to stay warm in the winter.</p>
+                        <p>Related books were also made available for an optional reading activity for solo or partnered reading. During this drop-by, a father read <em><a href="https://www.worldcat.org/title/bear-snores-on/oclc/44045520">Bear Snores On</a></em> with his youngest after they made their own home, while the older siblings made multiple iterations of winter homes.</p>
+                      </div>
+                      <img id="hib-img-1" class="stem-ex" src="{{ site.baseurl }}/assets/images/hibernaculum1.jpg"></img>
+                      <div class="row-mini-flex">
+                        <img id="hib-img-4" class="stem-ex" src="{{ site.baseurl }}/assets/images/hibernaculum4.jpg"></img>
+                        <img id="hib-img-3" class="stem-ex" src="{{ site.baseurl }}/assets/images/hibernaculum3.jpg"></img>
+                      </div>
                     </div>
+                  </div>
+
+                  </div>
+                  </div>
+
+                  <div id="cat-turt"></div>
+
+                </div>
+
+                <div class="row-mini-flex">
+
+                  <div id="cat-me-chicken"></div>
+
+                  <div id="cat-ohio" class="cat-ex">
+                    <div class="desc-text">
+                      <h2>Ohio and Beyond</h2>
+                      <h3>Between my time at <a href="https://aullwood.audubon.org/">Aullwood Audubon Nature Center and Farm</a>, <a href="https://www.columbuszoo.org/">Columbus Zoo and Aquarium</a>, <a href="https://greatscience.com/">Great Lakes Science Center</a> and <a href="https://www.clevelandmetroparks.com/">Cleveland Metroparks</a>, I've helped guests overcome their fear of birds by helping them hand feed lorikeets, provided care for a one-eyed screech owl, and introduced toddlers and senior citizens alike to the wonders of Ohio mushrooms.</h3>
+                    </div>
+                  </div>
+
+                  <div id="cat-hike" class="cat-ex">
+                    <div class="desc-text cat-desc-1">
+                      <p>If you're looking for urban wildlife walks, mammoths hiding in suburbia, or mushroom hikes in the woods, I'd love to go exploring with you!</p>
+                    </div>
+                    <div class="cat-button"><a href="{{ site.baseurl }}/contact">Hike With Me!</a></div>
+                  </div>
+
+                </div>
+
               </div>
 
-              <div id="visual_ab" class="example">
-                  <div class="example-pic"></div>
-                  <div class="example-text">
-                    <a class="link-header" href="http://visualizingabolition.org/"><span>Visualizing Abolition: A Digital History of the Suppression of the African Slave Trade</span></a>
-                    <div class="link-sub"><span>A digital humanities project funded through the University of Missouri Honors College.</span></div>
-                    <p>Visualizing Abolition maps the suppression of the African slave trade by tracing nearly 31,000 records of correspondence exchanged between the British Foreign Office and British commissioners, ministers, naval officers, and representatives of foreign governments around the world over the course of the nineteenth century. </p>
-                  </div>
-              </div>
-
-              <div id="holiday" class="example">
-                  <div class="example-pic"></div>
-                  <div class="example-text">
-                    <a class="link-header" href="https://artifactsjournal.missouri.edu/2017/05/christmas-holiday-queering-family-in-20th-century-southern-missouri/"><span>Christmas Holiday: Queering Family in 20th Century Southern Missouri</span></a>
-                    <div class="link-sub"><span>Published in Artifacts: A Journal of Undergraduate Writing Issue 15, Spring 2017.</span></div>
-                    <p>An obituary in The Southeast Missourian lists Elaine “Tommie” Davis as the business partner of Mary Jane “Miss Jane” Barnett for over forty years (Elaine Davis Obituary). However, the family albums of the two tell a richer story, they were life partners as well as business partners, a radical act in mid-century America, and perhaps even a dangerous one in Southern Missouri. Their Christmas photos are a fascinating example of this. </p>
-                  </div>
-             </div>
-
-              <div id="encounters" class="example">
-                  <a href="https://www.flickr.com/photos/internetarchivebookimages/14780464664/">
-                  <div class="example-pic"></div>
-                  </a>
-                  <div class="example-text">
-                    <a class="link-header" href="{{ site.baseurl }}{% post_url 2017-07-23-close-encounters %}"><span>Close Encounters With Legend: The Ultimate Legend Trip</span></a>
-                    <div class="link-sub"><span>Presented at the Missouri Folklore Conference Spring 2015</span></div>
-                    <p>Legend tripping and ostensive action are important ways in which people interact and transform legends, especially extraterrestrial experience legends. Stephen Spielberg’s Close Encounters of the Third Kind engages these legends at every level of ostensive action, transforming itself into both the representative of and instigator of the legend trip. Just as Linda Dégh’s holiday of Halloween “…is based on legends, communicates legends, and creates legends,” so too is Close Encounters of the Third Kind. </p>
-                  </div>
-              </div>
+            </div>
 
           </div>
+
+          <div id="library-cat" class="cat">
+            <div class="cat-pic"></div>
+            <div class="cat-text">
+              <h1>librarian</h1>
+              <div class="cat-desc">
+                <p>I'm a trained librarian with a passion for digital cultural and natural heritage projects.</p>
+              </div>
+
+              <div class="cat-examples">
+
+                <div class="row-mini-flex">
+
+                  <div id="cat-mlis" class="cat-ex">
+
+                    <div class="desc-text">
+                      <h2>Training</h2>
+                      <h3>In May 2020, I graduated with my Master of Library and Information Science from Kent State University with a focus in digital cultural and natural heritage.</h3>
+                      <h3>My studies ranged from local history and genealogy database user research, zoos and nature centers within a museums and information science context, and digital preservation workflows that are viable for small institutions with limited resources.</h3>
+                    </div>
+
+                    <div class="cat-button"><a href="{{ site.baseurl }}/mlis">Read More</a></div>
+
+                  </div>
+
+                  <div id="cat-mlis-img"></div>
+
+                </div>
+
+                <div class="row-mini-flex">
+
+                    <div id="cat-hist" class="cat-ex">
+                      <div class="desc-text">
+                        <h2>Local History and Genealogy</h2>
+                        <h3>My digitization and archival skills were honed in local history collections and collections with limited resources, focusing on photography and ephemera. These include <a href="https://www.kentonlibrary.org/genealogy/">Kenton County Public Library Local History and Genealogy</a>, <a href="https://library.csuohio.edu/speccoll/">Cleveland State University Special Collections</a>, <a href="https://iwasm.org/wp-blog/">International Women's Air and Space Museum</a>, and most recently <a href="https://www.bayhistorical.com/">Bay Village Historical Society's Rose Hill Museum</a>.</h3>
+                        <h3>I also have extensive experience with genealogical research and leading one-on-one research sessions with library patrons to help find their family history. I enjoy teaching others how to combine information from the big names like Ancestry, Fold3, and FamilySearch with more obscure databases at the city and county level.</h3>
+                      </div>
+                    </div>
+
+                    <div id="cat-gen" class="col-mini-flex">
+                    <div id="cat-gen-site" class="cat-ex">
+                      <div class="desc-text">
+                        <h2>A Family History</h2>
+                        <h3>For an example of both my digital heritage and genealogical work, feel free to visit my in-progress digital family tree of the Landgren and Collins families.</h3>
+                      </div>
+                      <div class="cat-button"><a href="{{ site.baseurl }}/landgren-collins/">Check It Out</a></div>
+                    </div>
+                    <div id="cat-gen-work" class="cat-ex">
+                      <div class="desc-text cat-desc-1"><p>If you're looking for help finding your family's past, or are interested in building a site to showcase your family history, drop me a line!</p>
+                      </div>
+                      <div class="cat-button"><a href="{{ site.baseurl }}/contact">Work With Me</a></div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div id="web-cat" class="cat">
+
+            <div class="cat-pic"></div>
+
+            <div class="cat-text">
+              <h1>designer</h1>
+              <div class="cat-desc">
+                <p>I design websites for small businesses, non-profits, and cultural and natural heritage projects.</p>
+              </div>
+
+              <div class="cat-examples">
+
+                <div id="cat-lambs" class="cat-ex">
+
+                  <div class="desc-text">
+                    <h2>Mary's Little Lambs</h2>
+                    <h3>Warm woolies made from happy sheep raised in the Ozark Hills.</h3>
+                  </div>
+
+                  <div class="cat-button"><a href="https://www.maryzlittlelambs.com/">Check It Out</a></div>
+
+                </div>
+
+                <div id="cat-vis" class="cat-ex">
+
+                  <div class="desc-text">
+                    <h2>Visualizing Abolition</h2>
+                    <h3>A collaborative digital history of the suppression of the African slave trade.</h3>
+                  </div>
+
+                  <div class="cat-button"><a href="http://visualizingabolition.org">Check It Out</a></div>
+
+                </div>
+
+                <div id="cat-toad" class="cat-ex">
+
+                  <div class="desc-text">
+                    <h2>Scaphiopus <em>solitarius</em></h2>
+                    <h3>A charismatic illustration of an elusive toad gives us a glimpse into 19th century herpetology.</h3>
+                  </div>
+
+                  <div class="cat-button"><a href="{{ site.baseurl }}/mlis/spadefoot/home">Check It Out</a></div>
+
+                </div>
+
+                <div class="cat-desc-2 cat-ex">
+                  <p>If you need a creative, interactive digital exhibit or a flexible and personal online shop that is scaled to your needs and resources I'd love to talk! Email me at <a href="mailto:kelsey@kelseymarierogers.com">kelsey@kelseymarierogers.com</a>!</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
 
 </div>

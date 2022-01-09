@@ -5,7 +5,7 @@
 .home-story h1 {
   font-family: $Abel;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding: 5px;
 }
 
@@ -22,7 +22,7 @@
     /** responsive positioning **/
     @media ($desktop) {
       height: 300px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       margin-top: 10px;
     }
     @media ($tablet) {
@@ -45,7 +45,7 @@
     .home-title {
         background-color: $yellow;
         font-family: $Abel;
-        color: white;
+        a {color: white;}
 
         /** responsive positioning **/
         @media ($desktop) {
@@ -105,228 +105,333 @@
 }
 
 /**
-* Portfolio
+* Categories
 */
 
-.portfolio-box {
-  h1 {
-    /** responsive font-size **/
-    @media ($desktop) {font-size: 30px;}
-    @media ($tablet) {font-size: 25px;}
-  }
-}
-
-.portfolio {
+#home-cats {
   margin: 0 auto;
-  max-width: 1000px;
 }
 
-.example {
-    display: flex;
-    /** responsive positioning **/
-    @media (min-width: 1231px) {flex-flow: row; margin-bottom: 60px;}
-    @media (max-width: 1230px) {flex-flow: row; margin-bottom: 60px;}
-    @media (max-width: 950px) {flex-flow: column; margin-bottom: 40px;}
-    .link-sub {
-      @media (min-width: 1231px) {margin-left: -100px;}
-      @media (max-width: 1230px) {margin-left: -100px;}
-      @media (max-width: 950px) {margin-left: 0px;}
-    }
-    .link-header {
-      @media (min-width: 1231px) {margin-left: -150px;}
-      @media (max-width: 1230px) {margin-left: -150px;}
-      @media (max-width: 950px) {margin-left: 0px;}
-    }
-  }
-
-.example-pic {
-    /** responsive circle size **/
-    @media (min-width: 1231px) {
-      min-height: 300px;
-      max-height: 300px;
-      min-width: 300px;
-      border-radius: 150px;
-    }
-    @media (max-width: 1230px) {
-      min-height: 250px;
-      max-height: 250px;
-      min-width: 250px;
-      border-radius: 125px;
-    }
-    @media (max-width: 950px) {
-      max-height: 125px;
-      min-height: 125px;
-      max-width: 250px;
-      min-width: 250px;
-      border-top-left-radius: 250px;
-      border-top-right-radius: 250px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      margin-bottom: 10px;
-      margin-left: 5px;
-    }
-}
-
-.example-text {
-  padding-left: 4px;
+.cat {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-      p {
-        margin-top: 5px;
-        /** responsive font-size **/
-        @media (min-width: 1231px) {font-size: 15px;}
-        @media (max-width: 1230px) {font-size: 15px;}
-        @media (max-width: 950px) {font-size: 14px;}
-      }
+  @media ($desktop) {margin-bottom: 40px;}
+  @media ($tablet) {margin-bottom: 30px;}
+  @media ($phone) {margin-bottom: 20px;}
 }
 
-.portfolio .link-header {
-  text-decoration: none;
-  font-family: $Abel;
-  font-weight: bold;
-  /** responsive font-size **/
-  @media (min-width: 1231px) {font-size: 25px;}
-  @media (max-width: 1230px) {font-size: 22px;}
-  @media (max-width: 950px) {font-size: 20px; line-height: 30px;}
-  span {
-   background-color: $yellow;
-   color: white;
-   padding: 5px;
-   &:hover {
-     background-color: darken($yellow, 10);
-     text-decoration: none;
-   }
- }
- margin-bottom: 5px;
-}
-
-.link-sub, .sub-project-header {
-  margin-top: 5px;
-  span {
-    font-style: italic;
-    font-family: $Abel;
-    padding-left: 5px;
-    padding-right: 10px;
-    background-color: $cream;
-    /** responsive font-size **/
-    @media (min-width: 1231px) {font-size: 22px;}
-    @media (max-width: 1230px) {font-size: 20px;}
-    @media (max-width: 950px) {font-size: 18px;}
-  }
-}
-
-/**
-* Photo Styling
+/*
+* Category Header
 */
 
-#mlis {
-  .example-pic {
-    background-image: url("mlis/spadefoot/images/round_spadefoot.png");
-    background-size: 100%;
+.cat-text {
+  h1 {
+    color: white;
+    background-color: $yellow;
+    text-align: left;
+    @media ($desktop) {
+      font-size: 40px;
+      padding-left: 20px;
+      margin-left: -40px;
+      margin-top: 20px;
+      max-width: 1000px;
+    }
+
+    @media ($tablet) {
+      font-size: 35px;
+      font-weight: normal;
+      padding-left: 10px;
+      margin-left: 0px;
+      margin-bottom: 5px;
+      width: auto;
+    }
+    @media ($phone) {
+      font-size: 30px;
+      font-weight: normal;
+      padding-left: 5px;
+      margin-left: 0px;
+      margin-bottom: 5px;
+      width: auto;
+    }
   }
 }
 
-#genealogy {
-  .example-pic {
-    background-image: url("assets/images/Kvarnby.png");
+.cat-pic {
+  @media ($desktop){
+  min-width: 200px;
+  max-width: 200px;
+  max-height: 400px;
+  min-height: 400px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  }
+  @media ($tablet){display:none;}
+}
+
+#nature-cat {
+  .cat-pic {
+    background-image: url("assets/images/kelsey_nets.png");
+    background-size: 400px;
+    background-position: right;
+  }
+}
+
+#library-cat {.cat-pic {background-image: url("assets/images/unsplash_coursework.png");}}
+
+#web-cat {
+  .cat-pic {
+    background-image: url("assets/images/mary_webcat2.png");
+    background-size: 400px;
     background-position: center;
   }
 }
 
-#tutorial {
-  .example-pic {
-  background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
-  background-position: right;
-  background-size: 600px;
+.cat-desc {
+  background-color: $cream;
+  p {font-style: italic;}
+  @media ($desktop) {
+    padding: 20px;
+    margin-left: -25px;
+    width: 100%;
+    p {font-size: 20px;}
+  }
+  @media ($tablet) {
+    padding: 15px;
+    margin-left: 0px;
+    width: auto;
+    p {font-size: 18px;}
+  }
+  @media ($phone) {
+    padding: 10px;
+    margin-left: 0px;
+    width: auto;
+    p {font-size: 16px;}
   }
 }
 
-#visual_ab {
-  .example-pic {
-    /** responsive photo size and position **/
-    @media (min-width: 951px) {
-      background-image: url("assets/images/ILN_watercarrier.jpg");
-      background-size: 400px;
-    }
-    @media (max-width: 950px) {
-      background-image: url("assets/images/ILN_watercarrier_small.png");
-      background-size: 100%;
-    }
+/*
+* Category Examples
+*/
+
+.cat-examples {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  @media ($desktop) {
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+    gap: 10px;
   }
-}
-
-#holiday {
-  .example-pic {
-  background-image: url("assets/images/Holiday_Dinner2.jpg");
-  /** responsive positioning **/
-  @media (min-width: 951px) {background-position: center left;}
-  @media (max-width: 950px) {background-position: center right;}
-  }
-}
-
-#encounters {
-  .example-pic {
-  background-image: url("assets/images/devils_tower.jpg");
-  background-position: center top;
-  }
-}
-
-#mlis-csu {
-  .example-pic {
-  background-image: url("assets/images/guardian.png");
-  background-position: center top;
-  background-size: 200%;
-  }
-}
-
-#mlis-meta {
-  .example-pic {
-  background-image: url("assets/images/alligator.jpg");
-  background-position: center;
-  background-size: 110%;
-  }
-}
-
-#mlis-title {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-/**
-* Portfolio Page
-**/
-
-#feat {
-  margin-top: 5px;
-  font-weight: bold;
-  font-family: $Abel;
-  /** responsive font-size **/
-  @media (min-width: 1231px) {font-size: 22px;}
-  @media (max-width: 1230px) {font-size: 20px;}
-  @media (max-width: 950px) {font-size: 18px;}
-}
-
-.example-sub-projects {
-  max-width: 500px;
-  .mlis-project {
+  @media ($tablet) {
+    flex-direction: row;
     margin-top: 10px;
+    padding: 0px;
+    gap: 10px;
   }
-  .mlis-project-img {
-    @media (min-width: 1301px) {
-      min-width: 150px;
-      background-size: 300px;
-    }
-    @media (max-width: 1300px) {
-      min-width: 125px;
-      background-size: 250px;
-    }
-    @media (max-width: 1055px) {
-      min-width: 100px;
-      background-size: 200px;
-    }
-    @media (max-width: 750px) {display: none;}
+  @media ($phone) {
+    display: block;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    gap: 5px;
   }
+}
+
+.row-mini-flex, .col-mini-flex {
+  @media ($desktop) {
+    display: flex;
+    gap: 10px;
+    }
+  @media ($tablet) {
+    display: flex;
+    gap: 10px;
+  }
+  @media ($phone) {display: block;}
+}
+
+.col-mini-flex {flex-direction: column;}
+
+#cat-stem, #cat-ohio, #cat-hike, #cat-mlis, #cat-hist, #cat-gen, #cat-gen-work, #cat-lambs, #cat-vis, #cat-toad {flex: 1;}
+#cat-lambs, #cat-vis, #cat-toad {h3 {text-align: center;}}
+
+.cat-ex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: $yellow solid 2px;
+  padding: 15px;
+  @media ($desktop) {min-width: 200px;}
+  @media ($tablet) {min-width: 200px;}
+  @media ($phone) {
+    min-width: 50px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-family: $Abel;
+    text-align: center;
+    @media ($desktop) {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    @media ($tablet) {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+  }
+  h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    @media ($desktop) {font-size: 16px;}
+    @media ($tablet) {font-size: 16px;}
+    @media ($phone) {font-size: 14px;}
+    a {text-decoration: underline;}
+  }
+}
+
+.cat-desc-1, .cat-desc-2 {
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.cat-desc-1 {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.cat-desc-2 {
+  @media ($desktop) {width: 100%;}
+  @media ($tablet) {width: auto;}
+  p {
+    margin: 10px;
+    @media ($desktop) {width: 600px;}
+    @media (max-width: 800px) {width: auto;}
+  }
+}
+
+.cat-button {
+  font-size: 16px;
+  background-color: $yellow;
+  padding: 10px;
+  a {
+    color: white;
+    text-align: center;
+  }
+}
+
+/*
+* Specific Categories
+*/
+
+/**STEM**/
+
+#home-cats {
+  #ui-id-1.ui-accordion-header, #ui-id-2.ui-accordion-header {
+    border: none;
+    background-color: $yellow;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    width: 100px;
+    text-align: center;
+    &:hover {
+      background-color: darken($yellow, 10%);
+    }
+    .ui-accordion-header-icon {
+      display: none;
+    }
+  }
+  .ui-widget-content {
+    border: none;
+    @media($phone) {padding: 0px;}
+  }
+}
+
+#hibernaculum {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  .row-mini-flex {
+    @media ($desktop) {display: auto;}
+    @media ($phone) {display: none}
+  }
+}
+
+.hib-desc {
+  width: auto;
+  border: 2px solid $yellow;
+  padding: 10px;
+  p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  @media($phone){h2 {font-size: 20px;}}
+}
+
+#hib-desc-1 {flex: 1;}
+
+#hib-img-1, #hib-img-3, #hib-img-4 {width: 100%;}
+
+/**Naturalist**/
+
+#cat-hike {
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+#cat-me-chicken, #cat-turt, #cat-mlis-img {
+  @media ($desktop) {width: 300px;}
+  @media ($tablet) {width: 200px;}
+  @media (max-width: 850px) {display: none;}
+}
+
+#cat-me-chicken {
+  min-height: 100%;
+  background-image: url("assets/images/kelsey_chicken.jpg");
+  background-size: 300px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#cat-turt {
+  min-height: 100%;
+  background-image: url("assets/images/gentleman.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+/**MLIS**/
+
+#cat-mlis-img {
+  min-height: 100%;
+  background-image: url("assets/images/roldo_circle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cat-hist-img {
+  flex: 1;
+  width: 300px;
+  min-height: 100%;
+  background-image: url("assets/images/frog_tree_base.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+/**WEB DESIGN**/
+#web-cat {
+  @media (max-width: 700px) {display: block;}
 }

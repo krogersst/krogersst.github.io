@@ -1,0 +1,226 @@
+/**
+* Portfolio
+*/
+
+.portfolio-box {
+  h1 {
+    /** responsive font-size **/
+    @media ($desktop) {font-size: 30px;}
+    @media ($tablet) {font-size: 25px;}
+  }
+}
+
+.portfolio {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.example {
+    display: flex;
+    /** responsive positioning **/
+    @media (min-width: 1231px) {flex-flow: row; margin-bottom: 60px;}
+    @media (max-width: 1230px) {flex-flow: row; margin-bottom: 60px;}
+    @media (max-width: 950px) {flex-flow: column; margin-bottom: 40px;}
+    .link-sub {
+      @media (min-width: 1231px) {margin-left: -100px;}
+      @media (max-width: 1230px) {margin-left: -100px;}
+      @media (max-width: 950px) {margin-left: 0px;}
+    }
+    .link-header {
+      @media (min-width: 1231px) {margin-left: -150px;}
+      @media (max-width: 1230px) {margin-left: -150px;}
+      @media (max-width: 950px) {margin-left: 0px;}
+    }
+  }
+
+.example-pic {
+    /** responsive circle size **/
+    @media (min-width: 1231px) {
+      min-height: 300px;
+      max-height: 300px;
+      min-width: 300px;
+      border-radius: 150px;
+    }
+    @media (max-width: 1230px) {
+      min-height: 250px;
+      max-height: 250px;
+      min-width: 250px;
+      border-radius: 125px;
+    }
+    @media (max-width: 950px) {
+      max-height: 125px;
+      min-height: 125px;
+      max-width: 250px;
+      min-width: 250px;
+      border-top-left-radius: 250px;
+      border-top-right-radius: 250px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      margin-bottom: 10px;
+      margin-left: 5px;
+    }
+}
+
+.example-text {
+  padding-left: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+      p {
+        margin-top: 5px;
+        /** responsive font-size **/
+        @media (min-width: 1231px) {font-size: 15px;}
+        @media (max-width: 1230px) {font-size: 15px;}
+        @media (max-width: 950px) {font-size: 14px;}
+      }
+}
+
+.portfolio .link-header {
+  text-decoration: none;
+  font-family: $Abel;
+  font-weight: bold;
+  /** responsive font-size **/
+  @media (min-width: 1231px) {font-size: 25px;}
+  @media (max-width: 1230px) {font-size: 22px;}
+  @media (max-width: 950px) {font-size: 20px; line-height: 30px;}
+  span {
+   background-color: $yellow;
+   color: white;
+   padding: 5px;
+   &:hover {
+     background-color: darken($yellow, 10);
+     text-decoration: none;
+   }
+ }
+ margin-bottom: 5px;
+}
+
+.link-sub, .sub-project-header {
+  margin-top: 5px;
+  span {
+    font-style: italic;
+    font-family: $Abel;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: $cream;
+    /** responsive font-size **/
+    @media (min-width: 1231px) {font-size: 22px;}
+    @media (max-width: 1230px) {font-size: 20px;}
+    @media (max-width: 950px) {font-size: 18px;}
+  }
+}
+
+/**
+* Photo Styling
+*/
+
+#mlis {
+  .example-pic {
+    background-image: url("mlis/spadefoot/images/round_spadefoot.png");
+    background-size: 100%;
+  }
+}
+
+#genealogy {
+  .example-pic {
+    background-image: url("assets/images/Kvarnby.png");
+    background-position: center;
+  }
+}
+
+#tutorial {
+  .example-pic {
+  background-image: url("assets/images/tutorial/galymzhan-abdugalimov-181-unsplash.jpg");
+  background-position: right;
+  background-size: 600px;
+  }
+}
+
+#visual_ab {
+  .example-pic {
+    /** responsive photo size and position **/
+    @media (min-width: 951px) {
+      background-image: url("assets/images/ILN_watercarrier.jpg");
+      background-size: 400px;
+    }
+    @media (max-width: 950px) {
+      background-image: url("assets/images/ILN_watercarrier_small.png");
+      background-size: 100%;
+    }
+  }
+}
+
+#holiday {
+  .example-pic {
+  background-image: url("assets/images/Holiday_Dinner2.jpg");
+  /** responsive positioning **/
+  @media (min-width: 951px) {background-position: center left;}
+  @media (max-width: 950px) {background-position: center right;}
+  }
+}
+
+#encounters {
+  .example-pic {
+  background-image: url("assets/images/devils_tower.jpg");
+  background-position: center top;
+  }
+}
+
+#mlis-csu {
+  .example-pic {
+  background-image: url("assets/images/guardian.png");
+  background-position: center top;
+  background-size: 200%;
+  }
+}
+
+#mlis-meta {
+  .example-pic {
+  background-image: url("assets/images/alligator.jpg");
+  background-position: center;
+  background-size: 110%;
+  }
+}
+
+#mlis-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/**
+* Portfolio Page
+**/
+
+#feat {
+  margin-top: 5px;
+  font-weight: bold;
+  font-family: $Abel;
+  /** responsive font-size **/
+  @media (min-width: 1231px) {font-size: 22px;}
+  @media (max-width: 1230px) {font-size: 20px;}
+  @media (max-width: 950px) {font-size: 18px;}
+}
+
+.example-sub-projects {
+  max-width: 500px;
+  .mlis-project {
+    margin-top: 10px;
+  }
+  .mlis-project-img {
+    @media (min-width: 1301px) {
+      min-width: 150px;
+      background-size: 300px;
+    }
+    @media (max-width: 1300px) {
+      min-width: 125px;
+      background-size: 250px;
+    }
+    @media (max-width: 1055px) {
+      min-width: 100px;
+      background-size: 200px;
+    }
+    @media (max-width: 750px) {display: none;}
+  }
+}
