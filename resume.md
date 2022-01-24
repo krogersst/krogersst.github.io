@@ -17,17 +17,19 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
-**Naturalist** [August 2021 - Present]
-_Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
-- Plans and presents educational hikes and hands-on programs for school aged children to senior citizens focusing on local and natural history
-- Presents outreach STEM programs for schools and community events on topics ranging from watershed conservation to backyard biodiversity
-- Answers reference and information questions both on the trail and at the front desk
-- Designs and produces graphics and passive interpretive content
-
 **Guest Engagement Specialist** [March 2020 - Present]
 _Great Lakes Science Center, Cleveland, OH_  
 - Provides Science Center guests with informal learning experiences on a variety of STEM topics from space exploration to engineering history on the Great Lakes
 - Assists in creating a safe educational environment amid the COVID-19 pandemic
+- Teaches hands-on STEM programs to visiting Cleveland City schools exploring topics such as blockchain and robotics
+- Presents engaging and educational shows to Science Center guests of all ages
+
+**Naturalist** [August 2021 - January 2022]
+_Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
+- Planned and presented educational hikes and hands-on programs for school aged children to senior citizens focusing on local and natural history
+- Presented outreach STEM programs for schools and community events on topics ranging from watershed conservation to backyard biodiversity
+- Answered reference and information questions both on the trail and at the front desk
+- Designed and produced graphics and passive interpretive content
 
 **Curator** [December 2020 - August 2021]
 _Bay Village Historical Society, Bay Village, OH_
