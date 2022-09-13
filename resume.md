@@ -5,7 +5,7 @@ permalink: /resume/
 header-pic: valstarnes_header.png
 header-pic-alt: valstarnes_header_alt.png
 ---
-Full PDF [here]({{ site.baseurl }}/assets/KelseyMarieRogers_Resume.pdf).
+Full PDF [here]({{ site.baseurl }}/assets/KelseyMarieRogers_Resume_2022.pdf).
 
 #### Education
 **[Master of Library and Information Science]({{ site.baseurl }}/mlis)** [May 2020]  
@@ -17,12 +17,21 @@ _University of Missouri, Columbia, MO_
 - Emphasis on Cultural Anthropology
 
 #### Experience
-**Guest Engagement Specialist** [March 2020 - Present]
+**Naturalist** [May 2022 - Present]
+_North Chagrin Nature Center, Cleveland Metroparks, Willoughby, OH_
+- Leads and co-leads camps for children aged 4 - 13, focusing on fostering interest in local Ohio wildlife, building STEM skills, and developing creativity and self-confidence through creek walking, hiking, experiments, art projects and interactive, open-ended games
+- Plans and delivers diverse programming for all ages, from school aged children to senior citizens, on local natural and cultural history across four Metroparks reservations as well as within the local community
+- Provides specialized reference on local Ohio mushrooms to both staff and the public
+- Collaborates across Metroparks divisions through programming such as a fungi hike for Trail Ambassadors and animal encounters for Outdoor Recreation’s South Chagrin campout event
+- Completed a full inventory of North and South Chagrin Reservation interpretive signage and provided feedback on future plans for passive interpretation in these reservations
+- Completed a full inventory of North and South Chagrin Reservation interpretive signage and provided feedback on future plans for passive interpretation in these reservations
+
+**Guest Engagement Specialist** [March 2020 - May 2022]
 _Great Lakes Science Center, Cleveland, OH_  
-- Provides Science Center guests with informal learning experiences on a variety of STEM topics from space exploration to engineering history on the Great Lakes
-- Assists in creating a safe educational environment amid the COVID-19 pandemic
-- Teaches hands-on STEM programs to visiting Cleveland City schools exploring topics such as blockchain and robotics
-- Presents engaging and educational shows to Science Center guests of all ages
+- Provided Science Center guests with informal learning experiences on a variety of STEM topics from space exploration to engineering history on the Great Lakes
+- Assisted in creating a safe educational environment amid the COVID-19 pandemic
+- Taught hands-on STEM programs to visiting Cleveland City schools exploring topics such as blockchain and robotics
+- Presented engaging and educational shows to Science Center guests of all ages
 
 **Naturalist** [August 2021 - January 2022]
 _Watershed Stewardship Center at West Creek Reservation, Cleveland Metroparks, Parma, OH_
