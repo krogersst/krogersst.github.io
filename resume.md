@@ -24,7 +24,6 @@ _North Chagrin Nature Center, Cleveland Metroparks, Willoughby, OH_
 - Provides specialized reference on local Ohio mushrooms to both staff and the public
 - Collaborates across Metroparks divisions through programming such as a fungi hike for Trail Ambassadors and animal encounters for Outdoor Recreation’s South Chagrin campout event
 - Completed a full inventory of North and South Chagrin Reservation interpretive signage and provided feedback on future plans for passive interpretation in these reservations
-- Completed a full inventory of North and South Chagrin Reservation interpretive signage and provided feedback on future plans for passive interpretation in these reservations
 
 **Guest Engagement Specialist** [March 2020 - May 2022]
 _Great Lakes Science Center, Cleveland, OH_  
