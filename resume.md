@@ -19,11 +19,22 @@ _University of Missouri, Columbia, MO_
 #### Experience
 **Naturalist** [May 2022 - Present]
 _North Chagrin Nature Center, Cleveland Metroparks, Willoughby, OH_
-- Leads and co-leads camps for children aged 4 - 13, focusing on fostering interest in local Ohio wildlife, building STEM skills, and developing creativity and self-confidence through creek walking, hiking, experiments, art projects and interactive, open-ended games
-- Plans and delivers diverse programming for all ages, from school aged children to senior citizens, on local natural and cultural history across four Metroparks reservations as well as within the local community
-- Provides specialized reference on local Ohio mushrooms to both staff and the public
-- Collaborates across Metroparks divisions through programming such as a fungi hike for Trail Ambassadors and animal encounters for Outdoor Recreation’s South Chagrin campout event
-- Completed a full inventory of North and South Chagrin Reservation interpretive signage and provided feedback on future plans for passive interpretation in these reservations
+- LGBTQ+ Programming
+    - Proposed, planned, developed and coordinates the on-going LGBTQ+ program series, Out in the Parks, in collaboration with fellow naturalists, serving over 300 LGBTQ+ friends, families, and allies across the Greater Cleveland area with over 25 programs to date
+    - Coordinates an on-going community partnership with the LGBT Community Center of Greater Cleveland, providing natural history programming to LGBTQ+ seniors, transgender and non-binary individuals, and LGBTQ+ youth ages 11-19
+    - Presented “How to Bring Pride to the Parks” at the National Association of Interpretation’s 2023 National Conference; a workshop on bringing pride programming to parks across the country based on the success of Out in the Parks
+- Summer Camps
+    - Plans and runs two sessions of Nature’s Engineers, a nature-based STEAM summer camp for ages 7-8 that promotes critical thinking, teamwork, research, and independence through hands-on building, the engineering design cycle, and nature exploration
+    - Plans and runs Choose Your Own Adventure, a summer camp for ages 11-13 that encourages participants to plan their own summer camp, fostering a sense of adventure and independence through collaborative decision making
+    - Manages budget for above summer camps, assists in seasonal hiring when needed, and mentors variable and seasonal staff in creating and leading summer camp sessions and programming for school groups and the general public
+- STEAM Programming
+    - Conducted an intensive hands-on field training on nature-based STEAM programming for fellow Cleveland Metroparks naturalists and staff with a focus on iterative design thinking and diverse learning styles
+    - Conducted an abridged training on nature-based STEAM programming for NAI Interpretive Guide Course (CIG) participants
+    - Plans and runs Afterschool Nature’s Engineers, a twice monthly nature-based STEAM drop-by program that empowers participants to explore nature according to their learning style and interests, fostering a sense of ownership for both their experience of the program and of Cleveland Metroparks as a whole
+- Special Events
+    - Manages budget, supplies and staffing of Mushroom Madness, a free family event held at historic Look About Lodge, that celebrates native fungi
+    - Coordinates with outside vendors and exhibitors, internal vendors, fellow naturalists, and volunteers to create an engaging and safe event for all participants
+   - Collaborates with Natural Resources to run a fungi bioblitz during Mushroom Madness, promoting community science and environmental research within Cleveland Metroparks
 
 **Guest Engagement Specialist** [March 2020 - May 2022]
 _Great Lakes Science Center, Cleveland, OH_  
